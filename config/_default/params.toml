@@ -88,19 +88,19 @@ show_related = {docs = true, page = false, post = true, project = true, publicat
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "qyzhao@statslab.cam.ac.uk"
+email = "handcock@stat.ucla.edu"
 phone = ""
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "Centre for Mathematical Sciences, Wilberforce Road", city = "Cambridge", region = "", postcode = "CB3 0WB", country = "United Kingdom", country_code = "UK"}
+address = {street = "Department of Statistics, 8125 Mathematical Sciences Building", city = "Los Angeles", region = "CA", postcode = "90095-1554", country = "United States", country_code = "US"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "52.210312", longitude = "0.102033"}
+coordinates = {latitude = "34.069566682698445", longitude = "-118.4428310174196"}
 
 # Directions for visitors to locate you.
-directions = "Pavillion D -- Room D1.01"
+directions = "Mathematical Sciences Building -- Room 8105C"
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
@@ -139,7 +139,7 @@ date_format = "2006-01-02"
 time_format = "3:04 PM"
 
 # Address format (choose from the [address_formats] list below or add you own to the list).
-address_format = "en-gb"
+address_format = "en-us"
 
 ############################
 ## Advanced
@@ -231,7 +231,7 @@ plugins_js  = []
 
   # Configuration of Disqus.
   [comments.disqus]
-    shortname = "qz280"  # Paste the shortname from your Disqus dashboard.
+    shortname = "handcock"  # Paste the shortname from your Disqus dashboard.
     show_count = true  # Show comment count in page header? (true/false)
 
   # Configuration of Commento.

@@ -1,13 +1,13 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "BETS: The dangers of selection bias in early analyses of the coronavirus disease (COVID-19) pandemic"
-authors: ["admin", "Phyllis Ju", "Sergio Bacallado", "Rajen Shah"]
-date: 2020-04-16
-doi: "10.1214/20-AOAS1401"
+title: "Comparing the real-world performance of exponential-family random graph models and latent order logistic models for social network analysis"
+authors: ["Duncan A. Clark", "admin"]
+date: 2022-01-28
+doi: "10.1111/rssa.12788"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2020-06-13T21:28:45Z
+#publishDate: 2022-01-10T21:28:45Z
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -16,15 +16,15 @@ publishDate: 2020-06-13T21:28:45Z
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Annals of Applied Statistics (in press)"
+publication: "Journal of the Royal Statistical Society, A"
 publication_short: ""
 
-abstract: "We developed a generative model for key epidemiological events in COVID-19 patients and derived explicit formulae to correct for selection bias. We find that several early analyses of the COVID-19 pandemic were severely biased due to sample selection."
+abstract: "We assess the real-world performance of Latent Order Logistic models (LOLOG) when applied to typical networks modelled by researchers by comparing them to Exponential-family random graph models (ERGMs).  We demonstrate that the LOLOG models are, in general, in qualitative agreement with the ERGM models, and provide at least as good a model fit.  In addition, they are typically faster and easier to fit to data, without the tendency for degeneracy that plagues ERGMs."
 
 # Summary. An optional shortened abstract.
 summary: ""
 
-tags: ["Infectious Diseases", "Selection Bias", "Bayesian Statistics", "COVID-19"]
+tags: ["Degeneracy", "ERGM", "goodness of fit", "LOLOG", "social network analysis","social network modelling"]
 categories: []
 featured: true
 
@@ -36,14 +36,14 @@ featured: true
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: https://arxiv.org/pdf/2004.07743.pdf
-url_code: https://github.com/qingyuanzhao/bets.covid19
-url_dataset: https://github.com/qingyuanzhao/bets.covid19
+url_pdf: https://rss.onlinelibrary.wiley.com/doi/epdf/10.1111/rssa.12788
+url_code: #https://github.com/qingyuanzhao/bets.covid19
+url_dataset: #https://github.com/qingyuanzhao/bets.covid19
 url_poster:
 url_project:
-url_slides: talk/yale-biostats-2020/slides.pdf
+url_slides: #talk/yale-biostats-2020/slides.pdf
 url_source:
-url_video: https://publichealth.yale.edu/biostat/media-player/5158/
+url_video: #https://publichealth.yale.edu/biostat/media-player/5158/
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -58,7 +58,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: ["covid-19"]
+projects: ["network-modeling"]
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

@@ -97,7 +97,7 @@ post. The front matter is the lines between ~+++~ (which means it is in TOML):
 #+BEGIN_SRC
 +++
 title = "Migrating website to Hugo + Academic + ox-hugo"
-author = ["Qingyuan Zhao"]
+author = ["Mark S. Handcock"]
 date = 2020-06-13
 tags = ["Workflow"]
 draft = false

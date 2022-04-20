@@ -1,8 +1,8 @@
 +++
 title = "Students"
-author = ["Qingyuan Zhao"]
+author = ["Mark S. Handcock"]
 draft = false
 +++
 
--   Name 1.
--   Name 2.
+-   Duncan Clark
+-   Bart Blackburn

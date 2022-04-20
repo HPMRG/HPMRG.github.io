@@ -1,6 +1,6 @@
 +++
 title = "News"
-author = ["Qingyuan Zhao"]
+author = ["Mark S. Handcock"]
 draft = false
 widget = "blank"
 headless = true
