@@ -4,8 +4,8 @@ author = ["Mark S. Handcock"]
 draft = false
 widget = "blank"
 headless = true
-active = true
+active = false
 weight = 50
 +++
 
--   Announcement 1.
+-   Bart Blackburn has graduated with his PhD. Congratulations, Bart!

@@ -65,9 +65,9 @@
 - Name 2.
 
 
-* Links
+* Software
 :PROPERTIES:
-:EXPORT_HUGO_SECTION: links
+:EXPORT_HUGO_SECTION: software
 :END:
 
 

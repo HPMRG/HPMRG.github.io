@@ -1,10 +1,10 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "BETS: The dangers of selection bias in early analyses of the coronavirus disease (COVID-19) pandemic"
-event:
-event_url: https://www.math.u-bordeaux.fr/~pmagal100p/webinar2020.html
-location: Infectious disease outbreaks webinar
+title: "Tracking all cause of death and estimating excess mortality during the COVID-19 pandemic: statistical and computational tools"
+event: World Health Organization (WHO) HQ Technical Advisory Group (TAG)
+event_url: 
+location: zoom 
 address:
   street:
   city:
@@ -16,12 +16,12 @@ abstract:
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2021-03-24T16:00:00Z
-date_end: 2021-03-24T17:00:00Z
+date: 2021-12-09T16:00:00Z
+date_end: 2021-12-09T17:00:00Z
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: 2021-03-22T17:11:21Z
+publishDate: 2021-12-12T17:11:21Z
 
 authors: []
 tags: []
@@ -46,7 +46,7 @@ image:
 #   icon: twitter
 
 # Optional filename of your slides within your talk's folder or a URL.
-url_slides: talk/ido-2021/slides.pdf
+url_slides: 
 
 url_code:
 url_pdf:
