@@ -77,6 +77,5 @@ user_groups:
 I am a statistician whose research involves methodological development, and is based largely on motivation from questions in the social sciences, social epidemiology and environmetrics. 
 
 My recent work is on statistical models for social networks, network inference, the development of statistical methodology for the collection and analysis of social network data, surveying of hard-to-reach populations, spatial processes and demography.
-affiliations:
 
 

@@ -35,6 +35,17 @@ draft = false
 
 ## Post-Doctoral Scholars Advised
 
--   Steven M. Goodreau, 2001-2004
+-   James H. Jones, 2001-2003
 -   Steven M. Goodreau, 2001-2004
 -   Michael Schweinberger, 2007-2009
+
+## Masters Students
+
+At UCLA, I have also served as the chair of the Master of Science (M.S.) in Statistics dissertation committees of
+Ho-Shun Yang, Aparupa Das Gupta, Anthony Howell, Khatereh Khodavirdi, Bon Sang
+Koo, Margaret Lang, Daniel Lim, Jia Lin Liu, Xian Liu, Patrick Joseph McCarthy, Antonio
+Ramos, Felipe Santos, Michael Tzen, Xi Song, Ho-Shun Yang, Victor Ying, Paashi
+Mahdavi, Alex Whitworth, Lauren Peritz, Weikang Fan, Bronwyn Friscia, , Melissa Haller,
+Ji Yeon Hong, Elliot Kang, Laura Kim, Zsuzsanna Magyar, Adam Scherling, Kanghong
+Shao, Yifan Sun, Ayobami Laniyonu, Fiona Yeung, Biancheng Wang, Nan Ji, Ziyi Jiang, Natalia Lamberova, 
+Candace McKeag, Kaixin Wang, Suoyi Yang, Diana Zhang, Xinyuan Zhang, Andrea Wang.
