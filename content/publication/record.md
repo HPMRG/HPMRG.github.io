@@ -45,7 +45,8 @@ Geophysical Research: Oceans,* Vol. 125, No. 11, e2020JC016459. [DOI:
 "Modeling the annual cycle of daily Antarctic sea ice extent" (2020).
 (MSH and Marilyn N. Raphael). *The Cryosphere,* Vol. 14, No. 7,
 2159-2172. [DOI:
-10.5194/tc-14-2159-2020](http://dx.doi.org/110.5194/tc-14-2159-2020).
+10.5194/tc-14-2159-2020](http://dx.doi.org/10.5194/tc-14-2159-2020).
+https://doi.org/10.5194/tc-14-2159-2020
 
 "Bayesian inference for finite populations under spatial process
 settings" (2020). (Alec M. Chan‐Golston, Sudipto Banerjee and MSH).
