@@ -6,9 +6,9 @@
 widget = "featured"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 1  # Order that this section will appear.
+weight = 10  # Order that this section will appear.
 
-title = "Featured Publications"
+title = "Books"
 subtitle = ""
 
 [content]
@@ -28,7 +28,7 @@ subtitle = ""
   [content.filters]
     tag = ""
     category = ""
-    publication_type = "2"
+    publication_type = "5"
     author = ""
 
 [design]
