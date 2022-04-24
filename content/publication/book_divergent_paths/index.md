@@ -4,7 +4,7 @@
 title: "Divergent Paths: Economic Mobility in the New American Labor Market"
 authors: ["Annette B. Bernhardt", "Martina Morris", "admin", Marc A. Scott]
 date: 2001-06-21
-doi: "https://www.russellsage.org/publications/divergent-paths"
+#doi: "https://www.russellsage.org/publications/divergent-paths"
 
 # Schedule page publish date (NOT publication's date).
 #publishDate: 2022-01-10T21:28:45Z
@@ -52,13 +52,13 @@ featured: true
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: #http://www.stat.ucla.edu/~handcock/RelDist
+url_pdf: #https://www.russellsage.org/publications/divergent-paths
 url_code: #http://www.stat.ucla.edu/~handcock/RelDist
 url_dataset: #http://www.stat.ucla.edu/~handcock/RelDist
-url_poster:
-url_project:
+url_poster: https://www.russellsage.org/publications/divergent-paths
+url_project: https://www.russellsage.org/publications/divergent-paths
 url_slides: #http://www.stat.ucla.edu/~handcock/csde01.pdf
-url_source:
+url_source: https://www.russellsage.org/publications/divergent-paths
 url_video: #https://publichealth.yale.edu/biostat/media-player/5158/
 
 # Featured image

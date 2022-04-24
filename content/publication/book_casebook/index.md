@@ -4,7 +4,7 @@
 title: "A Casebook for a First Course in Statistics and Data Analysis"
 authors: ["Samprit Chatterjee", "admin", "Jeffrey S. Simonoff"]
 date: 1995-04-25
-doi: "http://www.stern.nyu.edu/~jsimonof/Casebook"
+doi: #"http://www.stern.nyu.edu/~jsimonof/Casebook"
 
 # Schedule page publish date (NOT publication's date).
 #publishDate: 2022-01-10T21:28:45Z
@@ -16,7 +16,7 @@ doi: "http://www.stern.nyu.edu/~jsimonof/Casebook"
 publication_types: ["5"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Springer-Verlag"
+publication: "Wiley, New York"
 publication_short: ""
 
 abstract: "The most effective way to learn statistics is by actively engaging in doing the statistical analysis. This idea drives this
@@ -65,9 +65,9 @@ url_pdf: #http://www.stat.ucla.edu/~handcock/RelDist
 url_code: http://www.stern.nyu.edu/~jsimonof/Casebook
 url_dataset: http://www.stern.nyu.edu/~jsimonof/Casebook
 url_poster:
-url_project:
+url_project: "http://www.stern.nyu.edu/~jsimonof/Casebook"
 url_slides: #http://www.stat.ucla.edu/~handcock/csde01.pdf
-url_source:
+url_source: #http://www.stern.nyu.edu/~jsimonof/Casebook
 url_video: #https://publichealth.yale.edu/biostat/media-player/5158/
 
 # Featured image
