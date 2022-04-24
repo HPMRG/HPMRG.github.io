@@ -1,8 +1,21 @@
 +++
-title = "Students"
+title = "Group"
 author = ["Mark S. Handcock"]
 draft = false
 +++
+
+## Reading Group
+
+I lead a discussion group of graduate students interested in statistical perspectives on relational phenomena. This includes networks
+and network modeling but the interests of the members encompass statistical perspectives on
+questions in the social sciences, social epidemiology and environmetrics.
+
+Recent topics include statistical models for social networks, network inference, the development of statistical methodology for the collection
+and analysis of social network data, surveying of hard-to-reach populations, spatial processes and demography. 
+
+The group typically meets weekly or bi-weekly
+
+If you are interested in joining this group, please contact me.
 
 ## Doctoral Students
 
@@ -20,6 +33,7 @@ draft = false
 -   Brian J. Kim, 2017, UCLA
 -   Katherine R. McLaughlin, 2016, UCLA
 -   Joshua D. Embree, 2015, UCLA
+-   Mark H. Nakamura, 2014, UCLA
 -   Ian E. Fellows, 2012, UCLA
 -   Ranran Wang, 2011, University of Washington
 -   Gail E. Potter, 2010, University of Washington
@@ -27,7 +41,6 @@ draft = false
 -   Ryan Admiraal, 2009, University of Washington
 -   Krista Jennifer Gile, 2008, University of Washington
 -   Adam Nathaniel Glynn, 2006, University of Washington
--   Yongseok Sohn, 1994, New York University 
 -   Yongseok Sohn, 1994, New York University 
 -   Ilangkovan Krishnasamy, 1995, New York University 
 -   David Barg, 1996, New York University 
