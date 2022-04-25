@@ -75,3 +75,14 @@ User-specified terms for the statnet suite of packages.
 -   The [R](http://www.r-project.org/) software package
 [[degreenet]](http://cran.r-project.org/web/packages/degreenet):
 Models for Skewed Count Distributions Relevant to Networks.
+
+- The paper:
+[A Framework for the Comparison of Maximum Pseudo Likelihood and Maximum Likelihood Estimation of Exponential Family Random Graph
+Models](https://doi.org/10.1016/j.socnet.2008.10.003)
+by Marijtje A van Duijn, Krista J Gile, Mark S. Handcock in *Social Networks*, Volume 31, Issue 1, 2009, Pages 52-62
+presents methodology to enable estimators of Exponential Family Random Graph model parameters to be compared. We use this methodology to compare
+the bias, standard errors, coverage rates and efficiency of maximum likelihood and maximum pseudolikelihood estimators. We also propose an
+improved pseudo-likelihood estimation method aimed at reducing bias. The comparison is performed using simulated social network data based on
+two versions of an empirically realistic network model, the first representing Lazega's law firm data and the second a modified version with
+increased transitivity. The framework considers estimation of both the natural and the mean-value parameters.
+The software to reproduce the results in this paper are [here](https://github.com/handcock/ERGM_MPLE_MLE).
