@@ -4,7 +4,7 @@ author = ["Mark S. Handcock"]
 draft = false
 +++
 
--   [RDS Analyst](http://www.hpmrg.org/RDS_Analyst_Install) is a software
+-   [RDS Analyst](http://wiki.stat.ucla.edu/hpmrg/index.php/RDS_Analyst_Install) is a software
 package for the analysis of Respondent-driven sampling (RDS) data that
 implements recent advances in statistical methods. RDS Analyst has an
 easy-to-use graphical user interface to the powerful and sophisticated
