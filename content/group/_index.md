@@ -15,6 +15,10 @@ and analysis of social network data, surveying of hard-to-reach populations, spa
 
 The group typically meets weekly or bi-weekly
 
+<!-- For more information on my work, I have made a brief video:
+
+{{< youtube id="XPVwSVrPqVg" width="10%" >}} -->
+
 If you are interested in joining this group, please contact me.
 
 ## Doctoral Students

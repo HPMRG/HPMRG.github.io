@@ -54,6 +54,15 @@
       </li>
       {{ end }}
 
+      {{ if and $data.orcid (not $page.Params.email_form) }}
+      <li>
+        <i class="fa-brands fa-orcid"></i>
+        <span id="person-orcid">
+        {{- with .orcid}}<a href="{{.}}" target="_blank" rel="noopener">{{end -}}
+        </span>
+      </li>
+      {{ end }}
+
       {{ with $data.phone }}
       <li>
         <i class="fa-li fas fa-phone fa-2x" aria-hidden="true"></i>

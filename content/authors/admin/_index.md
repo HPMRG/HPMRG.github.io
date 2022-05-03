@@ -53,6 +53,9 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/handcock
+- icon: orcid
+  icon_pack: fab
+  link: https://orcid.org/0000-0002-9985-2785
 #- icon: instagram
 #  icon_pack: fab
 #  link: https://www.instagram.com/qingyuan_zzz/
