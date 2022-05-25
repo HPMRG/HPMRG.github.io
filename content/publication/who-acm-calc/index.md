@@ -6,8 +6,9 @@ authors: ["Duan Mengjuan", "admin", "Bart Blackburn","Fiona Kee","Viema Biaukula
 date: 2022-05-25
 doi: "10.5365/wpsar.2022.13.2.921"
 
-# Schedule page publish date (NOT publication's date).
-publishDate: 2022-05-25T21:28:45Z
+# Schedule page publish date (NOT publication's date). 
+# Set this before the actual publication time (GMT)
+publishDate: 2022-05-24T21:28:45Z
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
