@@ -4,7 +4,7 @@
 title: "Tracking all cause of death and estimating excess mortality during the COVID-19 pandemic: statistical and computational tools"
 event: World Health Organization (WHO) HQ Technical Advisory Group (TAG)
 event_url: 
-location: zoom 
+location: Virtual via zoom 
 address:
   street:
   city:
