@@ -50,8 +50,7 @@ image:
 #   icon: twitter
 
 # Optional filename of your slides within your talk's folder or a URL.
-url_slides: 
-
+url_slides: ssc-icmic22_handcock.pdf
 url_code:
 url_pdf:
 url_video: https://youtu.be/6fjSG3ABWGo
