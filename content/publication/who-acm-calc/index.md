@@ -60,7 +60,7 @@ url_dataset: #https://github.com/qingyuanzhao/bets.covid19
 url_poster:
 url_project:
 url_slides: #talk/yale-biostats-2020/slides.pdf
-url_source:
+url_source: https://ojs.wpro.who.int/ojs/index.php/wpsar/article/view/921
 url_video: #https://publichealth.yale.edu/biostat/media-player/5158/
 
 # Featured image
