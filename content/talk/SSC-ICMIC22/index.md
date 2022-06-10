@@ -11,7 +11,7 @@ address:
   region:
   postcode:
   country: Canada
-summary: "This is an invited talk on survey sampling of hidden populations."
+summary: "This is the Presidential Invited Address, Survey Methods Section, Statistical Society of Canada Annual Meeting."
 abstract: "In many situations, standard survey sampling strategies fail because the target populations cannot be accessed through well-defined sampling frames.  Typically, a sampling frame for the target population is not available, and its members are rare or stigmatized in the larger population so that it is prohibitively expensive to contact them through the available frames.  We discuss statistical issues in studying hard-to-reach or otherwise 'hidden' populations.  These populations are characterized by the difficulty in survey sampling from them using standard probability methods.  Examples in a demographic setting include unregulated workers and migrants.  Examples of such populations in a behavioral and social setting include injection drug users, men who have sex with men, and female sex workers.  Hard-to-reach populations are under-served by current sampling methodologies mainly due to the lack of practical alternatives to address these methodological difficulties.  
 <p>
 We will focus on populations where some form of social network information can be used to assist the data collection.  In such situations sophisticated statistical methods are needed to allow the characteristics of the population to be inferred from the collected data. We review time-location sampling, adaptive network sampling, including respondent-driven sampling, as well as indirect and meta-methods. We also discuss model-assisted methods and capture-recapture ideas.
