@@ -28,7 +28,7 @@ If you are interested in joining this group, please contact me.
 -   Joseph Resch, 2021 -
 -   Andrew Shapiro, 2020 -
 -   Duncan A. Clark, 2022, UCLA
--   Timothy Blackburn, 2020, UCLA
+-   Bart Blackburn, 2020, UCLA
 -   Fiona Yeung, 2019, UCLA
 -   Medha Uppala, 2018, UCLA
 -   Aaron Danielson, 2018, UCLA 
