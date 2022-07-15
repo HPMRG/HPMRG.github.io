@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Workflow | Mark S. Handcock</title>
+    <link>https:handcock.github.io/tag/workflow/</link>
+      <atom:link href="https:handcock.github.io/tag/workflow/index.xml" rel="self" type="application/rss+xml" />
+    <description>Workflow</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2022</copyright><lastBuildDate>Wed, 20 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https:handcock.github.io/images/logo_hua85a92e198a1ba12ec186662f58b214f_99585_300x300_fit_lanczos_3.png</url>
+      <title>Workflow</title>
+      <link>https:handcock.github.io/tag/workflow/</link>
+    </image>
+    
+    <item>
+      <title>Migrating my website to Hugo &#43; Academic</title>
+      <link>https:handcock.github.io/post/migrating/</link>
+      <pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https:handcock.github.io/post/migrating/</guid>
+      <description>&lt;p&gt;After many years with a hand written website in HTML, I moved to using the 
+&lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo&lt;/a&gt; framework with the
+
+&lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic theme&lt;/a&gt;.
+The motivation for this is the work of 
+&lt;a href=&#34;http://www.statslab.cam.ac.uk/~qz280/post/migrating/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Qingyuan Zhao&lt;/a&gt; who deserved the credit for both creating the template and also publishing it so that others can benefit from it. Thank you, Qingyuan Zhao!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

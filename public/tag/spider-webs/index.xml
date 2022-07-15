@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>spider webs | Mark S. Handcock</title>
+    <link>https:handcock.github.io/tag/spider-webs/</link>
+      <atom:link href="https:handcock.github.io/tag/spider-webs/index.xml" rel="self" type="application/rss+xml" />
+    <description>spider webs</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2022</copyright><lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https:handcock.github.io/images/logo_hua85a92e198a1ba12ec186662f58b214f_99585_300x300_fit_lanczos_3.png</url>
+      <title>spider webs</title>
+      <link>https:handcock.github.io/tag/spider-webs/</link>
+    </image>
+    
+    <item>
+      <title>Modeling wildfire ignition origins in southern California using linear network point processes</title>
+      <link>https:handcock.github.io/publication/wildfire/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https:handcock.github.io/publication/wildfire/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

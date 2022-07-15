@@ -21,13 +21,15 @@ The group typically meets weekly or bi-weekly
 
 If you are interested in joining this group, please contact me.
 
-## Doctoral Students
+## Doctoral Students (chair)
 
 -   Thomas Maierhofer, 2018 -
 -   Shuchi Goyal, 2018 -
 -   Joseph Resch, 2021 -
 -   Andrew Shapiro, 2020 -
 -   Duncan A. Clark, 2022, UCLA
+-   Feng Gao (nominal), 2022, UCLA
+-   Sydney Kahmann (nominal), 2021, UCLA
 -   Bart Blackburn, 2020, UCLA
 -   Fiona Yeung, 2019, UCLA
 -   Medha Uppala, 2018, UCLA
@@ -61,8 +63,11 @@ If you are interested in joining this group, please contact me.
 At UCLA, I have also served as the chair of the Master of Science (M.S.) in Statistics dissertation committees of
 Ho-Shun Yang, Aparupa Das Gupta, Anthony Howell, Khatereh Khodavirdi, Bon Sang
 Koo, Margaret Lang, Daniel Lim, Jia Lin Liu, Xian Liu, Patrick Joseph McCarthy, Antonio
-Ramos, Felipe Santos, Michael Tzen, Xi Song, Ho-Shun Yang, Victor Ying, Paashi
-Mahdavi, Alex Whitworth, Lauren Peritz, Weikang Fan, Bronwyn Friscia, , Melissa Haller,
+Ramos, Felipe Nunes, Michael Tzen, Xi Song, Ho-Shun Yang, Victor Ying, Paashi
+Mahdavi, Alex Whitworth, Lauren Peritz, Weikang Fan, Bronwyn Friscia, Melissa Haller,
 Ji Yeon Hong, Elliot Kang, Laura Kim, Zsuzsanna Magyar, Adam Scherling, Kanghong
 Shao, Yifan Sun, Ayobami Laniyonu, Fiona Yeung, Biancheng Wang, Nan Ji, Ziyi Jiang, Natalia Lamberova, 
-Candace McKeag, Kaixin Wang, Suoyi Yang, Diana Zhang, Xinyuan Zhang, Andrea Wang.
+Candace McKeag, Kaixin Wang, Suoyi Yang, Diana Zhang, Xinyuan Zhang, Muhtasham Billah,
+Andrea Wang.
+
+In addition I have served on about twice this number of dissertation committees as a member.

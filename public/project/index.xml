@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects Home | Mark S. Handcock</title>
+    <link>https:handcock.github.io/project/</link>
+      <atom:link href="https:handcock.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects Home</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2022</copyright><lastBuildDate>Fri, 24 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https:handcock.github.io/images/logo_hua85a92e198a1ba12ec186662f58b214f_99585_300x300_fit_lanczos_3.png</url>
+      <title>Projects Home</title>
+      <link>https:handcock.github.io/project/</link>
+    </image>
+    
+    <item>
+      <title>COVID-19</title>
+      <link>https:handcock.github.io/project/covid-19/</link>
+      <pubDate>Fri, 24 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https:handcock.github.io/project/covid-19/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

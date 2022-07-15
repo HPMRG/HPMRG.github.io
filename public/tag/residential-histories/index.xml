@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Residential histories | Mark S. Handcock</title>
+    <link>https:handcock.github.io/tag/residential-histories/</link>
+      <atom:link href="https:handcock.github.io/tag/residential-histories/index.xml" rel="self" type="application/rss+xml" />
+    <description>Residential histories</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2022</copyright><lastBuildDate>Thu, 01 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https:handcock.github.io/images/logo_hua85a92e198a1ba12ec186662f58b214f_99585_300x300_fit_lanczos_3.png</url>
+      <title>Residential histories</title>
+      <link>https:handcock.github.io/tag/residential-histories/</link>
+    </image>
+    
+    <item>
+      <title>A Note on &#39;Sequential Neighborhood Effects&#39; by Hicks et al. (2018)</title>
+      <link>https:handcock.github.io/publication/nghbd-note/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https:handcock.github.io/publication/nghbd-note/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sequential Neighborhood Effects: The Effect of Long-Term Exposure to Concentrated Disadvantage on Children&#39;s Reading and Mathematical Skills</title>
+      <link>https:handcock.github.io/publication/nghbd/</link>
+      <pubDate>Thu, 30 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>https:handcock.github.io/publication/nghbd/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

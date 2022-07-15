@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Duan Mengjuan | Mark S. Handcock</title>
+    <link>https:handcock.github.io/author/duan-mengjuan/</link>
+      <atom:link href="https:handcock.github.io/author/duan-mengjuan/index.xml" rel="self" type="application/rss+xml" />
+    <description>Duan Mengjuan</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2022</copyright><lastBuildDate>Wed, 25 May 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https:handcock.github.io/images/logo_hua85a92e198a1ba12ec186662f58b214f_99585_300x300_fit_lanczos_3.png</url>
+      <title>Duan Mengjuan</title>
+      <link>https:handcock.github.io/author/duan-mengjuan/</link>
+    </image>
+    
+    <item>
+      <title>Tool for tracking all-cause mortality and estimating excess mortality to support the COVID-19 pandemic response</title>
+      <link>https:handcock.github.io/publication/who-acm-calc/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      <guid>https:handcock.github.io/publication/who-acm-calc/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

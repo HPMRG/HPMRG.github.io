@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teaching | Mark S. Handcock</title>
+    <link>https:handcock.github.io/teaching/</link>
+      <atom:link href="https:handcock.github.io/teaching/index.xml" rel="self" type="application/rss+xml" />
+    <description>Teaching</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2022</copyright><lastBuildDate>Tue, 19 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https:handcock.github.io/images/logo_hua85a92e198a1ba12ec186662f58b214f_99585_300x300_fit_lanczos_3.png</url>
+      <title>Teaching</title>
+      <link>https:handcock.github.io/teaching/</link>
+    </image>
+    
+    <item>
+      <title>STATS 102A: Introduction to Computational Statistics with R</title>
+      <link>https:handcock.github.io/teaching/102a/</link>
+      <pubDate>Thu, 24 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https:handcock.github.io/teaching/102a/</guid>
+      <description>&lt;p&gt;This course is an introduction to computational statistics through numerical
+methods and computationally intensive methods for statistical problems.  Topics
+include statistical graphics, root finding, simulation, randomization testing,
+and bootstrapping.  Covers intermediate to advanced programming with R.&lt;/p&gt;
+&lt;!-- The Bruin Learn course page is [here](https://bruinlearn.ucla.edu/courses/79280/). --&gt;
+&lt;!-- A detailed description of the class is available [here](https://drive.google.com/file/d/1Sn3TagfjAdrQ6x9jcEmwD91GZEZN7T81/view?usp=sharing/). --&gt;
+&lt;h3 id=&#34;motivation-and-synopsis&#34;&gt;Motivation and Synopsis&lt;/h3&gt;
+&lt;p&gt;During the twentieth century, the development of statistical computing played a crucial facilitating role for the growth of the statistics
+discipline and the adoption of statistical methods within the scientiﬁc community and beyond. In the twenty-ﬁrst
+    century digital age, the amounts of data available for statistical analysis has grown tremendously, yielding new opportunities for
+statistical computing, as well as new challenges. Statistical computing constitutes an important part of a statistics
+    education, and is highly valuable for statisticians in both academia and industry.&lt;/p&gt;
+&lt;p&gt;This course is designed to provide the upper-division statistics student with the fundamentals of statistical computing, particularly
+through use of the language R.&lt;/p&gt;
+&lt;p&gt;The course is thematically split into two parts. The ﬁst part will focus on learning the tools and the necessary skills to perform
+computational statistics. Students will learn intermediate to advanced R programming and usage of some of its functions
+    and packages. The student will learn how to develop functions and packages for the management, pre-processing and analysis of statistical
+data. The second part of the class will focus on some foundational methods in computational statistics. This
+    includes numerical methods such as root ﬁnding, numeric integration, and mathematical optimization. It will continue on to cover the
+generation of random variables, simulation, and Monte Carlo methods to answer statistical questions.&lt;/p&gt;
+&lt;p&gt;The computer is the scientific laboratory of the statistician. It plays the same role for the statistical research as the traditional
+laboratories play for physics and chemistry researchers. As such this course should allow the student to develop a degree
+    of comfort and competence &#34;in the lab.”&lt;/p&gt;
+&lt;p&gt;The primary purpose of this course is to provide students with a common set of core knowledge about statistical computing computing for
+their class work and research. The course will have an applied focus on tools. The course will involve the practical
+    application of the ideas of statistical computing and their implementation through statistical software, particularly &lt;span
+class=&#34;s3&#34;&gt;R&lt;/span&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;syllabus-of-the-course&#34;&gt;Syllabus of the Course&lt;/h3&gt;
+&lt;table style=&#34;border-collapse: collapse; width: 63.9406%;&#34; border=&#34;1&#34;&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 12.3397%;&#34;&gt;&lt;strong&gt;Lecture&lt;/strong&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 87.5549%;&#34;&gt;&lt;strong&gt;&amp;nbsp;Topics&lt;/strong&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 12.3397%;&#34;&gt;1&lt;/td&gt;
+            &lt;td style=&#34;width: 87.5549%;&#34;&gt;&lt;span&gt;Introduction, the R language and eco-system&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 12.3397%;&#34;&gt;2&lt;/td&gt;
+            &lt;td style=&#34;width: 87.5549%;&#34;&gt;&lt;span&gt;Data structures and their management&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 12.3397%;&#34;&gt;3&lt;/td&gt;
+            &lt;td style=&#34;width: 87.5549%;&#34;&gt;&lt;span&gt;R programming and writing functions&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 12.3397%;&#34;&gt;4&lt;/td&gt;
+            &lt;td style=&#34;width: 87.5549%;&#34;&gt;&lt;span&gt;Importing data, web scraping, manipulating data with tidyr and dpyr&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 12.3397%;&#34;&gt;5&lt;/td&gt;
+            &lt;td style=&#34;width: 87.5549%;&#34;&gt;Visualization and graphics (ggplot2)&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 12.3397%;&#34;&gt;6&lt;/td&gt;
+            &lt;td style=&#34;width: 87.5549%;&#34;&gt;Numerical methods: floating point arithmetic, root finding&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 12.3397%;&#34;&gt;7&lt;/td&gt;
+            &lt;td style=&#34;width: 87.5549%;&#34;&gt;Numerical methods: basic optimization&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 12.3397%;&#34;&gt;8&lt;/td&gt;
+            &lt;td style=&#34;width: 87.5549%;&#34;&gt;Random numbers, random variables, and simulation in R&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 12.3397%;&#34;&gt;9&lt;/td&gt;
+            &lt;td style=&#34;width: 87.5549%;&#34;&gt;Randomization tests, permutation tests and bootstrapping&lt;/td&gt;
+        &lt;/tr&gt;
+            &lt;td style=&#34;width: 12.3397%;&#34;&gt;10&lt;/td&gt;
+            &lt;td style=&#34;width: 87.5549%;&#34;&gt;Additional topics: Monte Carlo-integration, kernel density estimation&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;
+&lt;p&gt;A detailed description of the class is available &lt;a
+href=&#34;https://drive.google.com/file/d/0B9xtdS-e9O_kc1RCUGhuWGhqZEE/view?usp=sharing&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>STATS 184: Societal Impacts of Data</title>
+      <link>https:handcock.github.io/teaching/184/</link>
+      <pubDate>Mon, 03 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https:handcock.github.io/teaching/184/</guid>
+      <description>&lt;p&gt;This course considers the impacts that data collected today have upon individuals and society. Rapid increase in scale and types of data
+collected has impacted commerce and society in new ways. Consideration of economic, social and ethical, legal and political impacts of data,
+especially that collected on human behavior. Topics include privacy and data protection, intellectual property and confidentiality, sample
+selection and algorithms, equality and anti-discrimination.&lt;/p&gt;
+&lt;p&gt;The Bruin Learn course page is 
+&lt;a href=&#34;https://bruinlearn.ucla.edu/courses/79280/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;!-- A detailed description of the class is available [here](https://drive.google.com/file/d/1Sn3TagfjAdrQ6x9jcEmwD91GZEZN7T81/view?usp=sharing/). --&gt;
+&lt;h3 id=&#34;motivation-and-synopsis&#34;&gt;Motivation and Synopsis&lt;/h3&gt;
+&lt;p&gt;During the twentieth century, the development of statistical computing played a crucial facilitating role for the growth of the statistics
+discipline and the adoption of statistical methods. In the twenty-first century digital age, the amounts of data available for statistical
+analysis has grown tremendously, yielding new opportunities , as well as new challenges.&lt;/p&gt;
+&lt;p&gt;This course considers the impacts that the data collected today have upon individuals and society. The rapid increase in the scale and types of
+data collected has impacted commerce and society in new ways. In this course we consider the economic, social and ethical, legal and political
+impacts of data, especially that collected on human behavior. Particular topics will be privacy and data protection, intellectual property and
+confidentiality, sample selection and algorithms, equality and anti-discrimination.&lt;/p&gt;
+&lt;p&gt;This course is intended to provide students sociological, psychological and economic lenses to explore how our increasingly digital lifestyle
+changes institutions and social relations. These lenses are then used to guide data scientists in their work.&lt;/p&gt;
+&lt;p&gt;The course has various parts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We&amp;rsquo;ll consider what data is and the growth of Big Data.&lt;/li&gt;
+&lt;li&gt;We will consider the role data play in the broader information context and how that context influences the data we collect and the related statistical issues.&lt;/li&gt;
+&lt;li&gt;We will consider statistical techniques to improve privacy and data protection, confidentiality, sample selection and algorithms, equality and anti-discrimination.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;syllabus-of-the-course&#34;&gt;Syllabus of the Course&lt;/h3&gt;
+&lt;table style=&#34;border-collapse: collapse; width: 63.9406%;&#34; border=&#34;1&#34;&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 12.3397%;&#34;&gt;&lt;strong&gt;Lecture&lt;/strong&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 87.5549%;&#34;&gt;&lt;strong&gt;&amp;nbsp;Topics&lt;/strong&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 12.3397%;&#34;&gt;1&lt;/td&gt;
+            &lt;td style=&#34;width: 87.5549%;&#34;&gt;Introduction: &lt;span&gt;What, really, is Data?&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 12.3397%;&#34;&gt;2&lt;/td&gt;
+            &lt;td style=&#34;width: 87.5549%;&#34;&gt;&lt;span&gt;Contextualizing Data&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 12.3397%;&#34;&gt;3&lt;/td&gt;
+            &lt;td style=&#34;width: 87.5549%;&#34;&gt;&lt;span&gt;Small Data and Big Data&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 12.3397%;&#34;&gt;4&lt;/td&gt;
+            &lt;td style=&#34;width: 87.5549%;&#34;&gt;Datafication and its Implications&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 12.3397%;&#34;&gt;5&lt;/td&gt;
+            &lt;td style=&#34;width: 87.5549%;&#34;&gt;Statistical methods to preserve privacy&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 12.3397%;&#34;&gt;6&lt;/td&gt;
+            &lt;td style=&#34;width: 87.5549%;&#34;&gt;Sample selection and algorithms&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 12.3397%;&#34;&gt;7&lt;/td&gt;
+            &lt;td style=&#34;width: 87.5549%;&#34;&gt;
+                &lt;p&gt;Equality and anti-discrimination&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 12.3397%;&#34;&gt;8&lt;/td&gt;
+            &lt;td style=&#34;width: 87.5549%;&#34;&gt;Intellectual and Personal Property&lt;/td&gt;
+        &lt;/tr&gt;
+            &lt;td style=&#34;width: 12.3397%;&#34;&gt;9&lt;/td&gt;
+            &lt;td style=&#34;width: 87.5549%;&#34;&gt;Additional topics&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>STATS 202B: Matrix Algebra and Optimization</title>
+      <link>https:handcock.github.io/teaching/202b/</link>
+      <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https:handcock.github.io/teaching/202b/</guid>
+      <description>&lt;p&gt;This course is a survey of computational methods that are especially useful for statistical analysis, with implementations in statistical package R. Topics include matrix analysis, multivariate regression, principal component analysis, multivariate analysis, and deterministic optimization methods.&lt;/p&gt;
+&lt;p&gt;The Bruin Learn course page is 
+&lt;a href=&#34;https://bruinlearn.ucla.edu/courses/79284/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;A detailed description of the class is available 
+&lt;a href=&#34;https://drive.google.com/file/d/1Sn3TagfjAdrQ6x9jcEmwD91GZEZN7T81/view?usp=sharing/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;motivation-and-synopsis&#34;&gt;Motivation and Synopsis&lt;/h3&gt;
+&lt;p&gt;During the twentieth century, the development of statistical computing played a crucial facilitating role for the growth of the statistics discipline and the adoption of statistical methods within the scientiﬁc community and beyond. In the twenty-ﬁrst century digital age, the amounts of data available for statistical analysis has grown tremendously, yielding new opportunities for statistical computing, as well as new challenges. Statistical computing constitutes an important part of a statistics education, and is highly valuable for statisticians in both academia and industry.&lt;/p&gt;
+&lt;p&gt;This course is an introduction computational methods that are useful for statistical analysis, with implementations in the statistical package &lt;span class=&#34;s3&#34;&gt;R&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Computational methods are essential to both understand and implement modern statistical ideas. Often the computation methods are a translation of the statistical methods into another language, one that computer understand. In this class we will consider this process for key statistical models and techniques. These include multivariate regression, principal component analysis, and multivariate analysis. In doing so, we study the core mathematical and numerical ideas that make this possible including matrix analysis and deterministic optimization methods.&lt;/p&gt;
+&lt;p&gt;The course has various parts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We&amp;rsquo;ll do some &lt;em&gt;matrix algebra&lt;/em&gt; (not linear algebra), emphasizing what is available in &lt;span class=&#34;s3&#34;&gt;R&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;We apply the matrix algebra to &lt;em&gt;multivariate data analysis&lt;/em&gt;, in particular to regression, principal component analysis, canonical analysis, correspondence analysis.&lt;/li&gt;
+&lt;li&gt;We discuss &lt;em&gt;optimization methods. These will be mainly deterministic but also stochastic methods&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;We finally apply both optimization and linear algebra to discuss statistical techniques such as multidimensional scaling, independent component analysis, tomography, and generalized mixed linear models. Well, maybe not all.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The primary purpose of this course is to provide students with a common set of core knowledge about statistical computing computing for their class work and research. The course will have an applied focus on tools. The course will involve the practical application of the ideas of statistical computing and their implementation through statistical software, particularly &lt;span class=&#34;s3&#34;&gt;R&lt;/span&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>STATS 202C: Monte Carlo Methods for Optimization</title>
+      <link>https:handcock.github.io/teaching/202c/</link>
+      <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https:handcock.github.io/teaching/202c/</guid>
+      <description>&lt;p&gt;This course is a survey of Monte Carlo methods and numerical integration. Importance and rejection sampling. Sequential importance sampling.
+Markov chain Monte Carlo (MCMC) sampling techniques, with emphasis on Gibbs samplers and Metropolis/Hastings. Simulated annealing. Exact
+sampling with coupling from past. Permutation testing and bootstrap confidence intervals.&lt;/p&gt;
+&lt;!--- (The Bruin Learn course page is [here](https://bruinlearn.ucla.edu/courses/79284/). --&gt;
+&lt;p&gt;A detailed description of the class is available 
+&lt;a href=&#34;https://drive.google.com/file/d/1w0yeax2DYoKjAbyN3p6OFSds69K8NRcn/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;motivation-and-synopsis&#34;&gt;Motivation and Synopsis&lt;/h3&gt;
+&lt;p&gt;During the twentieth century, the development of statistical computing played a crucial facilitating role for the growth of the statistics
+discipline and the adoption of statistical methods within the scientiﬁc community and beyond. In the twenty-ﬁrst century digital age, the
+amounts of data available for statistical analysis has grown tremendously, yielding new opportunities for statistical computing, as well as new
+challenges. Statistical computing constitutes an important part of a statistics education, and is highly valuable for statisticians in both
+academia and industry.&lt;/p&gt;
+&lt;p&gt;This graduate level course introduces Monte Carlo methods for simulation, optimization, estimation, learning and complex landscape
+visualization, including: Importance sampling; Sequential importance sampling; Markov chain Monte Carlo (MCMC) sampling techniques including
+Gibbs samplers, Metropolis/Hastings and various improvements; Simulated annealing; Exact sampling techniques; Convergence analysis; Data
+augmentation; Cluster sampling, such as Swendsen-Wang and SW-cuts; Hamiltonian and Langevin Monte Carlo; Equi-energy and multi-domain sampler;
+and Techniques for mapping complex energy landscapes&lt;/p&gt;
+&lt;p&gt;The primary purpose of this course is to provide students with a common set of core knowledge about statistical computing computing for their
+class work and research. The course will have an applied focus on tools. The course will involve the practical application of the ideas of
+statistical computing and their implementation through statistical software, particularly R.&lt;/p&gt;
+&lt;p&gt;Prerequisites&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Stat 202B: Matrix Algebra and Optimization.&lt;/li&gt;
+&lt;li&gt;People who didn’t take 202B before may still take this class as long as they have background on matrix algebra, probability theory, and programming skills. To do this attend the first classes and we can assess if this is advisable.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>STATS C216/C116: Social Statistics</title>
+      <link>https:handcock.github.io/teaching/c216/</link>
+      <pubDate>Sun, 03 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https:handcock.github.io/teaching/c216/</guid>
+      <description>&lt;p&gt;This course is designed for social sciences graduate students and advanced undergraduate students seeking training in data issues and methods
+employed in social sciences.&lt;/p&gt;
+&lt;!--- (The Bruin Learn course page is [here](https://bruinlearn.ucla.edu/courses/79284/). --&gt;
+&lt;p&gt;A detailed description of the class is available 
+&lt;a href=&#34;https://drive.google.com/file/d/1uT2NyUyFROvAB2DG4R5-OuoP3dsQ32sb/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;motivation-and-synopsis&#34;&gt;Motivation and Synopsis&lt;/h3&gt;
+&lt;p&gt;Statistics C116/C216 is a second course in social statistics and will
+&lt;em&gt;focus on Bayesian statistical analysis&lt;/em&gt;. It will cover the principles
+of Bayesian statistics, Bayesian data analysis and modeling. In
+particular it will develop the ideas in the context of linear
+regression, its non-linear generalizations, and hierarchical models.
+While the idea and principles are general, all applications and models
+will be chosen from those most relevant to the social sciences.&lt;/p&gt;
+&lt;p&gt;This course is designed for graduate students majoring in Statistics,
+the Social Sciences and advanced undergraduate students who are planning
+to attend graduate school.&lt;/p&gt;
+&lt;p&gt;This course is most appropriate for student seeking additional training
+in the application of Bayesian statistics to data and are looking for an
+introductory course that advances rapidly. The ultimate goal is to equip
+students with the analytical and programming skills necessary to address
+social statistics problems within the Bayesian paradigm based on current
+data and technologies.&lt;/p&gt;
+&lt;p&gt;The course has various perspectives:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt; It focuses on conceptual understanding of the Bayesian statistics.&lt;/li&gt;
+&lt;li&gt; It focuses on conceptual understanding of the the primary models used in social statistics.&lt;/li&gt;
+&lt;li&gt; It involves the analysis of real-data.&lt;/li&gt;
+&lt;li&gt; It involves implementing the methods using freely available software.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The course will involve the practical application of the ideas of
+statistical computing and their implementation through statistical
+software, particularly [R]{.s3}. As statistical computation is essential
+for many of the modeling approaches, expertise will need to be
+developed.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>STATS 218: Statistical Analysis of Networks</title>
+      <link>https:handcock.github.io/teaching/218/</link>
+      <pubDate>Sat, 03 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https:handcock.github.io/teaching/218/</guid>
+      <description>&lt;p&gt;This course is a introduction to the analysis of social structure, conceived in terms of social relationships. Major concepts of social network
+theory and mathematical representation of social concepts such as role and position. Use of graphical representations of network information.&lt;/p&gt;
+&lt;!--- (The Bruin Learn course page is [here](https://bruinlearn.ucla.edu/courses/79284/). --&gt;
+&lt;p&gt;A detailed description of the class is available 
+&lt;a href=&#34;https://drive.google.com/file/d/1NU65AGnpAOuH_tgJsrFVzlFKfoDikL3b/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;motivation-and-synopsis&#34;&gt;Motivation and Synopsis&lt;/h3&gt;
+&lt;p&gt;This course is an introduction to the analysis of social structure,
+conceived in terms of social relationships.&lt;/p&gt;
+&lt;p&gt;Social structure is conceptualized as a system of social relations
+tieing distinct social entities to one another. Social network theory is
+the attempt to represent the structure in social relations via networks.
+It is then a theory pertaining to types of observable social spaces and
+their relation to individual and group
+behavior.&lt;/p&gt;
+&lt;p&gt;Observations on the social relations are of two forms:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;individual level information on the social entities&lt;/li&gt;
+&lt;li&gt;relational data on pairs of entities&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;While both forms are important for the study of social relations,
+social network theory recognizes fundamental role of the relational
+information. It is based on the premise that social context is an
+important determinant of individual behavior. It seeks to understand
+individual and group behavior in terms of relational information rather
+than as solely the aggregation of individual
+characteristics.&lt;/p&gt;
+&lt;p&gt;The focus of the course are modern methods for the statistical analysis
+of social networks. The course covers the major concepts of social
+network theory and the mathematical representation of social concepts
+such as &amp;ldquo;role&amp;rdquo; and &amp;ldquo;position&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Visualization plays a central in social network analysis. With the
+development of high speed computing and graphical display tools,
+visualization has become a flexible and powerful tool in the exploration
+of social relations. Graphics exploit the power of our visual senses to
+convey information in a direct way. In this course we will emphasize the
+use of graphical representations of network information as much as
+possible.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

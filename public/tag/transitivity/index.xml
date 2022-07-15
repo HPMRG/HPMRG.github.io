@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Transitivity | Mark S. Handcock</title>
+    <link>https:handcock.github.io/tag/transitivity/</link>
+      <atom:link href="https:handcock.github.io/tag/transitivity/index.xml" rel="self" type="application/rss+xml" />
+    <description>Transitivity</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2022</copyright><lastBuildDate>Fri, 23 Apr 2004 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https:handcock.github.io/images/logo_hua85a92e198a1ba12ec186662f58b214f_99585_300x300_fit_lanczos_3.png</url>
+      <title>Transitivity</title>
+      <link>https:handcock.github.io/tag/transitivity/</link>
+    </image>
+    
+    <item>
+      <title>New specifications for exponential random graph models</title>
+      <link>https:handcock.github.io/publication/cssswp_42/</link>
+      <pubDate>Fri, 23 Apr 2004 00:00:00 +0000</pubDate>
+      <guid>https:handcock.github.io/publication/cssswp_42/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
