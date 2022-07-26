@@ -185,7 +185,8 @@ statistical computing and their implementation through statistical software, par
 &lt;li>People who didn’t take 202B before may still take this class as long as they have background on matrix algebra, probability theory, and programming skills. To do this attend the first classes and we can assess if this is advisable.&lt;/li>
 &lt;/ul></description></item><item><title>STATS C216/C116: Social Statistics</title><link>https:handcock.github.io/teaching/c216/</link><pubDate>Sun, 03 Oct 2021 00:00:00 +0000</pubDate><guid>https:handcock.github.io/teaching/c216/</guid><description>&lt;p>This course is designed for social sciences graduate students and advanced undergraduate students seeking training in data issues and methods
 employed in social sciences.&lt;/p>
-&lt;!--- (The Bruin Learn course page is [here](https://bruinlearn.ucla.edu/courses/79284/). -->
+&lt;p>The Bruin Learn course page is
+&lt;a href="https://bruinlearn.ucla.edu/courses/143496/" target="_blank" rel="noopener">here&lt;/a>.&lt;/p>
 &lt;p>A detailed description of the class is available
 &lt;a href="https://drive.google.com/file/d/1uT2NyUyFROvAB2DG4R5-OuoP3dsQ32sb/view?usp=sharing" target="_blank" rel="noopener">here&lt;/a>.&lt;/p>
 &lt;h3 id="motivation-and-synopsis">Motivation and Synopsis&lt;/h3>
@@ -214,7 +215,7 @@ data and technologies.&lt;/p>
 &lt;/ul>
 &lt;p>The course will involve the practical application of the ideas of
 statistical computing and their implementation through statistical
-software, particularly [R]{.s3}. As statistical computation is essential
+software, particularly &lt;span class="s3">R&lt;/span>. As statistical computation is essential
 for many of the modeling approaches, expertise will need to be
 developed.&lt;/p></description></item><item><title>STATS 218: Statistical Analysis of Networks</title><link>https:handcock.github.io/teaching/218/</link><pubDate>Sat, 03 Oct 2020 00:00:00 +0000</pubDate><guid>https:handcock.github.io/teaching/218/</guid><description>&lt;p>This course is a introduction to the analysis of social structure, conceived in terms of social relationships. Major concepts of social network
 theory and mathematical representation of social concepts such as role and position. Use of graphical representations of network information.&lt;/p>
