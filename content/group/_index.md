@@ -70,4 +70,4 @@ Shao, Yifan Sun, Ayobami Laniyonu, Fiona Yeung, Biancheng Wang, Nan Ji, Ziyi Jia
 Candace McKeag, Kaixin Wang, Suoyi Yang, Diana Zhang, Xinyuan Zhang, Muhtasham Billah,
 Andrea Wang.
 
-In addition I have served on about twice this number of dissertation committees as a member.
+In addition I have served on about twice this number of thesis and dissertation committees as a member.
