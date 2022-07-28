@@ -79,10 +79,21 @@ Models for Skewed Count Distributions Relevant to Networks.
 - The paper:
 [A Framework for the Comparison of Maximum Pseudo Likelihood and Maximum Likelihood Estimation of Exponential Family Random Graph
 Models](https://doi.org/10.1016/j.socnet.2008.10.003)
-by Marijtje A van Duijn, Krista J Gile, Mark S. Handcock in *Social Networks*, Volume 31, Issue 1, 2009, Pages 52-62
-presents methodology to enable estimators of Exponential Family Random Graph model parameters to be compared. We use this methodology to compare
+by Marijtje A. van Duijn, Krista J. Gile, Mark S. Handcock in *Social Networks*, Volume 31, Issue 1, 2009, Pages 52-62
+presents methodology to enable estimators of Exponential Family Random Graph model parameters to be compared.  
+<br>
+We use this methodology to compare
 the bias, standard errors, coverage rates and efficiency of maximum likelihood and maximum pseudolikelihood estimators. We also propose an
 improved pseudo-likelihood estimation method aimed at reducing bias. The comparison is performed using simulated social network data based on
 two versions of an empirically realistic network model, the first representing Lazega's law firm data and the second a modified version with
 increased transitivity. The framework considers estimation of both the natural and the mean-value parameters.
+<br>
 The software to reproduce the results in this paper are [here](https://github.com/handcock/ERGM_MPLE_MLE).
+
+- I have developed statistical models and tools for tracking all-cause mortality and estimating excess mortality. This is to support the COVID-19 pandemic response. These tools are being used by the World Health Organization (WHO). The software has two components: a graphical user interface to the underlying statistical techniques, and the techniques themselves.  
+<br>
+Here is the resulting [WHO all cause of mortality and excess death calculator](https://worldhealthorg.shinyapps.io/WPRO-all-cause-of-mortality-and-excess-death-calculator/).  
+<br>
+Using the [Shiny](http://shiny.rstudio.com/) framework, I built an application that runs in a web browser and gives the user access to powerful visualization, analysis and modeling of All Cause mortality and Excess Death statistics, without requiring software installation or knowledge of programming in [R](http://www.r-project.org/).  
+<br>
+The software is open-source and does not require an internet connection to use. Details are on the [github site](https://github.com/handcock/WPROACM). Details of the statistical methodology are available [here](https://github.com/handcock/WPROACM/wiki/Methodology-used-in-WPROACM) and in the associated [publication](https://handcock.github.io/publication/who-acm-calc/).  
