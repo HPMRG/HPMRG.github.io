@@ -4,10 +4,10 @@
 title: "Sampling Hard-to-Reach Populations"
 event: "Invited Address, 7th Italian Conference on Survey Methodology"
 event_url: "https://meetings3.sis-statistica.org/index.php/ITACOSM2022/ITACOSM2022"
-location: "Virtual via zoom"
+location: "University of Peruiga"
 address:
   street:
-  city: Peruiga
+  city:
   region:
   postcode:
   country: Italy
