@@ -2,7 +2,7 @@
 
 This template for [my personal website](http://www.stat.ucla.edu/~handcock/) is based on the [Hugo Academic theme](https://github.com/wowchemy/starter-hugo-academic). It is based on the work of of [Qingyuan Zhao](http://www.statslab.cam.ac.uk/~qz280) who deserved the credit for both creating the template and also publishing it so that others can benefit from it. Thank you, Qingyuan Zhao! See [his post](http://www.statslab.cam.ac.uk/~qz280/post/migrating/) for a guide.
 
-## The Hugo framework {#the-hugo-framework}
+## The Hugo framework with the Academic theme
 
 Based on Qingyuan's work, I decided to use Hugo. It is renowned as "the world's fastest framework for building
 websites". I use the Academic theme for Hugo as it implements many features for academic researchers.
