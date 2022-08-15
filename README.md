@@ -36,20 +36,22 @@ for website content.
 ```text
 ├── content
 │   ├── authors
+│   ├── featured
+│   ├── group
 │   ├── home
-│   ├── news
 │   ├── post
 │   ├── project
 │   ├── publication
+│   ├── research
 │   ├── talk
 │   └── teaching
 ```
 
 Most of its sub-directories correspond to a
-section of the webpage; in particular, `home` corresponds to the
+section of my webpage (take a look at it); in particular, `home` corresponds to the
 homepage of your website. Another unique folder is the `authors`,
 which contains basic information about the website owner and all other
-authors (not needed for a personal website).
+authors (not needed for a personal website). The `publication` corresponds to each of my publications.
 
 Basically, you will edit the text files in each of these sub-directiries to change them to ones that are for you (as now they are all for me!).
 
