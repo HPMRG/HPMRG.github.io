@@ -28,6 +28,33 @@ which can be pasted into a web browser. In the background, the hugo
 server also detects any change to the content and updates the website
 automatically.
 
+### Making it your website
+
+The files are all writen as text files in markdown. The `content` sub-folder contains all the Markdown files
+for website content.
+
+```text
+├── content
+│   ├── authors
+│   ├── home
+│   ├── news
+│   ├── post
+│   ├── project
+│   ├── publication
+│   ├── talk
+│   └── teaching
+```
+
+Most of its sub-directories correspond to a
+section of the webpage; in particular, `home` corresponds to the
+homepage of your website. Another unique folder is the `authors`,
+which contains basic information about the website owner and all other
+authors (not needed for a personal website).
+
+Basically, you will edit the text files in each of these sub-directiries to change them to ones that are for you (as now they are all for me!).
+
+See [its documentation](https://sourcethemes.com/academic/docs/get-started/) for more information.
+
 ### Creating a public website
 
 Commit your website as a repository on github (with \<git hub ID\>.github.io as a name).
