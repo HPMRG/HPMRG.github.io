@@ -177,6 +177,9 @@
 - id: pub_invited_discussion
   translation: Invited Discussion
 
+- id: pub_discussion
+  translation: Discussion
+
 - id: pub_book_section
   translation: Book section
 
