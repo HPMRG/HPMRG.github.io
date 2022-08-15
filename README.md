@@ -14,14 +14,15 @@ brew install hugo
 ```
 ### Creating a local website
 
-First, clone this repository. I put mine in "handcockc.github.io".
+First, clone this repository. I put mine in "handcock.github.io". Rename it to \<git hub ID\>.github.io
+
 You can preview the website by running
 
 ```sh
 hugo server --baseURL http://localhost:1313/
 ```
 
-from the website directory (i.e., "handcockc.github.io"). This builds the website and creates a
+from the website directory (e.g., "handcock.github.io"). This builds the website and creates a
 local web server to host it. It generates a link (the default is <http://localhost:1313/>)
 which can be pasted into a web browser. In the background, the hugo
 server also detects any change to the content and updates the website
