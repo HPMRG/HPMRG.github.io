@@ -29,7 +29,7 @@ automatically.
 
 ### Creating a public website
 
-Commit your website as a repository on github (with <git hub ID>.github.io as a name).
+Commit your website as a repository on github (with \<git hub ID\>.github.io as a name).
 
 After successfully committed, go to your repository and click on the “Settings” on the top right, then scroll down to the Github Pages section. Then  click on the published link.
 
