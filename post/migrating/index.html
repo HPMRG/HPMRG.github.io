@@ -7,13 +7,45 @@
 <a href=# class="dropdown-item js-set-theme-dark"><span>Dark</span></a>
 <a href=# class="dropdown-item js-set-theme-auto"><span>Automatic</span></a></div></li></ul></div></nav><article class=article><div class="article-container pt-3"><h1>Migrating my website to Hugo + Academic</h1><div class=article-metadata><span class=article-date>2022-04-20</span>
 <span class=middot-divider></span>
-<span class=article-reading-time>1 min read</span>
+<span class=article-reading-time>3 min read</span>
 <span class=middot-divider></span>
 <a href=/post/migrating/#disqus_thread></a></div></div><div class=article-container><div class=article-style><p>After many years with a hand written website in HTML, I moved to using the
 <a href=https://gohugo.io/ target=_blank rel=noopener>Hugo</a> framework with the
 <a href=https://sourcethemes.com/academic/ target=_blank rel=noopener>Academic theme</a>.
 The motivation for this is the work of
-<a href=http://www.statslab.cam.ac.uk/~qz280/post/migrating/ target=_blank rel=noopener>Qingyuan Zhao</a> who deserved the credit for both creating the template and also publishing it so that others can benefit from it. Thank you, Qingyuan Zhao!</p></div><div class=article-tags><a class="badge badge-light" href=/tag/workflow/>Workflow</a></div><section id=comments><div id=disqus_thread></div><script>let disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById("disqus_thread").innerHTML="Disqus comments not available by default when the website is previewed locally.";return}var t=document,e=t.createElement("script");e.async=!0,e.src="https://handcock.disqus.com/embed.js",e.setAttribute("data-timestamp",+new Date),(t.head||t.body).appendChild(e)})()</script><noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript><a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a></section></div></article><script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin=anonymous></script>
+<a href=http://www.statslab.cam.ac.uk/~qz280/post/migrating/ target=_blank rel=noopener>Qingyuan Zhao</a> who deserved the credit for both creating the template and also publishing it so that others can benefit from it. Thank you, Qingyuan Zhao!</p><p>This template for
+<a href=http://www.stat.ucla.edu/~handcock/ target=_blank rel=noopener>my personal website</a> is based on the
+<a href=https://github.com/wowchemy/starter-hugo-academic target=_blank rel=noopener>Hugo Academic
+theme</a>.</p><h2 id=the-hugo-framework-with-the-academic-theme>The Hugo framework with the Academic theme</h2><p>Based on Qingyuan&rsquo;s work, I decided to use Hugo as it is an efficient language
+using the best parts of markdown building websites". I use the Academic theme
+for Hugo as it implements many features for academic researchers.</p><p>It helps to have Hugo installed locally as you can compile the website and see what you will get. Installing Hugo in Mac OS X is
+straightforward with
+<a href=https://brew.sh/ target=_blank rel=noopener>homebrew</a>. Simply run</p><pre><code class=language-sh>brew install hugo
+</code></pre><h3 id=creating-a-local-website>Creating a local website</h3><p>First, clone my repository or Qingyuan&rsquo;s. I put mine in &ldquo;handcock.github.io&rdquo;. Then rename it to &lt;git hub ID>.github.io</p><p>You can preview the website by running</p><pre><code class=language-sh>hugo server --baseURL http://localhost:1313/
+</code></pre><p>from the website directory (e.g., &ldquo;handcock.github.io&rdquo;). This builds the website and creates a
+local web server to host it. It generates a link (the default is
+<a href=http://localhost:1313/ target=_blank rel=noopener>http://localhost:1313/</a>)
+which can be pasted into a web browser. In the background, the hugo
+server also detects any change to the content and updates the website
+automatically.</p><h3 id=making-it-your-website>Making it your website</h3><p>The files are all writen as text files in markdown. The <code>content</code> sub-folder contains all the Markdown files
+for website content.</p><pre><code class=language-text>├── content
+│   ├── authors
+│   ├── featured
+│   ├── group
+│   ├── home
+│   ├── post
+│   ├── project
+│   ├── publication
+│   ├── research
+│   ├── talk
+│   └── teaching
+</code></pre><p>Most of its sub-directories correspond to a
+section of my webpage (take a look at it); in particular, <code>home</code> corresponds to the
+homepage of your website. Another unique folder is the <code>authors</code>,
+which contains basic information about the website owner and all other
+authors (not needed for a personal website). The <code>publication</code> corresponds to each of my publications.</p><p>Basically, you will edit the text files in each of these sub-directiries to change them to ones that are for you (as now they are all for me!).</p><p>See
+<a href=https://sourcethemes.com/academic/docs/get-started/ target=_blank rel=noopener>its documentation</a> for more information.</p><h3 id=creating-a-public-website>Creating a public website</h3><p>Commit your website as a repository on github (with &lt;git hub ID>.github.io as a name).</p><p>After successfully committed, go to your repository and click on the “Settings” on the top right, then scroll down to the Github Pages section.
+Then click on the published link.</p></div><div class=article-tags><a class="badge badge-light" href=/tag/workflow/>Workflow</a></div><section id=comments><div id=disqus_thread></div><script>let disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById("disqus_thread").innerHTML="Disqus comments not available by default when the website is previewed locally.";return}var t=document,e=t.createElement("script");e.async=!0,e.src="https://handcock.disqus.com/embed.js",e.setAttribute("data-timestamp",+new Date),(t.head||t.body).appendChild(e)})()</script><noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript><a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a></section></div></article><script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin=anonymous></script>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin=anonymous></script>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin=anonymous></script>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin=anonymous></script>
