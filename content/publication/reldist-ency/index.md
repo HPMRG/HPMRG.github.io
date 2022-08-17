@@ -42,7 +42,7 @@ featured: true
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: #https://link.springer.com/content/pdf/10.1007/978-3-540-73133-7.pdf
+url_pdf: publication/reldist-ency/essmpreprint2003.pdf
 url_code: #https://github.com/qingyuanzhao/bets.covid19
 url_dataset: #https://github.com/qingyuanzhao/bets.covid19
 url_poster:
