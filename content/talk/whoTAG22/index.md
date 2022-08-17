@@ -12,7 +12,14 @@ address:
   postcode:
   country:
 summary:
-abstract:
+
+abstract: "This was a presentation of statistical methodology I developed to track
+all cause of death mortality over time and estimate the excess mortality during the COVID-19
+pandemic. The raw data are counts of all cause deaths over a given period (e.g., a month) as they varies with calendar time.
+Data from the five years pre pandemic was used to estimate the (counter-factual) number of deaths during the pandemic perios had the pandemic
+not occured. The difference between the recorded all cause of death mortality and the expected all cause of death mortality was defined to be
+the excess deaths. The talk discusses the estimation and the quantification of uncertainty. It was presented to the World Health Organization 
+Head Quarters HQ Technical Advisory Group."
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
