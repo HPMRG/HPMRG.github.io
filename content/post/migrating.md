@@ -10,14 +10,11 @@ After many years with a hand written website in HTML, I moved to using the [Hugo
 [Academic theme](https://sourcethemes.com/academic/).
 The motivation for this is the work of [Qingyuan Zhao](http://www.statslab.cam.ac.uk/~qz280/post/migrating/) who deserved the credit for both creating the template and also publishing it so that others can benefit from it. Thank you, Qingyuan Zhao!
 
-This template for [my personal website](http://www.stat.ucla.edu/~handcock/) is based on the [Hugo Academic
-theme](https://github.com/wowchemy/starter-hugo-academic). 
-
 ## The Hugo framework with the Academic theme
 
-Based on Qingyuan's work, I decided to use Hugo as it is an efficient language
-using the best parts of markdown building websites".  I use the Academic theme
-for Hugo as it implements many features for academic researchers.
+Based on Qingyuan's work, I decided to use Hugo as it is an efficient language expressing
+the best aspects of markdown. The Academic theme for Hugo is well suited for
+the websites of academic researchers.
 
 It helps to have Hugo installed locally as you can compile the website and see what you will get. Installing Hugo in Mac OS X is
 straightforward with [homebrew](https://brew.sh/). Simply run
