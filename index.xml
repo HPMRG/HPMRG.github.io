@@ -258,14 +258,10 @@ possible.&lt;/p></description></item><item><title>Revealed Preference Models for
 &lt;a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme&lt;/a>.
 The motivation for this is the work of
 &lt;a href="http://www.statslab.cam.ac.uk/~qz280/post/migrating/" target="_blank" rel="noopener">Qingyuan Zhao&lt;/a> who deserved the credit for both creating the template and also publishing it so that others can benefit from it. Thank you, Qingyuan Zhao!&lt;/p>
-&lt;p>This template for
-&lt;a href="http://www.stat.ucla.edu/~handcock/" target="_blank" rel="noopener">my personal website&lt;/a> is based on the
-&lt;a href="https://github.com/wowchemy/starter-hugo-academic" target="_blank" rel="noopener">Hugo Academic
-theme&lt;/a>.&lt;/p>
 &lt;h2 id="the-hugo-framework-with-the-academic-theme">The Hugo framework with the Academic theme&lt;/h2>
-&lt;p>Based on Qingyuan&amp;rsquo;s work, I decided to use Hugo as it is an efficient language
-using the best parts of markdown building websites&amp;quot;. I use the Academic theme
-for Hugo as it implements many features for academic researchers.&lt;/p>
+&lt;p>Based on Qingyuan&amp;rsquo;s work, I decided to use Hugo as it is an efficient language expressing
+the best aspects of markdown. The Academic theme for Hugo is well suited for
+the websites of academic researchers.&lt;/p>
 &lt;p>It helps to have Hugo installed locally as you can compile the website and see what you will get. Installing Hugo in Mac OS X is
 straightforward with
 &lt;a href="https://brew.sh/" target="_blank" rel="noopener">homebrew&lt;/a>. Simply run&lt;/p>
