@@ -3,8 +3,8 @@
 
 title: "Practical Network Modeling via Tapered Exponential-family Random Graph Models"
 authors: ["Bart Blackburn", "admin"]
-date: 2022-06-19
-doi: "10.12.14/10.1093/jssam/smz055"
+date: 2022-08-24
+doi: "10.1080/10618600.2022.2116444"
 
 # Schedule page publish date (NOT publication's date).
 #publishDate: 2022-01-10T21:28:45Z
