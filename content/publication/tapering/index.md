@@ -46,7 +46,7 @@ featured: true
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: #https://academic.oup.com/jssam/article-pdf/9/1/94/36110906/smz055.pdf
+url_pdf: publication/tapering/JCGS-21-292-accepted-version.pdf
 url_code: #https://github.com/qingyuanzhao/bets.covid19
 url_dataset: #https://github.com/qingyuanzhao/bets.covid19
 url_poster:
