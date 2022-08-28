@@ -29,9 +29,7 @@ unanswered. This paper develops a new methodology for how to determine the neces
 inference for the Tapered ERGM class. Noting that a Tapered ERGM can always be made non-degenerate, we offer data-driven approaches for
 determining the amount of tapering necessary. The mean-value parameter estimates are unaffected by tapering, and we show that the natural
 parameter estimates are numerically weakly varying by the level of tapering. We then apply the Tapered ERGM to two published networks to
-demonstrate its effectiveness in cases where typical ERGMs fail and present the case for Tapered ERGMs replacing ERGMs entirely.
-<p>
-Accepted."
+demonstrate its effectiveness in cases where typical ERGMs fail and present the case for Tapered ERGMs replacing ERGMs entirely."
 
 # Summary. An optional shortened abstract.
 summary: ""
