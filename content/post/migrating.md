@@ -8,7 +8,7 @@ draft = false
 
 After many years with a hand written website in HTML, I moved to using the [Hugo](https://gohugo.io/) framework with the 
 [Academic theme](https://sourcethemes.com/academic/).
-The motivation for this is the work of [Qingyuan Zhao](http://www.statslab.cam.ac.uk/~qz280/post/migrating/) who deserved the credit for both creating the template and also publishing it so that others can benefit from it. Thank you, Qingyuan Zhao!
+The motivation for this is the work of [Qingyuan Zhao](https://www.statslab.cam.ac.uk/~qz280/post/migrating/) who deserved the credit for both creating the template and also publishing it so that others can benefit from it. Thank you, Qingyuan Zhao!
 
 ## The Hugo framework with the Academic theme
 
@@ -29,11 +29,11 @@ First, clone my repository or Qingyuan's. I put mine in "handcock.github.io". Th
 You can preview the website by running
 
 ```sh
-hugo server --baseURL http://localhost:1313/
+hugo server --baseURL https://localhost:1313/
 ```
 
 from the website directory (e.g., "handcock.github.io"). This builds the website and creates a
-local web server to host it. It generates a link (the default is <http://localhost:1313/>)
+local web server to host it. It generates a link (the default is <https://localhost:1313/>)
 which can be pasted into a web browser. In the background, the hugo
 server also detects any change to the content and updates the website
 automatically.

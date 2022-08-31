@@ -15,9 +15,9 @@ role: Professor of Statistics
 # Organizations/Affiliations
 organizations:
 - name: Department of Statistics
-  url: "http://www.stat.ucla.edu/~handcock/"
+  url: "https://www.stat.ucla.edu/~handcock/"
 - name: University of California, Los Angeles
-  url: "http://www.stat.ucla.edu/~handcock/"
+  url: "https://www.stat.ucla.edu/~handcock/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: I am a statistician whose research involves methodological development, and is based largely on motivation from questions in the social sciences and social epidemiology.
@@ -69,7 +69,7 @@ social:
 email: "handcock@stat.ucla.edu"
 
 affiliations:
-- I am an affiliate of the [California Center for Population Research](http://www.ccpr.ucla.edu/) at UCLA. 
+- I am an affiliate of the [California Center for Population Research](https://www.ccpr.ucla.edu/) at UCLA. 
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.

@@ -21,11 +21,11 @@ population estimations, testing, confidence intervals and sensitivity analysis.
 Example capabilities are an easy format for entering data, the visualization of
 recruitment chains, regression modeling, and missing data.
 
-The interface of <u>RDS Analyst</u> is similar to [SPSS](http://www.spss.com/). <u>RDS Analyst</u> is
+The interface of <u>RDS Analyst</u> is similar to [SPSS](https://www.spss.com/). <u>RDS Analyst</u> is
 also a free, easy to use, alternative to proprietary data analysis software
-such as [SPSS](http://www.spss.com/), [STATA](http://www.stata.com/),
-[SAS](http://www.sas.com/)/[JMP](http://www.jmp.com/), and
-[Minitab](http://www.minitab.com/). It has a menu system to do common data
+such as [SPSS](https://www.spss.com/), [STATA](https://www.stata.com/),
+[SAS](https://www.sas.com/)/[JMP](https://www.jmp.com/), and
+[Minitab](https://www.minitab.com/). It has a menu system to do common data
 manipulation and analysis tasks, and an Excel-like spreadsheet in which to view
 and edit data.
 
@@ -39,16 +39,16 @@ the analysis of RDS data. It uses menus and dialogs to guide the user
 efficiently through the data manipulation and analysis process, and has an
 Excel-like spreadsheet for easy data frame visualization and editing. It is
 also the front-end to the very powerful capabilities accessible via the
-[R](http://r-project.org) command-line interface and also the extensive
-capabilities of the [R](http://r-project.org) statistical language.
+[R](https://r-project.org) command-line interface and also the extensive
+capabilities of the [R](https://r-project.org) statistical language.
 
 ## Basic facts
-* <u>RDS Analyst</u> is written for the [R](http://r-project.org) statistical environment.
+* <u>RDS Analyst</u> is written for the [R](https://r-project.org) statistical environment.
 * The current development form is for Windows and Macintosh. A LINUX version will be available in installers when it is released publicly.
 
 ## Installation on an Windows PC
 
-The installer is [here](http://www.stat.ucla.edu/~handcock/hpmrg/software/RDSAnalystSetup.0.72.exe).
+The installer is [here](files/RDSAnalystSetup.0.72.exe).
 
 <!--http://neolab.stat.ucla.edu/cranstats/RdsAnalystSetup.0.42.exe -->
 <!--http://hpmrg.org/software/RDSAnalystSetup.0.7.exe-->
@@ -100,7 +100,7 @@ were originally.
 
 There is a version for Apple Macintosh computers. <!-- They must have Intel CPUs (i.e., be purchased post-2006). -->
 
-The installer is [here](http://www.stat.ucla.edu/~handcock/hpmrg/software/RDSAnalystInstaller.0.72.dmg)
+The installer is [here](files/RDSAnalystInstaller.0.72.dmg)
 
 <!--http://hpmrg.org/software/RDSAnalystInstaller.0.71.dmg-->
 
@@ -159,7 +159,7 @@ want to install Java if it is not already there. Accept its invitation.-->
 
 ## Getting started - The Manual
 
-For the manual, go to the [RDS Analyst Manual](http://www.deducer.org/pmwiki/pmwiki.php?n=Main.RDSAnalyst)
+For the manual, go to the [RDS Analyst Manual](https://www.deducer.org/pmwiki/pmwiki.php?n=Main.RDSAnalyst)
 
 ## RDS Analyst citation information
 
@@ -186,6 +186,6 @@ You can use the forum to:
 Once you have joined the list, you can post your questions and comments to
 [rdsanalyst_help@googlegroups.com](mailto:rdsanalyst_help@googlegroups.com).
 
-A full list of all messages posted to this list is available [here](http://groups.google.com/group/rdsanalyst_help).
+A full list of all messages posted to this list is available [here](https://groups.google.com/group/rdsanalyst_help).
 
 Enjoy!

@@ -22,7 +22,7 @@ particularly related to making inference from partially-observed social network 
 understanding the strengths and limitations of data sampled with link-tracing designs such as snowball sampling, contact tracing, and
 respondent-driven sampling.  In particular, her dissertation and recent work focus on understanding the implications of assumptions of current
 respondent-driven sampling (RDS) methodology, and on introducing improved estimation strategies for RDS data. For details see [her web
-page](http://www.math.umass.edu/~gile/).
+page](https://www.math.umass.edu/~gile/).
 
 <span style="color:blue">***Dr. Lisa G. Johnston***</span> is an Epidemiologist-Independent Consultant providing technical assistance for over
 15 years to international organizations, Universities, and institutions worldwide to conduct surveys and population size estimation techniques
@@ -30,7 +30,7 @@ among hard-to-reach populations. Most of her work has focused on conducting HIV 
 RDS among men who have sex with men, sex workers and people who inject drugs, high risk adolescents and youth and migrants. She has conducted
 and analyzed data from over 400 RDS surveys in over 40 countries and has published over 45 peer reviewed journal articles about RDS. She has
 authored several book chapters and developed manuals and guidance on implementing surveys and analyzing data using RDS. For details see [her
-web page](http://www.lisagjohnston.com/).
+web page](https://www.lisagjohnston.com/).
 
 <span style="color:blue">***Dr. Ian E. Fellows***</span>  is a professional statistician based out of the University of California, Los
 Angeles. His research interests range over many sub-disciplines of statistics, with his dissertation work focusing on new methods in the
@@ -42,4 +42,4 @@ or details see [his web page](https://fellstat.com).
 Ecology (CSDE) at the University of Washington.  Her duties included providing training in statistical methods, data analysis techniques, and
 statistical programming. Dr. Mar has taught R in a variety of formats from a 2-3 hour one class introduction to one hour a week through a 10
 week course. Dr. Mar has extensive experience as a translator between statisticians and the applied researchers. For details see [the web
-page](http://csde.washington.edu/services/statistics.shtml).
+page](https://csde.washington.edu/services/statistics.shtml).

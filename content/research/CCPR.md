@@ -6,4 +6,4 @@ tags = ["courses"]
 draft = false
 +++
 
-I am an affiliate of the [California Center for Population Research](http://www.ccpr.ucla.edu/) at UCLA.
+I am an affiliate of the [California Center for Population Research](https://www.ccpr.ucla.edu/) at UCLA.

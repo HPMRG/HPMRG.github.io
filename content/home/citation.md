@@ -41,4 +41,4 @@ calls. For example, at the `R` Console window type:
 ## Citing <u>Deducer</u>
 
 <u>RDS Analyst</u> is built on the graphical user interface and capabilities of <u>Deducer</u>. To cite <u>Deducer</u>, see
-[here](http://cran.r-project.org/web/packages/Deducer/citation.html).
+[here](https://cran.r-project.org/web/packages/Deducer/citation.html).

@@ -1,6 +1,6 @@
 # UCLA branded academic website
 
-This template for [my personal website](http://www.stat.ucla.edu/~handcock/) is based on the [Hugo Academic theme](https://github.com/wowchemy/starter-hugo-academic). It is based on the work of of [Qingyuan Zhao](http://www.statslab.cam.ac.uk/~qz280) who deserved the credit for both creating the template and also publishing it so that others can benefit from it. Thank you, Qingyuan Zhao! See [his post](http://www.statslab.cam.ac.uk/~qz280/post/migrating/) for a guide.
+This template for [my personal website](https://www.stat.ucla.edu/~handcock/) is based on the [Hugo Academic theme](https://github.com/wowchemy/starter-hugo-academic). It is based on the work of of [Qingyuan Zhao](https://www.statslab.cam.ac.uk/~qz280) who deserved the credit for both creating the template and also publishing it so that others can benefit from it. Thank you, Qingyuan Zhao! See [his post](https://www.statslab.cam.ac.uk/~qz280/post/migrating/) for a guide.
 
 ## The Hugo framework with the Academic theme
 
@@ -19,11 +19,11 @@ First, clone this repository. I put mine in "handcock.github.io". Rename it to \
 You can preview the website by running
 
 ```sh
-hugo server --baseURL http://localhost:1313/
+hugo server --baseURL https://localhost:1313/
 ```
 
 from the website directory (e.g., "handcock.github.io"). This builds the website and creates a
-local web server to host it. It generates a link (the default is <http://localhost:1313/>)
+local web server to host it. It generates a link (the default is <https://localhost:1313/>)
 which can be pasted into a web browser. In the background, the hugo
 server also detects any change to the content and updates the website
 automatically.
