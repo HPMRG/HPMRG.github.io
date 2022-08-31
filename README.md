@@ -61,5 +61,7 @@ See [its documentation](https://sourcethemes.com/academic/docs/get-started/) for
 
 Commit your website as a repository on github (with \<git hub ID\>.github.io as a name).
 
-After successfully committed, go to your repository and click on the “Settings” on the top right, then scroll down to the Github Pages section. Then  click on the published link.
+After successfully committed, go to your repository and click on the “Settings” on the top right, then scroll down to the "Pages" section. Under "Build and deployment" set the branch to "gh-pages" and "Save".
+
+After a minute a published link will appear on the page and it is live.
 
