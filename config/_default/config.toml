@@ -11,7 +11,7 @@ title = "Mark S. Handcock"
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
 # baseurl = "http://www.stat.ucla.edu/~handcock/"
-baseurl = "https://HPMRG.github.io"
+baseurl = "https://HPMRG.github.io/"
 
 # Enter a copyright notice to display in the site footer.
 # To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
