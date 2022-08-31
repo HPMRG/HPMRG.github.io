@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mark S. Handcock</title>
+    <link>https:handcock.github.io/author/</link>
+      <atom:link href="https:handcock.github.io/author/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mark S. Handcock</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2022</copyright>
+    <image>
+      <url>https:handcock.github.io/images/logo_hu7ac5a2aa8fa12518fd9ab7ceccb2a15e_77341_300x300_fit_lanczos_3.png</url>
+      <title>Mark S. Handcock</title>
+      <link>https:handcock.github.io/author/</link>
+    </image>
+    
+  </channel>
+</rss>

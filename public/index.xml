@@ -5,9 +5,9 @@
     <link>https:handcock.github.io/</link>
       <atom:link href="https:handcock.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Mark S. Handcock</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2022</copyright><lastBuildDate>Wed, 08 Jun 2022 16:30:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2022</copyright><lastBuildDate>Wed, 24 Aug 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https:handcock.github.io/images/logo_hua85a92e198a1ba12ec186662f58b214f_99585_300x300_fit_lanczos_3.png</url>
+      <url>https:handcock.github.io/images/logo_hu7ac5a2aa8fa12518fd9ab7ceccb2a15e_77341_300x300_fit_lanczos_3.png</url>
       <title>Mark S. Handcock</title>
       <link>https:handcock.github.io/</link>
     </image>
@@ -240,7 +240,8 @@ statistical computing and their implementation through statistical software, par
       <guid>https:handcock.github.io/teaching/c216/</guid>
       <description>&lt;p&gt;This course is designed for social sciences graduate students and advanced undergraduate students seeking training in data issues and methods
 employed in social sciences.&lt;/p&gt;
-&lt;!--- (The Bruin Learn course page is [here](https://bruinlearn.ucla.edu/courses/79284/). --&gt;
+&lt;p&gt;The Bruin Learn course page is 
+&lt;a href=&#34;https://bruinlearn.ucla.edu/courses/143496/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;A detailed description of the class is available 
 &lt;a href=&#34;https://drive.google.com/file/d/1uT2NyUyFROvAB2DG4R5-OuoP3dsQ32sb/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;motivation-and-synopsis&#34;&gt;Motivation and Synopsis&lt;/h3&gt;
@@ -269,7 +270,7 @@ data and technologies.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;The course will involve the practical application of the ideas of
 statistical computing and their implementation through statistical
-software, particularly [R]{.s3}. As statistical computation is essential
+software, particularly &lt;span class=&#34;s3&#34;&gt;R&lt;/span&gt;. As statistical computation is essential
 for many of the modeling approaches, expertise will need to be
 developed.&lt;/p&gt;
 </description>
@@ -321,35 +322,37 @@ possible.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Sampling Hard-to-Reach Populations</title>
-      <link>https:handcock.github.io/talk/itacosm22/</link>
-      <pubDate>Wed, 08 Jun 2022 16:30:00 +0000</pubDate>
-      <guid>https:handcock.github.io/talk/itacosm22/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sampling Hard-to-Reach Populations</title>
-      <link>https:handcock.github.io/talk/ssc-icmic22/</link>
-      <pubDate>Tue, 31 May 2022 08:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/talk/ssc-icmic22/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tool for tracking all-cause mortality and estimating excess mortality to support the COVID-19 pandemic response</title>
-      <link>https:handcock.github.io/publication/who-acm-calc/</link>
-      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/publication/who-acm-calc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Data Theory in the World Seminar: How Data Drives Business Decisions</title>
-      <link>https:handcock.github.io/talk/intheworld2205/</link>
-      <pubDate>Tue, 24 May 2022 17:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/talk/intheworld2205/</guid>
-      <description></description>
+      <title>Citation</title>
+      <link>https:handcock.github.io/rdsanalyst/citation/</link>
+      <pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https:handcock.github.io/rdsanalyst/citation/</guid>
+      <description>&lt;h2 id=&#34;rds-analyst-citation-information&#34;&gt;RDS Analyst citation information&lt;/h2&gt;
+&lt;p&gt;If you are using &lt;u&gt;RDS Analyst&lt;/u&gt; for research that will be published, we request that you acknowledge this with the following citation:&lt;/p&gt;
+&lt;p&gt;Mark S. Handcock, Ian E. Fellows, Krista J. Gile (2022) RDS Analyst:
+Software for the Analysis of Respondent-Driven Sampling Data, Version
+0.72, URL 
+&lt;a href=&#34;https://hpmrg.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://hpmrg.org&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;A BibTeX entry for LaTeX users is&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-diff&#34;&gt;+@Manual{RDSA,
++  title = {RDS Analyst: Software for the Analysis of Respondent-Driven Sampling Data},
++  author = {Mark S. Handcock and Ian E. Fellows and Krista J. Gile},
++  year = {2022},
++  note = {Version 0.72},
++  address = {Los Angeles, CA},
++  url = {https://hpmrg.org},
++}@@
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We have invested a lot of time and effort in creating &lt;u&gt;RDS Analyst&lt;/u&gt; for use by other researchers. Please cite it in all papers where it is
+used.&lt;/p&gt;
+&lt;h2 id=&#34;citing-the-component-packages-of-urds-analystu-eg-rds-or-deducerrdsanalyst&#34;&gt;Citing the component packages of &lt;u&gt;RDS Analyst&lt;/u&gt; (e.g., &lt;code&gt;RDS&lt;/code&gt; or &lt;code&gt;DeducerRDSAnalyst&lt;/code&gt;)&lt;/h2&gt;
+&lt;p&gt;To cite the individual R packages (e.g., &lt;code&gt;RDS&lt;/code&gt; or &lt;code&gt;DeducerRDSAnalyst&lt;/code&gt;) please use the information given by their individual citation function
+calls. For example, at the &lt;code&gt;R&lt;/code&gt; Console window type:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;citation(package=&amp;quot;RDS&amp;quot;)&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;citing-udeduceru&#34;&gt;Citing &lt;u&gt;Deducer&lt;/u&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;u&gt;RDS Analyst&lt;/u&gt; is built on the graphical user interface and capabilities of &lt;u&gt;Deducer&lt;/u&gt;. To cite &lt;u&gt;Deducer&lt;/u&gt;, see
+
+&lt;a href=&#34;http://cran.r-project.org/web/packages/Deducer/citation.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -363,6 +366,53 @@ possible.&lt;/p&gt;
 &lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic theme&lt;/a&gt;.
 The motivation for this is the work of 
 &lt;a href=&#34;http://www.statslab.cam.ac.uk/~qz280/post/migrating/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Qingyuan Zhao&lt;/a&gt; who deserved the credit for both creating the template and also publishing it so that others can benefit from it. Thank you, Qingyuan Zhao!&lt;/p&gt;
+&lt;h2 id=&#34;the-hugo-framework-with-the-academic-theme&#34;&gt;The Hugo framework with the Academic theme&lt;/h2&gt;
+&lt;p&gt;Based on Qingyuan&amp;rsquo;s work, I decided to use Hugo as it is an efficient language expressing
+the best aspects of markdown. The Academic theme for Hugo is well suited for
+the websites of academic researchers.&lt;/p&gt;
+&lt;p&gt;It helps to have Hugo installed locally as you can compile the website and see what you will get. Installing Hugo in Mac OS X is
+straightforward with 
+&lt;a href=&#34;https://brew.sh/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homebrew&lt;/a&gt;. Simply run&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;brew install hugo
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;creating-a-local-website&#34;&gt;Creating a local website&lt;/h3&gt;
+&lt;p&gt;First, clone my repository or Qingyuan&amp;rsquo;s. I put mine in &amp;ldquo;handcock.github.io&amp;rdquo;. Then rename it to &amp;lt;git hub ID&amp;gt;.github.io&lt;/p&gt;
+&lt;p&gt;You can preview the website by running&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;hugo server --baseURL http://localhost:1313/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;from the website directory (e.g., &amp;ldquo;handcock.github.io&amp;rdquo;). This builds the website and creates a
+local web server to host it. It generates a link (the default is 
+&lt;a href=&#34;http://localhost:1313/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://localhost:1313/&lt;/a&gt;)
+which can be pasted into a web browser. In the background, the hugo
+server also detects any change to the content and updates the website
+automatically.&lt;/p&gt;
+&lt;h3 id=&#34;making-it-your-website&#34;&gt;Making it your website&lt;/h3&gt;
+&lt;p&gt;The files are all writen as text files in markdown. The &lt;code&gt;content&lt;/code&gt; sub-folder contains all the Markdown files
+for website content.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-text&#34;&gt;├── content
+│   ├── authors
+│   ├── featured
+│   ├── group
+│   ├── home
+│   ├── post
+│   ├── project
+│   ├── publication
+│   ├── research
+│   ├── talk
+│   └── teaching
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Most of its sub-directories correspond to a
+section of my webpage (take a look at it); in particular, &lt;code&gt;home&lt;/code&gt; corresponds to the
+homepage of your website. Another unique folder is the &lt;code&gt;authors&lt;/code&gt;,
+which contains basic information about the website owner and all other
+authors (not needed for a personal website). The &lt;code&gt;publication&lt;/code&gt; corresponds to each of my publications.&lt;/p&gt;
+&lt;p&gt;Basically, you will edit the text files in each of these sub-directiries to change them to ones that are for you (as now they are all for me!).&lt;/p&gt;
+&lt;p&gt;See 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/get-started/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;its documentation&lt;/a&gt; for more information.&lt;/p&gt;
+&lt;h3 id=&#34;creating-a-public-website&#34;&gt;Creating a public website&lt;/h3&gt;
+&lt;p&gt;Commit your website as a repository on github (with &amp;lt;git hub ID&amp;gt;.github.io as a name).&lt;/p&gt;
+&lt;p&gt;After successfully committed, go to your repository and click on the “Settings” on the top right, then scroll down to the Github Pages section.
+Then  click on the published link.&lt;/p&gt;
 </description>
     </item>
     
@@ -377,340 +427,10 @@ The motivation for this is the work of
     </item>
     
     <item>
-      <title>A New Record Minimum for Antarctic Sea Ice</title>
-      <link>https:handcock.github.io/publication/nature-min/</link>
-      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/publication/nature-min/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Comparing the real-world performance of exponential-family random graph models and latent order logistic models for social network analysis</title>
-      <link>https:handcock.github.io/publication/ensemble-lolog/</link>
-      <pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/publication/ensemble-lolog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A Regime Shift in Seasonal Total Antarctic Sea Ice Extent in the Twentieth Century</title>
-      <link>https:handcock.github.io/publication/nature-regime-shift/</link>
-      <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/publication/nature-regime-shift/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tracking all cause of death and estimating excess mortality during the COVID-19 pandemic: statistical and computational tools</title>
-      <link>https:handcock.github.io/talk/whotag22/</link>
-      <pubDate>Thu, 09 Dec 2021 16:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/talk/whotag22/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Eighteen-year record of circum-Antarctic landfast-sea-ice distribution allows detailed baseline characterisation and reveals trends and variability</title>
-      <link>https:handcock.github.io/publication/fast-ice/</link>
-      <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/publication/fast-ice/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A Note on &#39;Sequential Neighborhood Effects&#39; by Hicks et al. (2018)</title>
-      <link>https:handcock.github.io/publication/nghbd-note/</link>
-      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/publication/nghbd-note/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>An Assessment of the Temporal Variability in the Annual Cycle of Daily Antarctic Sea Ice in the NCAR Community Earth System Model, Version 2: A Comparison of the Historical Runs with Observations</title>
-      <link>https:handcock.github.io/publication/assess-cesm2/</link>
-      <pubDate>Sat, 17 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/publication/assess-cesm2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>COVID-19</title>
       <link>https:handcock.github.io/project/covid-19/</link>
       <pubDate>Fri, 24 Jul 2020 00:00:00 +0000</pubDate>
       <guid>https:handcock.github.io/project/covid-19/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Modeling the annual cycle of daily Antarctic sea ice extent</title>
-      <link>https:handcock.github.io/publication/annual-cycle/</link>
-      <pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/publication/annual-cycle/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Modeling wildfire ignition origins in southern California using linear network point processes</title>
-      <link>https:handcock.github.io/publication/wildfire/</link>
-      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/publication/wildfire/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Population Size Estimation Using Multiple Respondent-Driven Sampling Surveys</title>
-      <link>https:handcock.github.io/publication/pse2/</link>
-      <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/publication/pse2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bayesian inference for finite populations under spatial process settings</title>
-      <link>https:handcock.github.io/publication/bayes-finite-pop/</link>
-      <pubDate>Wed, 25 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/publication/bayes-finite-pop/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A Simulation-Based Framework for Assessing the Feasibility of Respondent-Driven Sampling for Estimating Characteristics in Populations of Lesbian, Gay and Bisexual Older Adults</title>
-      <link>https:handcock.github.io/publication/griffin/</link>
-      <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/publication/griffin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Privacy Policy</title>
-      <link>https:handcock.github.io/privacy/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>https:handcock.github.io/privacy/</guid>
-      <description>&lt;p&gt;Add your privacy policy here and set &lt;code&gt;draft: false&lt;/code&gt; to publish it. Otherwise, delete this file if you don&amp;rsquo;t need it.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Terms</title>
-      <link>https:handcock.github.io/terms/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>https:handcock.github.io/terms/</guid>
-      <description>&lt;p&gt;Add your terms here and set &lt;code&gt;draft: false&lt;/code&gt; to publish it. Otherwise, delete this file if you don&amp;rsquo;t need it.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>A Conditional Empirical Likelihood Based Method for Model Parameter Estimation from Complex survey Datasets</title>
-      <link>https:handcock.github.io/publication/emplik/</link>
-      <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/publication/emplik/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Methods for Inference from Respondent-Driven Sampling Data</title>
-      <link>https:handcock.github.io/publication/annrevrds/</link>
-      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/publication/annrevrds/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sequential Neighborhood Effects: The Effect of Long-Term Exposure to Concentrated Disadvantage on Children&#39;s Reading and Mathematical Skills</title>
-      <link>https:handcock.github.io/publication/nghbd/</link>
-      <pubDate>Thu, 30 Nov 2017 00:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/publication/nghbd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Evaluating Variance Estimators for Respondent‐Driven Sampling</title>
-      <link>https:handcock.github.io/publication/evalvarrds/</link>
-      <pubDate>Thu, 17 Aug 2017 00:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/publication/evalvarrds/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Removing Phase Transitions from Gibbs Measures</title>
-      <link>https:handcock.github.io/publication/phasetapering/</link>
-      <pubDate>Thu, 20 Apr 2017 00:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/publication/phasetapering/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Analysis of Networks with Missing Data with Application to the National Longitudinal Study of Adolescent Health</title>
-      <link>https:handcock.github.io/publication/netmiss/</link>
-      <pubDate>Thu, 29 Sep 2016 00:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/publication/netmiss/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>On the Concept of Snowball Sampling</title>
-      <link>https:handcock.github.io/publication/onsnowball/</link>
-      <pubDate>Wed, 19 Oct 2011 00:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/publication/onsnowball/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bayesian estimation of hispanic fertility hazards from survey and population data</title>
-      <link>https:handcock.github.io/publication/bayesdemo/</link>
-      <pubDate>Sun, 01 Feb 2009 00:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/publication/bayesdemo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Model-based Assessment of the Impact of Missing Data on Inference for Networks</title>
-      <link>https:handcock.github.io/publication/cssswp_66/</link>
-      <pubDate>Thu, 07 Sep 2006 00:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/publication/cssswp_66/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Alleviating Linear Ecological Bias and Optimal Design with Subsample Data</title>
-      <link>https:handcock.github.io/publication/cssswp_51/</link>
-      <pubDate>Tue, 06 Sep 2005 00:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/publication/cssswp_51/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Generalised Linear Models Incorporating Population Level Information: An Empirical Likelihood Based Approach</title>
-      <link>https:handcock.github.io/publication/cssswp_48/</link>
-      <pubDate>Thu, 05 May 2005 00:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/publication/cssswp_48/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Model-Based Clustering for Social Networks</title>
-      <link>https:handcock.github.io/publication/cssswp_46/</link>
-      <pubDate>Wed, 27 Apr 2005 00:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/publication/cssswp_46/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Inference in curved exponential family models for networks</title>
-      <link>https:handcock.github.io/publication/cssswp_43/</link>
-      <pubDate>Tue, 03 Aug 2004 00:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/publication/cssswp_43/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Goodness of Fit of Social Network Models</title>
-      <link>https:handcock.github.io/publication/cssswp_47/</link>
-      <pubDate>Wed, 28 Apr 2004 00:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/publication/cssswp_47/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>New specifications for exponential random graph models</title>
-      <link>https:handcock.github.io/publication/cssswp_42/</link>
-      <pubDate>Fri, 23 Apr 2004 00:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/publication/cssswp_42/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Positional Estimation Within a Latent Space Model for Networks</title>
-      <link>https:handcock.github.io/publication/cssswp_41/</link>
-      <pubDate>Fri, 09 Apr 2004 00:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/publication/cssswp_41/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Assessing Degeneracy in Statistical Models of Social Networks</title>
-      <link>https:handcock.github.io/publication/cssswp_39/</link>
-      <pubDate>Wed, 31 Dec 2003 00:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/publication/cssswp_39/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Generalised Linear Models Incorporating Population Level Information: An Empirical Likelihood Based Approach</title>
-      <link>https:handcock.github.io/publication/cssswp_36/</link>
-      <pubDate>Tue, 23 Sep 2003 00:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/publication/cssswp_36/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>On &#39;Sexual contacts and epidemic thresholds,&#39; models and inference for Sexual partnership distributions</title>
-      <link>https:handcock.github.io/publication/cssswp_31/</link>
-      <pubDate>Tue, 27 May 2003 00:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/publication/cssswp_31/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Interval Estimates for Epidemic Thresholds in Two-Sex Network Models</title>
-      <link>https:handcock.github.io/publication/cssswp_44/</link>
-      <pubDate>Fri, 14 Mar 2003 00:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/publication/cssswp_44/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Likelihood-Based Inference for Stochastic Models of Sexual Network Formation</title>
-      <link>https:handcock.github.io/publication/cssswp_29/</link>
-      <pubDate>Wed, 29 Jan 2003 00:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/publication/cssswp_29/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Applying Relative Distribution Methods in R</title>
-      <link>https:handcock.github.io/publication/cssswp_27/</link>
-      <pubDate>Sun, 01 Dec 2002 00:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/publication/cssswp_27/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>An Assessment of Preferential Attachment as a Mechanism for Human Sexual Network Formation</title>
-      <link>https:handcock.github.io/publication/cssswp_23/</link>
-      <pubDate>Tue, 15 Oct 2002 00:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/publication/cssswp_23/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Statistical Evidence Tells Tails of Human Sexual Contacts</title>
-      <link>https:handcock.github.io/publication/cssswp_21/</link>
-      <pubDate>Wed, 01 May 2002 00:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/publication/cssswp_21/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Divergent Paths: Economic Mobility in the New American Labor Market</title>
-      <link>https:handcock.github.io/publication/book_divergent_paths/</link>
-      <pubDate>Thu, 21 Jun 2001 00:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/publication/book_divergent_paths/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Relative Distribution Methods in the Social Sciences</title>
-      <link>https:handcock.github.io/publication/book_reldist/</link>
-      <pubDate>Fri, 01 Oct 1999 00:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/publication/book_reldist/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A Casebook for a First Course in Statistics and Data Analysis</title>
-      <link>https:handcock.github.io/publication/book_casebook/</link>
-      <pubDate>Tue, 25 Apr 1995 00:00:00 +0000</pubDate>
-      <guid>https:handcock.github.io/publication/book_casebook/</guid>
       <description></description>
     </item>
     

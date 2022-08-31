@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RDS Analyst | Mark S. Handcock</title>
+    <link>https:handcock.github.io/rdsanalyst/</link>
+      <atom:link href="https:handcock.github.io/rdsanalyst/index.xml" rel="self" type="application/rss+xml" />
+    <description>RDS Analyst</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2022</copyright><lastBuildDate>Wed, 24 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https:handcock.github.io/images/logo_hu7ac5a2aa8fa12518fd9ab7ceccb2a15e_77341_300x300_fit_lanczos_3.png</url>
+      <title>RDS Analyst</title>
+      <link>https:handcock.github.io/rdsanalyst/</link>
+    </image>
+    
+    <item>
+      <title>Citation</title>
+      <link>https:handcock.github.io/rdsanalyst/citation/</link>
+      <pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https:handcock.github.io/rdsanalyst/citation/</guid>
+      <description>&lt;h2 id=&#34;rds-analyst-citation-information&#34;&gt;RDS Analyst citation information&lt;/h2&gt;
+&lt;p&gt;If you are using &lt;u&gt;RDS Analyst&lt;/u&gt; for research that will be published, we request that you acknowledge this with the following citation:&lt;/p&gt;
+&lt;p&gt;Mark S. Handcock, Ian E. Fellows, Krista J. Gile (2022) RDS Analyst:
+Software for the Analysis of Respondent-Driven Sampling Data, Version
+0.72, URL 
+&lt;a href=&#34;https://hpmrg.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://hpmrg.org&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;A BibTeX entry for LaTeX users is&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-diff&#34;&gt;+@Manual{RDSA,
++  title = {RDS Analyst: Software for the Analysis of Respondent-Driven Sampling Data},
++  author = {Mark S. Handcock and Ian E. Fellows and Krista J. Gile},
++  year = {2022},
++  note = {Version 0.72},
++  address = {Los Angeles, CA},
++  url = {https://hpmrg.org},
++}@@
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We have invested a lot of time and effort in creating &lt;u&gt;RDS Analyst&lt;/u&gt; for use by other researchers. Please cite it in all papers where it is
+used.&lt;/p&gt;
+&lt;h2 id=&#34;citing-the-component-packages-of-urds-analystu-eg-rds-or-deducerrdsanalyst&#34;&gt;Citing the component packages of &lt;u&gt;RDS Analyst&lt;/u&gt; (e.g., &lt;code&gt;RDS&lt;/code&gt; or &lt;code&gt;DeducerRDSAnalyst&lt;/code&gt;)&lt;/h2&gt;
+&lt;p&gt;To cite the individual R packages (e.g., &lt;code&gt;RDS&lt;/code&gt; or &lt;code&gt;DeducerRDSAnalyst&lt;/code&gt;) please use the information given by their individual citation function
+calls. For example, at the &lt;code&gt;R&lt;/code&gt; Console window type:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;citation(package=&amp;quot;RDS&amp;quot;)&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;citing-udeduceru&#34;&gt;Citing &lt;u&gt;Deducer&lt;/u&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;u&gt;RDS Analyst&lt;/u&gt; is built on the graphical user interface and capabilities of &lt;u&gt;Deducer&lt;/u&gt;. To cite &lt;u&gt;Deducer&lt;/u&gt;, see
+
+&lt;a href=&#34;http://cran.r-project.org/web/packages/Deducer/citation.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

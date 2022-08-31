@@ -7,7 +7,7 @@
     <description>Posts</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2022</copyright><lastBuildDate>Wed, 20 Apr 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https:handcock.github.io/images/logo_hua85a92e198a1ba12ec186662f58b214f_99585_300x300_fit_lanczos_3.png</url>
+      <url>https:handcock.github.io/images/logo_hu7ac5a2aa8fa12518fd9ab7ceccb2a15e_77341_300x300_fit_lanczos_3.png</url>
       <title>Posts</title>
       <link>https:handcock.github.io/post/</link>
     </image>
@@ -23,6 +23,53 @@
 &lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic theme&lt;/a&gt;.
 The motivation for this is the work of 
 &lt;a href=&#34;http://www.statslab.cam.ac.uk/~qz280/post/migrating/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Qingyuan Zhao&lt;/a&gt; who deserved the credit for both creating the template and also publishing it so that others can benefit from it. Thank you, Qingyuan Zhao!&lt;/p&gt;
+&lt;h2 id=&#34;the-hugo-framework-with-the-academic-theme&#34;&gt;The Hugo framework with the Academic theme&lt;/h2&gt;
+&lt;p&gt;Based on Qingyuan&amp;rsquo;s work, I decided to use Hugo as it is an efficient language expressing
+the best aspects of markdown. The Academic theme for Hugo is well suited for
+the websites of academic researchers.&lt;/p&gt;
+&lt;p&gt;It helps to have Hugo installed locally as you can compile the website and see what you will get. Installing Hugo in Mac OS X is
+straightforward with 
+&lt;a href=&#34;https://brew.sh/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homebrew&lt;/a&gt;. Simply run&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;brew install hugo
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;creating-a-local-website&#34;&gt;Creating a local website&lt;/h3&gt;
+&lt;p&gt;First, clone my repository or Qingyuan&amp;rsquo;s. I put mine in &amp;ldquo;handcock.github.io&amp;rdquo;. Then rename it to &amp;lt;git hub ID&amp;gt;.github.io&lt;/p&gt;
+&lt;p&gt;You can preview the website by running&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;hugo server --baseURL http://localhost:1313/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;from the website directory (e.g., &amp;ldquo;handcock.github.io&amp;rdquo;). This builds the website and creates a
+local web server to host it. It generates a link (the default is 
+&lt;a href=&#34;http://localhost:1313/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://localhost:1313/&lt;/a&gt;)
+which can be pasted into a web browser. In the background, the hugo
+server also detects any change to the content and updates the website
+automatically.&lt;/p&gt;
+&lt;h3 id=&#34;making-it-your-website&#34;&gt;Making it your website&lt;/h3&gt;
+&lt;p&gt;The files are all writen as text files in markdown. The &lt;code&gt;content&lt;/code&gt; sub-folder contains all the Markdown files
+for website content.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-text&#34;&gt;├── content
+│   ├── authors
+│   ├── featured
+│   ├── group
+│   ├── home
+│   ├── post
+│   ├── project
+│   ├── publication
+│   ├── research
+│   ├── talk
+│   └── teaching
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Most of its sub-directories correspond to a
+section of my webpage (take a look at it); in particular, &lt;code&gt;home&lt;/code&gt; corresponds to the
+homepage of your website. Another unique folder is the &lt;code&gt;authors&lt;/code&gt;,
+which contains basic information about the website owner and all other
+authors (not needed for a personal website). The &lt;code&gt;publication&lt;/code&gt; corresponds to each of my publications.&lt;/p&gt;
+&lt;p&gt;Basically, you will edit the text files in each of these sub-directiries to change them to ones that are for you (as now they are all for me!).&lt;/p&gt;
+&lt;p&gt;See 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/get-started/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;its documentation&lt;/a&gt; for more information.&lt;/p&gt;
+&lt;h3 id=&#34;creating-a-public-website&#34;&gt;Creating a public website&lt;/h3&gt;
+&lt;p&gt;Commit your website as a repository on github (with &amp;lt;git hub ID&amp;gt;.github.io as a name).&lt;/p&gt;
+&lt;p&gt;After successfully committed, go to your repository and click on the “Settings” on the top right, then scroll down to the Github Pages section.
+Then  click on the published link.&lt;/p&gt;
 </description>
     </item>
     

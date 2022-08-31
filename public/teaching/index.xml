@@ -7,7 +7,7 @@
     <description>Teaching</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2022</copyright><lastBuildDate>Tue, 19 Apr 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https:handcock.github.io/images/logo_hua85a92e198a1ba12ec186662f58b214f_99585_300x300_fit_lanczos_3.png</url>
+      <url>https:handcock.github.io/images/logo_hu7ac5a2aa8fa12518fd9ab7ceccb2a15e_77341_300x300_fit_lanczos_3.png</url>
       <title>Teaching</title>
       <link>https:handcock.github.io/teaching/</link>
     </image>
@@ -240,7 +240,8 @@ statistical computing and their implementation through statistical software, par
       <guid>https:handcock.github.io/teaching/c216/</guid>
       <description>&lt;p&gt;This course is designed for social sciences graduate students and advanced undergraduate students seeking training in data issues and methods
 employed in social sciences.&lt;/p&gt;
-&lt;!--- (The Bruin Learn course page is [here](https://bruinlearn.ucla.edu/courses/79284/). --&gt;
+&lt;p&gt;The Bruin Learn course page is 
+&lt;a href=&#34;https://bruinlearn.ucla.edu/courses/143496/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;A detailed description of the class is available 
 &lt;a href=&#34;https://drive.google.com/file/d/1uT2NyUyFROvAB2DG4R5-OuoP3dsQ32sb/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;motivation-and-synopsis&#34;&gt;Motivation and Synopsis&lt;/h3&gt;
@@ -269,7 +270,7 @@ data and technologies.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;The course will involve the practical application of the ideas of
 statistical computing and their implementation through statistical
-software, particularly [R]{.s3}. As statistical computation is essential
+software, particularly &lt;span class=&#34;s3&#34;&gt;R&lt;/span&gt;. As statistical computation is essential
 for many of the modeling approaches, expertise will need to be
 developed.&lt;/p&gt;
 </description>

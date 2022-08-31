@@ -14,38 +14,18 @@
 #   weight = 15
 
 [[main]]
-  name = "Posts"
-  url = "post/"
-  weight = 70
-
-[[main]]
-  name = "Talks"
-  url = "talk/"
-  weight = 60
-
-#[[main]]
-#  name = "Publications"
-#  url = "publication/"
-#  weight = 40
-
-[[main]]
-  name = "Publications"
-  url = "featured/"
+  name = "About us"
+  url = "aboutus/"
   weight = 20
 
 [[main]]
-  name = "Teaching"
-  url = "teaching/"
+  name = "RDS Analyst software"
+  url = "rdsanalyst/"
   weight = 30
 
 [[main]]
-  name = "Group"
-  url = "group/"
-  weight = 50
-
-[[main]]
-  name = "Software"
-  url = "software/"
+  name = "Citation"
+  url = "citation/"
   weight = 40
 
 # Link to a PDF of your resume/CV from the menu.
