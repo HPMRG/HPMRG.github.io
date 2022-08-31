@@ -65,3 +65,5 @@ After successfully committed, go to your repository and click on the “Settings
 
 After a minute a published link will appear on the page and it is live.
 
+See [the official documentation(https://gohugo.io/hosting-and-deployment/hosting-on-github/) for how to do other things. Note that the 
+`.github/workflows/gh-pages.yml` is already set up and you need not change it.
