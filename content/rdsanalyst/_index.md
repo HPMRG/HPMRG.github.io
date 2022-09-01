@@ -44,7 +44,7 @@ capabilities of the [R](https://r-project.org) statistical language.
 
 ## Installation on an Windows PC
 
-The installer is [here](files/RDSAnalystSetup.0.72.exe).
+The installer is [here](https://drive.google.com/file/d/1Zu6YOe7J7IN5s-o7IVRPJAMpZFC-0C3G/view?usp=sharing).
 
 <!--https://neolab.stat.ucla.edu/cranstats/RdsAnalystSetup.0.42.exe -->
 <!--https://hpmrg.org/software/RDSAnalystSetup.0.7.exe-->
@@ -96,7 +96,7 @@ were originally.
 
 There is a version for Apple Macintosh computers. <!-- They must have Intel CPUs (i.e., be purchased post-2006). -->
 
-The installer is [here](files/RDSAnalystInstaller.0.72.dmg)
+The installer is [here](https://drive.google.com/file/d/1-2rf7TMOvY8_uZ4NzWPbhUEipKSVqYE7/view?usp=sharing)
 
 <!--https://hpmrg.org/software/RDSAnalystInstaller.0.71.dmg-->
 
