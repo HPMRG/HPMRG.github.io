@@ -10,15 +10,24 @@ weight = 50
 
 The Hard-to-Reach Population Methods Research Group is a collaborative interdisciplinary group of researchers from several universities:
 
-<span style="color:blue">***Dr. Mark S. Handcock***</span> is Professor of Statistics in the Department of Statistics at the University of
-California – Los Angeles. His research involves methodological development, and is based largely on motivation from questions in the social and
-epidemiological sciences. He has published extensively on survey sampling, network inference, and network sampling methods. For details see
-[his web page](https://handcock.gthub.io).
+<img src="/img/msh.jpg" align="left" width="250" height="250" style="padding:5px 15px 0px 0px;"/>
 
-<span style="color:blue">***Dr. Katherine R. McLaughlin***</span>  is Assistant Professor of Statistics in the Department of Statistics at the
+<span style="color:blue">***Dr. Mark S. Handcock*** </span> &nbsp;is Professor of Statistics in the Department of Statistics at the University of
+California – Los Angeles. 
+His research involves methodological development, and is based largely on motivation from questions in the social and
+epidemiological sciences. He has published extensively on survey sampling, network inference, and network sampling methods. For details see
+[his web page](https://handcock.github.io).
+<BR CLEAR=”left” />
+
+<img src="/img/kmcl.jpg" align="left" width="270" height="270" style="padding:10px 15px 0px 0px;">
+
+<span style="color:blue">***Dr. Katherine R. McLaughlin***</span> &nbsp;is Assistant Professor of Statistics in the Department of Statistics at the
 Oregon State University. She works in many areas of statistics, often with application to social demography and global health.  She is an
 expert in social network analysis, network sampling, survey sampling and social statistics. Her dissertation work focuses on modeling
 preferential recruitment for RDS and Peer-Driven Interventions. For details see [her web page](https://krmclaughlin.github.io/).
+<BR CLEAR=”left” />
+
+<img src="/img/krista_gile_small.jpeg" align="left" width="300" height="300" style="padding:10px 15px 0px 0px;"/>
 
 <span style="color:blue">**Dr. Krista J. Gile**</span> is Professor of Statistics in the Department of Mathematics and Statistics at the
 University of Massachusetts - Amherst.  Her research focuses on developing statistical methodology for social and behavioral science research,
@@ -27,6 +36,9 @@ understanding the strengths and limitations of data sampled with link-tracing de
 respondent-driven sampling.  In particular, her dissertation and recent work focus on understanding the implications of assumptions of current
 respondent-driven sampling (RDS) methodology, and on introducing improved estimation strategies for RDS data. For details see [her web
 page](https://www.math.umass.edu/~gile/).
+<BR CLEAR=”left” />
+
+<img src="/img/LisaJProf.jpg" align="left" width="270" height="270" style="padding:10px 15px 0px 0px;" />
 
 <span style="color:blue">***Dr. Lisa G. Johnston***</span> is an Epidemiologist-Independent Consultant providing technical assistance for over
 15 years to international organizations, Universities, and institutions worldwide to conduct surveys and population size estimation techniques
@@ -35,6 +47,9 @@ RDS among men who have sex with men, sex workers and people who inject drugs, hi
 and analyzed data from over 400 RDS surveys in over 40 countries and has published over 45 peer reviewed journal articles about RDS. She has
 authored several book chapters and developed manuals and guidance on implementing surveys and analyzing data using RDS. For details see [her
 web page](https://www.lisagjohnston.com/).
+<BR CLEAR=”left” />
+
+<img src="/img/ian-fellows.jpeg" align="left" width="300" height="300" style="padding:10px 15px 0px 0px;"/>
 
 <span style="color:blue">***Dr. Ian E. Fellows***</span>  is a professional statistician based out of the University of California, Los
 Angeles. His research interests range over many sub-disciplines of statistics, with his dissertation work focusing on new methods in the
