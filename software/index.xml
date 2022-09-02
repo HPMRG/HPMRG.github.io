@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom"><channel><title>Software | Mark S. Handcock</title><link>https://HPMRG.github.io/software/</link><atom:link href="https://HPMRG.github.io/software/index.xml" rel="self" type="application/rss+xml"/><description>Software</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2022</copyright><image><url>https://HPMRG.github.io/images/logo_hu7ac5a2aa8fa12518fd9ab7ceccb2a15e_77341_300x300_fit_lanczos_3.png</url><title>Software</title><link>https://HPMRG.github.io/software/</link></image><item><title/><link>https://HPMRG.github.io/software/sspse/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://HPMRG.github.io/software/sspse/</guid><description>&lt;img src="https://HPMRG.github.io/img/sspse_hl.png" align="left" width="250" height="250" style="padding:30px;" alt="RDS network"/>
+&lt;h1 id="the-sspse-package">The &lt;code>sspse&lt;/code> package&lt;/h1>
+&lt;p>This is an R package to implement successive sampling population size estimation (SS-PSE).&lt;/p>
+&lt;p>SS-PSE is used to estimate the size of hidden populations using respondent-driven sampling (RDS) data. The package can implement SS-PSE,
+visibility SS-PSE, and capture-recapture SS-PSE.&lt;/p>
+&lt;p>The package was developed by the
+&lt;a href="https://HPMRG.github.io" target="_blank" rel="noopener">Hard-to-Reach Population Methods Research Group (HPMRG)&lt;/a>.&lt;/p>
+&lt;img src="https://HPMRG.github.io/img/fauxmadrona_recplot.jpeg" width = 900 alt="sspse banner"/>
+&lt;h1 id="installation">Installation&lt;/h1>
+&lt;p>The package is available on CRAN and can be installed using&lt;/p>
+&lt;pre>&lt;code class="language-{r}">install.packages(&amp;quot;sspse&amp;quot;)
+&lt;/code>&lt;/pre>
+&lt;p>To install the latest development version from github, the best way it to use git to create a local copy and install it as usual from there. If
+you just want to install it, you can also use:&lt;/p>
+&lt;pre>&lt;code class="language-{r}"># If devtools is not installed:
+# install.packages(&amp;quot;devtools&amp;quot;)
+devtools::install_github(&amp;quot;HPMRG/sspse&amp;quot;)
+&lt;/code>&lt;/pre>
+&lt;h1 id="implementation">Implementation&lt;/h1>
+&lt;p>Load package and example data&lt;/p>
+&lt;pre>&lt;code>library(sspse)
+data(fauxmadrona)
+&lt;/code>&lt;/pre>
+&lt;p>&lt;code>fauxmadrona&lt;/code> is a simulated RDS data set with no seed dependency, which is used to demonstrate RDS estimators. It has the format of an
+&lt;code>rds.data.frame&lt;/code> and is a sample of size 500 with 10 seeds and 2 coupons from a population of size 1000. For the purpose of this example, we
+will assume the population size is unknown and our goal is to estimate it.&lt;/p>
+&lt;p>We can make a quick visualization of the recruitment chains, where the size of the node is proportional to the reported degree and the color
+represents separate chains.&lt;/p>
+&lt;pre>&lt;code class="language-{r}">reingold.tilford.plot(fauxmadrona,
+vertex.label=NA,
+vertex.size=&amp;quot;degree&amp;quot;,
+show.legend=FALSE,
+vertex.color=&amp;quot;seed&amp;quot;)
+&lt;/code>&lt;/pre>
+&lt;h2 id="the-posteriorsize-function">The &lt;code>posteriorsize()&lt;/code> function&lt;/h2>
+&lt;p>The function that will perform both the original and visibility variants of SS-PSE is called &lt;code>posteriorsize()&lt;/code>. It requires some prior knowledge
+about the population size, $N$, which is usually expressed using the &lt;code>median.prior.size=&lt;/code> argument.&lt;/p>
+&lt;p>Although there are many options within the &lt;code>posteriorsize&lt;/code> function, most can be left at their default values unless you have a specific reason
+to believe they should be set differently.&lt;/p>
+&lt;h2 id="original-ss-pse-example">Original SS-PSE example&lt;/h2>
+&lt;p>Set &lt;code>visibility=FALSE&lt;/code>. By default, 1000 samples will be drawn from the posterior distribution for $N$ using a burnin of 1000 and an interval of
+10. This may take a few seconds to run.&lt;/p>
+&lt;pre>&lt;code>fit1 &amp;lt;- posteriorsize(fauxmadrona,
+median.prior.size=1000,
+visibility=FALSE)
+&lt;/code>&lt;/pre>
+&lt;p>Plot the posterior distribution for $N$.&lt;/p>
+&lt;pre>&lt;code>plot(fit1, type=&amp;quot;N&amp;quot;)
+&lt;/code>&lt;/pre>
+&lt;p>Create a table summary for the prior and posterior distributions for population size, specifying that we are interested in a 90% credible
+interval for $N$.&lt;/p>
+&lt;pre>&lt;code>summary(fit1, HPD.level = 0.9)
+&lt;/code>&lt;/pre>
+&lt;h2 id="visibility-ss-pse-example">Visibility SS-PSE example&lt;/h2>
+&lt;p>Set &lt;code>visibility=TRUE&lt;/code>. Because of the measurement error model, this model will take a little longer to fit - perhaps a minute or so.&lt;/p>
+&lt;pre>&lt;code>fit2 &amp;lt;- posteriorsize(fauxmadrona,
+median.prior.size=1000,
+visibility=TRUE)
+&lt;/code>&lt;/pre>
+&lt;p>Plot the posterior distribution for $N$.&lt;/p>
+&lt;pre>&lt;code>plot(fit2, type=&amp;quot;N&amp;quot;)
+&lt;/code>&lt;/pre>
+&lt;p>Create a table summary for the prior and posterior distributions for population size, specifying that we are interested in a 90% credible
+interval for $N$.&lt;/p>
+&lt;pre>&lt;code>summary(fit2, HPD.level = 0.9)
+&lt;/code>&lt;/pre>
+&lt;h1 id="resources">Resources&lt;/h1>
+&lt;p>Please use the GitHub repository to report bugs or request features:
+&lt;a href="https://https://github.com/HPMRG/sspse" target="_blank" rel="noopener">https://https://github.com/HPMRG/sspse&lt;/a>&lt;/p>
+&lt;!-- A more detailed vignette with information on measurement error and diagnostics can be found here: [[link to katie's page]] -->
+&lt;p>See the following papers for more information and examples:&lt;/p>
+&lt;h4 id="statistical-methodology">Statistical Methodology&lt;/h4>
+&lt;ul>
+&lt;li>Handcock, Mark S., Gile, Krista J. and Mar, Corinne M. (2014) [Estimating Hidden Population Size using Respondent-Driven Sampling&lt;/li>
+&lt;li>Data](
+&lt;a href="https://doi.org/10.1214/14-ejs923%29" target="_blank" rel="noopener">https://doi.org/10.1214/14-ejs923)&lt;/a>, &lt;em>Electronic Journal of Statistics&lt;/em>, 8(1):1491-1521.&lt;/li>
+&lt;li>Handcock, Mark S., Gile, Krista J. and Mar, Corinne M. (2015) [Estimating the Size of Populations at High Risk for HIV using Respondent-Driven&lt;/li>
+&lt;li>Sampling Data](
+&lt;a href="https://doi.org/10.1111/biom.12255%29" target="_blank" rel="noopener">https://doi.org/10.1111/biom.12255)&lt;/a>, &lt;em>Biometrics&lt;/em>, 71(1):258-266.&lt;/li>
+&lt;li>Kim, Brian J. and Handcock, Mark S. (2021) [Population Size Estimation Using Multiple Respondent-Driven Sampling&lt;/li>
+&lt;li>Surveys](
+&lt;a href="https://doi.org/10.1093/jssam/smz055%29" target="_blank" rel="noopener">https://doi.org/10.1093/jssam/smz055)&lt;/a>, &lt;em>Journal of Survey Statistics and Methodology&lt;/em>, 9(1):94–120.&lt;/li>
+&lt;/ul>
+&lt;h4 id="applications">Applications&lt;/h4>
+&lt;ul>
+&lt;li>Johnston, Lisa G., McLaughlin, Katherine R., El Rhilani, Houssine, Latifi, Amina, Toufik, Abdalla, Bennani, Aziza, Alami, Kamal, Elomari,
+Boutaina, and Handcock, Mark S. (2015)
+&lt;a href="https://doi.org/10.1097/EDE.0000000000000362" target="_blank" rel="noopener">Estimating the Size of Hidden Populations Using Respondent-driven Sampling Data: Case Examples from
+Morocco&lt;/a>, &lt;em>Epidemiology&lt;/em>, 26(6):846-852.&lt;/li>
+&lt;li>Johnston, Lisa G., McLaughlin, Katherine R., Rouhani, Shada A., and Bartels, Susan A. (2017)
+&lt;a href="https://doi.org/10.1016/j.jegh.2016.08.003" target="_blank" rel="noopener">Measuring a Hidden Population: A Novel Technique
+to Estimate the Population Size of Women with Sexual Violence-Related Pregnancies in South Kivu Province, Democratic Republic of
+Congo&lt;/a>, &lt;em>Journal of Epidemiology and Global Health&lt;/em>, 7(1):45-53.&lt;/li>
+&lt;li>McLaughlin, Katherine R., Johnston, Lisa G., Gamble, Laura J., Grigoryan, Trdat, Papoyan, Arshak, and Grigoryan, Samvel (2019)
+&lt;a href="https://doi.org/10.2196/12034" target="_blank" rel="noopener">Population
+Size Estimations Among Hidden Populations Using Respondent-Driven Sampling Surveys: Case Studies From Armenia&lt;/a>,
+&lt;em>JMIR Public Health and Surveillance&lt;/em>, 5(1):e12034.&lt;/li>
+&lt;li>Johnston, Lisa G., McLaughlin, Katherine R., Gios, Lorenzo, Cordioli, Maddalena, Staneková, Danica V.,Blondeel, Karel, Toskin, Igor,
+Mirandola, Massimo, and The SIALON II Network (2021)
+&lt;a href="https://doi.org/10.1093/eurpub/ckab148" target="_blank" rel="noopener">Populations size estimations using SS-PSE among MSM in four European cities: how many
+MSM are living with HIV?&lt;/a>, &lt;em>European Journal of Public Health&lt;/em>, 31(6):1129–1136.&lt;/li>
+&lt;/ul></description></item></channel></rss>
