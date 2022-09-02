@@ -329,4 +329,29 @@ authors (not needed for a personal website). The &lt;code>publication&lt;/code> 
 &lt;p>Commit your website as a repository on github (with &amp;lt;git hub ID&amp;gt;.github.io as a name).&lt;/p>
 &lt;p>After successfully committed, go to your repository and click on the “Settings” on the top right, then scroll down to the Github Pages section.
 Then click on the published link.&lt;/p></description></item><item><title>CCPR</title><link>https://HPMRG.github.io/research/ccpr/</link><pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate><guid>https://HPMRG.github.io/research/ccpr/</guid><description>&lt;p>I am an affiliate of the
-&lt;a href="https://www.ccpr.ucla.edu/" target="_blank" rel="noopener">California Center for Population Research&lt;/a> at UCLA.&lt;/p></description></item><item><title>COVID-19</title><link>https://HPMRG.github.io/project/covid-19/</link><pubDate>Fri, 24 Jul 2020 00:00:00 +0000</pubDate><guid>https://HPMRG.github.io/project/covid-19/</guid><description/></item><item><title/><link>https://HPMRG.github.io/featured/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://HPMRG.github.io/featured/</guid><description/></item></channel></rss>
+&lt;a href="https://www.ccpr.ucla.edu/" target="_blank" rel="noopener">California Center for Population Research&lt;/a> at UCLA.&lt;/p></description></item><item><title>COVID-19</title><link>https://HPMRG.github.io/project/covid-19/</link><pubDate>Fri, 24 Jul 2020 00:00:00 +0000</pubDate><guid>https://HPMRG.github.io/project/covid-19/</guid><description/></item><item><title/><link>https://HPMRG.github.io/featured/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://HPMRG.github.io/featured/</guid><description/></item><item><title>Software</title><link>https://HPMRG.github.io/software/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://HPMRG.github.io/software/</guid><description>&lt;ul>
+&lt;li>
+&lt;p>
+&lt;a href="https://HPMRG.github.io/rdsanalyst" target="_blank" rel="noopener">RDS Analyst&lt;/a> is a software
+package for the analysis of Respondent-driven sampling (RDS) data that
+implements recent advances in statistical methods. RDS Analyst has an
+easy-to-use graphical user interface to the powerful and sophisticated
+capabilities of the computer package R. It provides a comprehensive
+framework for working with RDS data, including tools for sample and
+population estimations, testing, confidence intervals and sensitivity
+analysis.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>
+&lt;a href="sspse">sspse&lt;/a>: an
+&lt;a href="http://www.r-project.org/" target="_blank" rel="noopener">R&lt;/a> software package
+for estimating the population size of a hidden population based on Respondent Driven Sampling data.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>
+&lt;a href="http://cran.r-project.org/web/packages/RDS" target="_blank" rel="noopener">RDS&lt;/a>: an
+&lt;a href="http://www.r-project.org/" target="_blank" rel="noopener">R&lt;/a> software package
+for carrying out estimation with data collected using
+Respondent-Driven Sampling.&lt;/p>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>
