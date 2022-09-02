@@ -13,11 +13,10 @@ framework for working with RDS data, including tools for sample and
 population estimations, testing, confidence intervals and sensitivity
 analysis.
 
--   The [R](http://www.r-project.org/) software package
-[[RDS]](http://cran.r-project.org/web/packages/RDS): Provides
-functionality for carrying out estimation with data collected using
+-   [sspse](sspse): an [R](http://www.r-project.org/) software package
+for estimating the population size of a hidden population based on Respondent Driven Sampling data.
+
+-   [RDS](http://cran.r-project.org/web/packages/RDS): an [R](http://www.r-project.org/) software package
+for carrying out estimation with data collected using
 Respondent-Driven Sampling.
 
--   The [R](http://www.r-project.org/) software package
-[[sspse]](sspse):
-Estimating Hidden Population Size using Respondent Driven Sampling Data.
