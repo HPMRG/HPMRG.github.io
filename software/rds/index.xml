@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom"><channel><title>Mark S. Handcock</title><link>https://HPMRG.github.io/software/rds/</link><atom:link href="https://HPMRG.github.io/software/rds/index.xml" rel="self" type="application/rss+xml"/><description>Mark S. Handcock</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2022</copyright><lastBuildDate>Wed, 24 Aug 2022 00:00:00 +0000</lastBuildDate><image><url>https://HPMRG.github.io/images/logo_hu7ac5a2aa8fa12518fd9ab7ceccb2a15e_77341_300x300_fit_lanczos_3.png</url><title>Mark S. Handcock</title><link>https://HPMRG.github.io/software/rds/</link></image><item><title/><link>https://HPMRG.github.io/software/rds/</link><pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate><guid>https://HPMRG.github.io/software/rds/</guid><description>&lt;img src="https://HPMRG.github.io/img/RDS_hl.png" align="left" width="250" height="250" style="padding:30px;" alt="RDS network"/>
+&lt;h1 id="the-rds-package">The &lt;code>RDS&lt;/code> package&lt;/h1>
+&lt;p>This is an R package for carrying out estimation with data collected using Respondent-Driven Sampling. This includes
+Heckathorn&amp;rsquo;s RDS-I and RDS-II estimators as well as Gile&amp;rsquo;s Sequential Sampling estimator.&lt;/p>
+&lt;p>The package is part of the &amp;ldquo;RDS Analyst&amp;rdquo; suite of
+packages for the analysis of respondent-driven sampling data.&lt;/p>
+&lt;p>The package was developed by the
+&lt;a href="https://HPMRG.github.io" target="_blank" rel="noopener">Hard-to-Reach Population Methods Research Group (HPMRG)&lt;/a>.&lt;/p>
+&lt;p>See Gile and Handcock (2010)
+&lt;a href="doi:10.1111/j.1467-9531.2010.01223.x">doi:10.1111/j.1467-9531.2010.01223.x&lt;/a> and Gile and
+Handcock (2015)
+&lt;a href="doi:10.1111/rssa.12091">doi:10.1111/rssa.12091&lt;/a>.&lt;/p>
+&lt;img src="https://HPMRG.github.io/img/fauxmadrona_recplot.jpeg" width = 900 alt="RDS banner"/>
+&lt;h1 id="installation">Installation&lt;/h1>
+&lt;p>The package is available on CRAN and can be installed using&lt;/p>
+&lt;pre>&lt;code class="language-{r}">install.packages(&amp;quot;RDS&amp;quot;)
+&lt;/code>&lt;/pre>
+&lt;!-- To install the latest development version from github, the best way it to use git to create a local copy and install it as usual from there. If -->
+&lt;!-- you just want to install it, you can also use: -->
+&lt;!-- ```{r} -->
+&lt;!-- # If devtools is not installed: -->
+&lt;!-- # install.packages("devtools") -->
+&lt;!-- -->
+&lt;!-- devtools::install_github("HPMRG/RDS") -->
+&lt;!-- ``` -->
+&lt;h1 id="implementation">Implementation&lt;/h1>
+&lt;p>Load package and example data&lt;/p>
+&lt;pre>&lt;code>library(RDS)
+data(fauxmadrona)
+&lt;/code>&lt;/pre>
+&lt;p>&lt;code>fauxmadrona&lt;/code> is a simulated RDS data set with no seed dependency, which is used to demonstrate RDS estimators. It has the format of an
+&lt;code>rds.data.frame&lt;/code> and is a sample of size 500 with 10 seeds and 2 coupons from a population of size 1000. For the purpose of this example, we
+will assume the population size is unknown and our goal is to estimate it.&lt;/p>
+&lt;p>We can make a quick visualization of the recruitment chains, where the size of the node is proportional to the reported degree and the color
+represents separate chains.&lt;/p>
+&lt;pre>&lt;code class="language-{r}">reingold.tilford.plot(fauxmadrona,
+vertex.label=NA,
+vertex.size=&amp;quot;degree&amp;quot;,
+show.legend=FALSE,
+vertex.color=&amp;quot;seed&amp;quot;)
+&lt;/code>&lt;/pre>
+&lt;p>&lt;img src="reingold.tilford.png" alt="">&lt;/p>
+&lt;h2 id="the-rdsssestimates-function">The &lt;code>RDS.SS.estimates&lt;/code> function&lt;/h2>
+&lt;p>This function computes the sequential sampling (SS) prevalence estimates for a categorical variable or numeric
+variable.
+The confidence intervals are computed using a bootstrap procedure.&lt;/p>
+&lt;p>Here are the results for disease prevalence:&lt;/p>
+&lt;pre>&lt;code class="language-{r}">RDS.SS.estimates(rds.data=fauxmadrona,outcome.variable=&amp;quot;disease&amp;quot;,N=1000)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## Gile's SS Estimate for disease
+## Estimate 95% Interval Design Effect Std. Error N
+## disease 0.1946 ( 0.1676, 0.2216) 1.21 0.0138 500
+## Total 500
+## * Using population size estimate: 1000
+&lt;/code>&lt;/pre>
+&lt;h2 id="other-primary-functions">Other primary functions&lt;/h2>
+&lt;p>These are the primary functions that users will call. They are detailed in the
+&lt;a href="https://cran.r-project.org/web/packages/RDS/RDS.pdf" target="_blank" rel="noopener">manual&lt;/a>
+with example &lt;code>R&lt;/code> code.&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>bottleneck.plot&lt;/code>: This function creates a bottleneck plot to help diagnose convergence for RDS estimators.&lt;/li>
+&lt;li>&lt;code>convergence.plot&lt;/code>: This function creates diagnostic convergence plots for RDS estimators.&lt;/li>
+&lt;li>&lt;code>cumulative.estimate&lt;/code>: Calculates estimates at each successive wave of the sampling process&lt;/li>
+&lt;li>&lt;code>differential.activity.estimates&lt;/code>: Computes the Differential Activity between groups&lt;/li>
+&lt;li>&lt;code>homophily.estimates&lt;/code>: This function computes an estimate of the population homophily and the recruitment homophily based on a categorical variable.`&lt;/li>
+&lt;li>&lt;code>LRT.trend.test&lt;/code>: Compute a test of trend in prevalences based on a likelihood-ratio statistic&lt;/li>
+&lt;li>&lt;code>MA.estimates&lt;/code>: This function computes the sequential sampling (MA) estimates for a categorical variable or numeric variable.&lt;/li>
+&lt;li>&lt;code>plot.rds.data.frame&lt;/code>: Diagnostic plots for the RDS recruitment process&lt;/li>
+&lt;li>&lt;code>RDS.bootstrap.intervals&lt;/code>: This function computes an interval estimate for one or more categorical variables. It optionally uses attributes of the RDS data set to determine the type of estimator and type of uncertainty estimate to use.&lt;/li>
+&lt;li>&lt;code>RDS.compare.proportions&lt;/code>: Compares the rates of two variables against one another`: This function computes an interval estimate for one or more categorical variables. It optionally uses attributes of the RDS data set to determine the type of estimator and type of uncertainty estimate to use.&lt;/li>
+&lt;li>&lt;code>RDS.HCG.estimates&lt;/code>: Prevalence estimates based on Fellows&amp;rsquo; Homophily Configuration Graph model&lt;/li>
+&lt;li>&lt;code>RDS.I.estimates&lt;/code>: Prevalence estimates based on the RDS-I type estimates for a categorical variable. It is also referred to as the Salganik-Heckathorn estimator.&lt;/li>
+&lt;li>&lt;code>RDS.II.estimates&lt;/code>: Prevalence estimates based on the RDS-II type estimates for a categorical variable. It is also referred to as the Salganik-Heckathorn estimator.&lt;/li>
+&lt;li>&lt;code>RDS.SS.estimates&lt;/code>: Prevalence estimates based on the sequential sampling (SS) model for a categorical or numerical variable. It is also referred to as the Gile estimator.&lt;/li>
+&lt;/ul>
+&lt;p>See the following papers for more information and examples:&lt;/p>
+&lt;h4 id="statistical-methodology">Statistical Methodology&lt;/h4>
+&lt;ul>
+&lt;li>
+&lt;p>Gile, Krista J. 2011
+&lt;a href="https://doi.org/10.1198/jasa.2011.ap09475" target="_blank" rel="noopener">Improved Inference for Respondent-Driven Sampling Data with Application to HIV Prevalence Estimation&lt;/a>, Journal of the American Statistical Association, 106, 135-146.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Gile, Krista J., Handcock, Mark S., 2010
+&lt;a href="https://doi.org/10.1111/j.1467-9531.2010.01223.x" target="_blank" rel="noopener">Respondent-driven Sampling: An Assessment of Current
+Methodology&lt;/a>, Sociological Methodology, 40, 285-327.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Gile, Krista J., Handcock, Mark S., 2011
+&lt;a href="https://doi.org/10.1111/rssa.12091" target="_blank" rel="noopener">Network Model-Assisted Inference from Respondent-Driven Sampling
+Data&lt;/a>, Journal of the Royal Statistical Society, A.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Salganik, M., Heckathorn, D. D., 2004. &amp;ldquo;Sampling and estimation in hidden populations using respondent-driven sampling.
+Sociological Methodology 34, 193-239.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Volz, E., Heckathorn, D., 2008. Probability based estimation theory for Respondent Driven Sampling. The Journal of Official
+Statistics 24 (1), 79-97.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="applications">Applications&lt;/h4>
+&lt;p>A good tutorial on the use of our package, including example data and R code is:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Khoury, R. (2020).
+&lt;a href="http://doi.org/10.1017/S1537592719003864" target="_blank" rel="noopener">Hard-to-Survey Populations and Respondent-Driven Sampling: Expanding the Political Science
+Toolbox&lt;/a>. Perspectives on Politics, 18(2), 509-526.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Khoury, R. (2020).
+&lt;a href="http://doi.org/10.7910/DVN/XKOVUN" target="_blank" rel="noopener">Replication Data for: Hard-to-Survey Populations and Respondent-Driven Sampling: Expanding the Political Science
+Toolbox&lt;/a>, Harvard Dataverse, V1.&lt;/p>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>
