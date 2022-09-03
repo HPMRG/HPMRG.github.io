@@ -29,10 +29,10 @@ A BibTeX entry for LaTeX users is
 We have invested a lot of time and effort in creating <u>RDS Analyst</u> for use by other researchers. Please cite it in all papers where it is
 used.
 
-## Citing the component packages of <u>RDS Analyst</u> (e.g., `RDS`, `sspse` or `DeducerRDSAnalyst`)
+## Citing HPMRG packages of <u>RDS Analyst</u> (e.g., `RDS`, `sspse` or `DeducerRDSAnalyst`)
 
-To cite the individual R packages (e.g., `RDS`, `sspse` or `DeducerRDSAnalyst`) please use the information given by their individual citation function
-calls. For example, at the `R` Console window type:
+To cite the individual R packages used in <u>RDS Analyst</u> (e.g., `RDS`, `sspse` or `DeducerRDSAnalyst`), please use the information given by their individual citation function calls. These are also stand-alone packages, so if you use our software in your work, please acknowledge the software packages separately.
+For example, at the `R` Console window type:
 
   `citation(package="RDS")`
 
