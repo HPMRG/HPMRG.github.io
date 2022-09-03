@@ -1,5 +1,5 @@
 +++
-title = ""
+title = "RDS"
 author = ["Mark S. Handcock"]
 draft = false
 date = 2022-08-24
@@ -18,7 +18,6 @@ packages for the analysis of respondent-driven sampling data.
 The package was developed by the [Hard-to-Reach Population Methods Research Group (HPMRG)](https://HPMRG.github.io).
 See Gile and Handcock (2010) <doi:10.1111/j.1467-9531.2010.01223.x> and Gile and
 Handcock (2015) <doi:10.1111/rssa.12091>.
-
 
 <img src="/img/fauxmadrona_recplot.jpeg" width = 900 alt="RDS banner"/>
 
@@ -105,7 +104,7 @@ See the following papers for more information and examples:
    Methodology](https://doi.org/10.1111/j.1467-9531.2010.01223.x), Sociological Methodology, 40, 285-327.
 
 *  Gile, Krista J., Handcock, Mark S., 2011 [Network Model-Assisted Inference from Respondent-Driven Sampling
-*  Data](https://doi.org/10.1111/rssa.12091), Journal of the Royal Statistical Society, A. 
+   Data](https://doi.org/10.1111/rssa.12091), Journal of the Royal Statistical Society, A. 
 
 *  Salganik, M., Heckathorn, D. D., 2004. "Sampling and estimation in hidden populations using respondent-driven sampling.
 Sociological Methodology 34, 193-239.
@@ -118,7 +117,7 @@ Statistics 24 (1), 79-97.
 A good tutorial on the use of our package, including example data and R code is:
 
 * Khoury, R. (2020). [Hard-to-Survey Populations and Respondent-Driven Sampling: Expanding the Political Science
-  Toolbox](http://doi.org/10.1017/S1537592719003864). Perspectives on Politics, 18(2), 509-526. doi:10.1017/S1537592719003864
+  Toolbox](http://doi.org/10.1017/S1537592719003864). Perspectives on Politics, 18(2), 509-526.
 
 * Khoury, R. (2020). [Replication Data for: Hard-to-Survey Populations and Respondent-Driven Sampling: Expanding the Political Science
   Toolbox](http://doi.org/10.7910/DVN/XKOVUN),  Harvard Dataverse, V1.
