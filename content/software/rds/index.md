@@ -1,5 +1,5 @@
 +++
-title = "RDS"
+title = ""
 author = ["Mark S. Handcock"]
 draft = false
 date = 2022-08-24
@@ -63,6 +63,8 @@ reingold.tilford.plot(fauxmadrona,
                       vertex.color="seed")
 ```
 
+![](reingold.tilford.png)
+
 ## The `RDS.SS.estimates` function
 
 This function computes the sequential sampling (SS) prevalence estimates for a categorical variable or numeric
@@ -73,6 +75,12 @@ Here are the results for disease prevalence:
 ```{r}
 RDS.SS.estimates(rds.data=fauxmadrona,outcome.variable="disease",N=1000)
 ```
+
+    ## Gile's SS Estimate for disease 
+    ##         Estimate         95% Interval Design Effect Std. Error     N
+    ## disease   0.1946 (  0.1676,   0.2216)          1.21     0.0138   500
+    ##                                                          Total   500
+    ## * Using population size estimate: 1000
 
 ## Other primary functions 
 
