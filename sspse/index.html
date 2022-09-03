@@ -25,21 +25,44 @@ represents separate chains.</p><pre><code class=language-{r}>reingold.tilford.pl
                       vertex.size=&quot;degree&quot;,
                       show.legend=FALSE,
                       vertex.color=&quot;seed&quot;)
-</code></pre><h2 id=the-posteriorsize-function>The <code>posteriorsize()</code> function</h2><p>The function that will perform both the original and visibility variants of SS-PSE is called <code>posteriorsize()</code>. It requires some prior knowledge
+</code></pre><p><img src=reingold.tilford.png alt></p><h2 id=the-posteriorsize-function>The <code>posteriorsize()</code> function</h2><p>The function that will perform both the original and visibility variants of SS-PSE is called <code>posteriorsize()</code>. It requires some prior knowledge
 about the population size, $N$, which is usually expressed using the <code>median.prior.size=</code> argument.</p><p>Although there are many options within the <code>posteriorsize</code> function, most can be left at their default values unless you have a specific reason
 to believe they should be set differently.</p><h2 id=original-ss-pse-example>Original SS-PSE example</h2><p>Set <code>visibility=FALSE</code>. By default, 1000 samples will be drawn from the posterior distribution for $N$ using a burnin of 1000 and an interval of
 10. This may take a few seconds to run.</p><pre><code>fit1 &lt;- posteriorsize(fauxmadrona, 
               median.prior.size=1000,
               visibility=FALSE)
+</code></pre><pre><code>## Using non-measurement error model with K = 14.
+## Taken 1 samples...
+## Taken 2 samples...
+## Taken 4 samples...
+...
+## Taken 500 samples...
+## Taken 1000 samples...
 </code></pre><p>Plot the posterior distribution for $N$.</p><pre><code>plot(fit1, type=&quot;N&quot;)
-</code></pre><p>Create a table summary for the prior and posterior distributions for population size, specifying that we are interested in a 90% credible
+</code></pre><p><img src=fit.nme.png alt></p><p>Create a table summary for the prior and posterior distributions for population size, specifying that we are interested in a 90% credible
 interval for $N$.</p><pre><code>summary(fit1, HPD.level = 0.9)
+</code></pre><pre><code>## Summary of Population Size Estimation
+##           Mean Median Mode 25%  75%  90%  5%  95%
+## Prior     1247   1000  680 748 1480 2240 583 2852
+## Posterior  974    936  874 808 1100 1275 656 1400
 </code></pre><h2 id=visibility-ss-pse-example>Visibility SS-PSE example</h2><p>Set <code>visibility=TRUE</code>. Because of the measurement error model, this model will take a little longer to fit - perhaps a minute or so.</p><pre><code>fit2 &lt;- posteriorsize(fauxmadrona, 
               median.prior.size=1000,
               visibility=TRUE)
-</code></pre><p>Plot the posterior distribution for $N$.</p><pre><code>plot(fit2, type=&quot;N&quot;)
-</code></pre><p>Create a table summary for the prior and posterior distributions for population size, specifying that we are interested in a 90% credible
+</code></pre><pre><code>## Using a Exponentially Weighted Poisson measurement error model with K = 35.
+
+## computing ...
+## Taken 1 samples...
+## Taken 2 samples...
+...
+## Taken 500 samples...
+## Taken 1000 samples...
+</code></pre><h2 id=summary-of-population-size-estimation>Summary of Population Size Estimation</h2><p>Plot the posterior distribution for $N$.</p><pre><code>plot(fit2, type=&quot;N&quot;)
+</code></pre><p><img src=fit.me.png alt></p><p>Create a table summary for the prior and posterior distributions for population size, specifying that we are interested in a 90% credible
 interval for $N$.</p><pre><code>summary(fit2, HPD.level = 0.9)
+</code></pre><pre><code>## Summary of Population Size Estimation
+##           Mean Median Mode 25%  75%  90%  5%  95%
+## Prior     1247   1000  680 748 1480 2240 583 2852
+## Posterior 1275   1061  839 823 1486 2156 609 2732
 </code></pre><h1 id=resources>Resources</h1><p>Please use the GitHub repository to report bugs or request features:
 <a href=https://https://github.com/HPMRG/sspse target=_blank rel=noopener>https://https://github.com/HPMRG/sspse</a></p><p>See the following papers for more information and examples:</p><h4 id=statistical-methodology>Statistical Methodology</h4><ul><li>Handcock, Mark S., Gile, Krista J. and Mar, Corinne M. (2014)
 <a href=https://doi.org/10.1214/14-ejs923 target=_blank rel=noopener>Estimating Hidden Population Size using Respondent-Driven Sampling

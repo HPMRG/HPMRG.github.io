@@ -146,6 +146,7 @@ vertex.size=&amp;quot;degree&amp;quot;,
 show.legend=FALSE,
 vertex.color=&amp;quot;seed&amp;quot;)
 &lt;/code>&lt;/pre>
+&lt;p>&lt;img src="reingold.tilford.png" alt="">&lt;/p>
 &lt;h2 id="the-posteriorsize-function">The &lt;code>posteriorsize()&lt;/code> function&lt;/h2>
 &lt;p>The function that will perform both the original and visibility variants of SS-PSE is called &lt;code>posteriorsize()&lt;/code>. It requires some prior knowledge
 about the population size, $N$, which is usually expressed using the &lt;code>median.prior.size=&lt;/code> argument.&lt;/p>
@@ -158,12 +159,26 @@ to believe they should be set differently.&lt;/p>
 median.prior.size=1000,
 visibility=FALSE)
 &lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## Using non-measurement error model with K = 14.
+## Taken 1 samples...
+## Taken 2 samples...
+## Taken 4 samples...
+...
+## Taken 500 samples...
+## Taken 1000 samples...
+&lt;/code>&lt;/pre>
 &lt;p>Plot the posterior distribution for $N$.&lt;/p>
 &lt;pre>&lt;code>plot(fit1, type=&amp;quot;N&amp;quot;)
 &lt;/code>&lt;/pre>
+&lt;p>&lt;img src="fit.nme.png" alt="">&lt;/p>
 &lt;p>Create a table summary for the prior and posterior distributions for population size, specifying that we are interested in a 90% credible
 interval for $N$.&lt;/p>
 &lt;pre>&lt;code>summary(fit1, HPD.level = 0.9)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## Summary of Population Size Estimation
+## Mean Median Mode 25% 75% 90% 5% 95%
+## Prior 1247 1000 680 748 1480 2240 583 2852
+## Posterior 974 936 874 808 1100 1275 656 1400
 &lt;/code>&lt;/pre>
 &lt;h2 id="visibility-ss-pse-example">Visibility SS-PSE example&lt;/h2>
 &lt;p>Set &lt;code>visibility=TRUE&lt;/code>. Because of the measurement error model, this model will take a little longer to fit - perhaps a minute or so.&lt;/p>
@@ -171,12 +186,27 @@ interval for $N$.&lt;/p>
 median.prior.size=1000,
 visibility=TRUE)
 &lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## Using a Exponentially Weighted Poisson measurement error model with K = 35.
+## computing ...
+## Taken 1 samples...
+## Taken 2 samples...
+...
+## Taken 500 samples...
+## Taken 1000 samples...
+&lt;/code>&lt;/pre>
+&lt;h2 id="summary-of-population-size-estimation">Summary of Population Size Estimation&lt;/h2>
 &lt;p>Plot the posterior distribution for $N$.&lt;/p>
 &lt;pre>&lt;code>plot(fit2, type=&amp;quot;N&amp;quot;)
 &lt;/code>&lt;/pre>
+&lt;p>&lt;img src="fit.me.png" alt="">&lt;/p>
 &lt;p>Create a table summary for the prior and posterior distributions for population size, specifying that we are interested in a 90% credible
 interval for $N$.&lt;/p>
 &lt;pre>&lt;code>summary(fit2, HPD.level = 0.9)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## Summary of Population Size Estimation
+## Mean Median Mode 25% 75% 90% 5% 95%
+## Prior 1247 1000 680 748 1480 2240 583 2852
+## Posterior 1275 1061 839 823 1486 2156 609 2732
 &lt;/code>&lt;/pre>
 &lt;h1 id="resources">Resources&lt;/h1>
 &lt;p>Please use the GitHub repository to report bugs or request features:
