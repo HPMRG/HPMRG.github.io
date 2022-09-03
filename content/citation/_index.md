@@ -29,13 +29,17 @@ A BibTeX entry for LaTeX users is
 We have invested a lot of time and effort in creating <u>RDS Analyst</u> for use by other researchers. Please cite it in all papers where it is
 used.
 
-## Citing the component packages of <u>RDS Analyst</u> (e.g., `RDS` or `DeducerRDSAnalyst`)
+## Citing the component packages of <u>RDS Analyst</u> (e.g., `RDS`, `sspse` or `DeducerRDSAnalyst`)
 
-To cite the individual R packages (e.g., `RDS` or `DeducerRDSAnalyst`) please use the information given by their individual citation function
+To cite the individual R packages (e.g., `RDS`, `sspse` or `DeducerRDSAnalyst`) please use the information given by their individual citation function
 calls. For example, at the `R` Console window type:
 
   `citation(package="RDS")`
+
+  `citation(package="sspse")`
   
+  `citation(package="DeducerRDSAnalyst")`
+
 ## Citing <u>Deducer</u>
 
 <u>RDS Analyst</u> is built on the graphical user interface and capabilities of <u>Deducer</u>. To cite <u>Deducer</u>, see
