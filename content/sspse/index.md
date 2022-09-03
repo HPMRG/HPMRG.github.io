@@ -61,6 +61,8 @@ reingold.tilford.plot(fauxmadrona,
                       vertex.color="seed")
 ```
 
+![](reingold.tilford.png)
+
 ## The `posteriorsize()` function
 
 The function that will perform both the original and visibility variants of SS-PSE is called `posteriorsize()`. It requires some prior knowledge
@@ -80,11 +82,22 @@ fit1 <- posteriorsize(fauxmadrona,
               visibility=FALSE)
 ```
 
+    ## Using non-measurement error model with K = 14.
+    ## Taken 1 samples...
+    ## Taken 2 samples...
+    ## Taken 4 samples...
+    ...
+    ## Taken 500 samples...
+    ## Taken 1000 samples...
+
 Plot the posterior distribution for $N$.
 
 ```
 plot(fit1, type="N")
 ```
+
+
+![](fit.nme.png)
 
 Create a table summary for the prior and posterior distributions for population size, specifying that we are interested in a 90% credible
 interval for $N$.
@@ -92,6 +105,11 @@ interval for $N$.
 ```
 summary(fit1, HPD.level = 0.9)
 ```
+
+    ## Summary of Population Size Estimation
+    ##           Mean Median Mode 25%  75%  90%  5%  95%
+    ## Prior     1247   1000  680 748 1480 2240 583 2852
+    ## Posterior  974    936  874 808 1100 1275 656 1400
 
 ## Visibility SS-PSE example
 
@@ -103,11 +121,25 @@ fit2 <- posteriorsize(fauxmadrona,
               visibility=TRUE)
 ```
 
+    ## Using a Exponentially Weighted Poisson measurement error model with K = 35.
+
+    ## computing ...
+    ## Taken 1 samples...
+    ## Taken 2 samples...
+    ...
+    ## Taken 500 samples...
+    ## Taken 1000 samples...
+
+## Summary of Population Size Estimation
+
 Plot the posterior distribution for $N$.
 
 ```
 plot(fit2, type="N")
 ```
+
+![](fit.me.png)
+
 
 Create a table summary for the prior and posterior distributions for population size, specifying that we are interested in a 90% credible
 interval for $N$.
@@ -115,6 +147,11 @@ interval for $N$.
 ```
 summary(fit2, HPD.level = 0.9)
 ```
+
+    ## Summary of Population Size Estimation
+    ##           Mean Median Mode 25%  75%  90%  5%  95%
+    ## Prior     1247   1000  680 748 1480 2240 583 2852
+    ## Posterior 1275   1061  839 823 1486 2156 609 2732
 
 # Resources
 
