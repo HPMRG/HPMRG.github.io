@@ -89,4 +89,4 @@
   Wickham.
 - [[https://atrebas.github.io/post/2019-03-03-datatable-dplyr/][A data.table and dplyr tour]] by Atrebas.
 - [[https://www.gnu.org/software/emacs/refcards/pdf/orgcard.pdf][Org-Mode Reference Card]].
-- [[http://tug.ctan.org/info/biblatex-cheatsheet/biblatex-cheatsheet.pdf][Biblatex Cheat Sheet]].
+- [[https://tug.ctan.org/info/biblatex-cheatsheet/biblatex-cheatsheet.pdf][Biblatex Cheat Sheet]].

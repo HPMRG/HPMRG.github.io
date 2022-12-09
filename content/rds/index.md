@@ -128,7 +128,7 @@ Statistics 24 (1), 79-97.
 A good tutorial on the use of our package, including example data and R code is:
 
 * Khoury, R. (2020). [Hard-to-Survey Populations and Respondent-Driven Sampling: Expanding the Political Science
-  Toolbox](http://doi.org/10.1017/S1537592719003864). Perspectives on Politics, 18(2), 509-526.
+  Toolbox](https://doi.org/10.1017/S1537592719003864). Perspectives on Politics, 18(2), 509-526.
 
 * Khoury, R. (2020). [Replication Data for: Hard-to-Survey Populations and Respondent-Driven Sampling: Expanding the Political Science
-  Toolbox](http://doi.org/10.7910/DVN/XKOVUN),  Harvard Dataverse, V1.
+  Toolbox](https://doi.org/10.7910/DVN/XKOVUN),  Harvard Dataverse, V1.

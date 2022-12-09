@@ -134,19 +134,19 @@ hugo server
 #+END_SRC
 from the website directory. This builds the website and creates a
 local web server to
-host it. It generates a link (the default is http://localhost:1313/)
+host it. It generates a link (the default is https://localhost:1313/)
 which can be pasted into a web browser. In the background, the hugo
 server also detects any change to the content and updates the website
 automatically.
 
 # I find the ~--baseURL~ option for ~hugo server~ very useful. In my
 # Hugo config file, the default baseURL is set to the URL of my webpage
-# is http://www.statslab.cam.ac.uk/~qz280/. However, if I run ~hugo
+# is https://www.statslab.cam.ac.uk/~qz280/. However, if I run ~hugo
 # server~ locally, the local root of my page becomes
-# http://localhost:1313/~qz280/ and all the relative file paths have an
+# https://localhost:1313/~qz280/ and all the relative file paths have an
 # extra ~/~qz280~. To fix it, remove this extra path in the local server
 # #+BEGIN_SRC sh
-# hugo server --baseURL http://localhost:1313/
+# hugo server --baseURL https://localhost:1313/
 # #+END_SRC
 
 To public the website, first execute ~hugo~ from the website

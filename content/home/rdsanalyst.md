@@ -50,8 +50,8 @@ capabilities of the [R](https://r-project.org) statistical language.
 
 The installer is [here](files/RDSAnalystSetup.0.72.exe).
 
-<!--http://neolab.stat.ucla.edu/cranstats/RdsAnalystSetup.0.42.exe -->
-<!--http://hpmrg.org/software/RDSAnalystSetup.0.7.exe-->
+<!--https://neolab.stat.ucla.edu/cranstats/RdsAnalystSetup.0.42.exe -->
+<!--https://hpmrg.org/software/RDSAnalystSetup.0.7.exe-->
 
 Download the installer and double-click on it to install the software. 
 
@@ -62,17 +62,17 @@ A reboot is not required. You do not need to uninstall any components to update 
 application or the R application must not be running when you update.
 
 <!--- After you install, you <b>should</b> use the updater to keep your installation to the latest version of the packages:-->
-<!---* Download the <u>RDS Analyst</u> Updater: http://hpmrg.org/software/RDSAnalystUpdater.0.62.exe -->
+<!---* Download the <u>RDS Analyst</u> Updater: https://hpmrg.org/software/RDSAnalystUpdater.0.62.exe -->
 <!--- This just installs minor updates for the core packages (that is, anything that has changed since the full install was made). It will
 typically be a few Mb in size.-->
 <!---After you install, you <b>should</b> use the updater to keep your installation to the latest version of the packages:-->
 <!-- -->
-<!--- Download the <u>RDS Analyst</u> Updater: http://hpmrg.org/software/RDSAnalystUpdater.0.62.exe -->
+<!--- Download the <u>RDS Analyst</u> Updater: https://hpmrg.org/software/RDSAnalystUpdater.0.62.exe -->
 <!--- -->
 <!--- This just installs minor updates for the core packages (that is, anything that has changed since the full install was made). It will
 typically be a few Mb in size. -->
 <!--- You need the Java Runtime Environment to use  <u>RDS Analyst</u>. You can check to see if you have java installed at
-http://javatester.org/version.html -->
+https://javatester.org/version.html -->
 <!--- If you get the message <i>A JRE has been found. Do you want to install another one anyway?</i>, it means that Java is already installed.
 In this case, click <i>No</i> so as to not reinstall it.-->
 This is a new portable version that does not need  the Java Runtime Environment to use.
@@ -102,7 +102,7 @@ There is a version for Apple Macintosh computers. <!-- They must have Intel CPUs
 
 The installer is [here](files/RDSAnalystInstaller.0.72.dmg)
 
-<!--http://hpmrg.org/software/RDSAnalystInstaller.0.71.dmg-->
+<!--https://hpmrg.org/software/RDSAnalystInstaller.0.71.dmg-->
 
 Download the installer and double-click on it to install the software. 
 
@@ -139,7 +139,7 @@ were originally.
 
 <!-- After you install, you <b>should</b> use the updater to keep your installation to the latest version of the packages: -->
 <!-- -->
-<!-- * Download the <u>RDS Analyst</u> Updater: http://hpmrg.org/software/RDSAnalystUpdater.0.51.dmg -->
+<!-- * Download the <u>RDS Analyst</u> Updater: https://hpmrg.org/software/RDSAnalystUpdater.0.51.dmg -->
 <!--** It should mount as a disk-image. Double-click on the installer in it (i.e., "RDSAnalystUpdater") to install the software.-->
 <!---->
 <!--This just installs the core packages (that is, anything that has changed since the full install was made). It will typically be 15 Mb in

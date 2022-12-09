@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
   <channel>
     <title>courses | Mark S. Handcock</title>
     <link>https:handcock.github.io/tag/courses/</link>
@@ -327,7 +327,7 @@ possible.&lt;/p&gt;
       <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
       <guid>https:handcock.github.io/research/ccpr/</guid>
       <description>&lt;p&gt;I am an affiliate of the 
-&lt;a href=&#34;http://www.ccpr.ucla.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;California Center for Population Research&lt;/a&gt; at UCLA.&lt;/p&gt;
+&lt;a href=&#34;https://www.ccpr.ucla.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;California Center for Population Research&lt;/a&gt; at UCLA.&lt;/p&gt;
 </description>
     </item>
     
