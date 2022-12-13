@@ -96,7 +96,7 @@ were originally.
 
 There is a version for Apple Macintosh computers. <!-- They must have Intel CPUs (i.e., be purchased post-2006). -->
 
-The installer is [here](https://drive.google.com/file/d/1-2rf7TMOvY8_uZ4NzWPbhUEipKSVqYE7/view?usp=sharing)
+The installer is [here](https://drive.google.com/file/d/1wdl9wEiL3DxdyyZQuK6e8OBlUllLr0wh/view?usp=share_link)
 
 <!--https://hpmrg.org/software/RDSAnalystInstaller.0.71.dmg-->
 
