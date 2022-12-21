@@ -39,7 +39,7 @@ This creates a private version of R for <u>RDS Analyst</u> to use and ensures <u
 use. If you already have R installed separately, the two versions will peacefully coexist and you can use the other version of R just as you
 were originally.</p><p><b>Finally, be sure to sign up for the</b>
 <a href=#rdsa-help>RDS Analyst Users Group</a></p><h2 id=installation-on-an-apple-macintosh>Installation on an Apple Macintosh</h2><p>There is a version for Apple Macintosh computers.</p><p>The installer is
-<a href="https://drive.google.com/file/d/1wdl9wEiL3DxdyyZQuK6e8OBlUllLr0wh/view?usp=share_link" target=_blank rel=noopener>here</a></p><p>Download the installer and double-click on it to install the software.</p><p>This can install all programs and utilities needed. If you already have some elements installed you can deselect (or cancel) during the
+<a href="https://drive.google.com/file/d/1wdl9wEiL3DxdyyZQuK6e8OBlUllLr0wh/view?usp=share_link" target=_blank rel=noopener>here</a></p><p>Download the installer and double-click on it to install the software.</p><p>Here are two other installer, made under different conditions. If the above does not work, feel fre to try these to see if one does:</p><ul><li><a href="https://drive.google.com/file/d/1we4c9ws8SZa9APECEdtsDNMw8lc-HXMO/view?usp=share_link" target=_blank rel=noopener>installer variant 1</a></li><li><a href="https://drive.google.com/file/d/1-2rf7TMOvY8_uZ4NzWPbhUEipKSVqYE7/view?usp=share_link" target=_blank rel=noopener>installer variant 2</a></li></ul><p>This can install all programs and utilities needed. If you already have some elements installed you can deselect (or cancel) during the
 installs. It is recommended that you install this all the first time. This installer is almost 400Mb in size and will take time to download.</p><p>A reboot is not required. You do not need to uninstall any components to update (This includes R and Java). However the <u>RDS Analyst</u>
 application or the R application must not be running when you update.</p><p>The <u>RDS Analyst</u> application and R will be in your Applications folder. To run <u>RDS Analyst</u>, double-click on it in the Applications
 folder.</p><p>This is a new portable version that does not need the Java Runtime Environment to use.</p><p><em>Note on Xcode and gfortran:</em>
@@ -49,7 +49,15 @@ installed.</p><p>Here are the steps:</p><ul><li>Install the Xcode application fr
 Type <i>xcode-select &ndash;install</i> and follow the dialogs that open. This installs some tools for making R packages from source.</li><li>Install gfortran by downloading the installer at:
 <a href=https://cran.r-project.org/bin/macosx/tools/gfortran-4.2.3.pkg target=_blank rel=noopener>https://cran.r-project.org/bin/macosx/tools/gfortran-4.2.3.pkg</a>
 The file will be an Apple style installer (.pkg) which you will need to open to install gfortran on your computer.
-It should install by default in /usr/local/bin/gfortran.</li></ul><p><em>Note for experienced users:</em>
+It should install by default in /usr/local/bin/gfortran.</li></ul><p><em>Some other helpful hints:</em>
+Apple is going through a transition from Intel to Apple Silicon chips which is a
+radical change in architecture. In addition they are further locking down the
+Mac making it harder for R and RDS-A to simply work. So this has made creating
+a version of RDS-A for the Mac challenging as it needs to work for the specific
+setup of each user&rsquo;s machine and these now vary a lot. As we do not know what
+your particular set up is, we can not pretest it. It works perfectly on our
+machines, of course.</p><p>Here are some things to try if it does not start:</p><ul><li>Open a terminal window by opening the Terminal application (Applications > Utilities > Terminal).
+Type <i>/bin/rm ~/.JGREditorprefsrc ~/.JGRprefsrc</i></li><li>If the Mac version starts it should be perfectly ok. These issues are to do with libraries being available and not the software itself.</li><li>Getting the Mac version to work can be problematic. If it does not work for you I suggest trying the Windows version.</li></ul><p><em>Note for experienced users:</em>
 This creates a private version of R for <u>RDS Analyst</u> to use and ensures <u>RDS Analyst</u> has the right version of R available for its
 use. If you already have R installed separately, the two versions will peacefully coexist and you can use the other version of R just as you
 were originally.</p><p><b>Finally, be sure to sign up for the</b>
