@@ -97,10 +97,14 @@ were originally.
 There is a version for Apple Macintosh computers. <!-- They must have Intel CPUs (i.e., be purchased post-2006). -->
 
 The installer is [here](https://drive.google.com/file/d/1wdl9wEiL3DxdyyZQuK6e8OBlUllLr0wh/view?usp=share_link)
-
 <!--https://hpmrg.org/software/RDSAnalystInstaller.0.71.dmg-->
 
 Download the installer and double-click on it to install the software. 
+
+Here are two other installer, made under different conditions. If the above does not work, feel fre to try these to see if one does:
+
+* [installer variant 1](https://drive.google.com/file/d/1we4c9ws8SZa9APECEdtsDNMw8lc-HXMO/view?usp=share_link)
+* [installer variant 2](https://drive.google.com/file/d/1-2rf7TMOvY8_uZ4NzWPbhUEipKSVqYE7/view?usp=share_link)
 
 This can install all programs and utilities needed. If you already have some elements installed you can deselect (or cancel) during the
 installs. It is recommended that you install this all the first time. This installer is almost 400Mb in size and will take time to download.
@@ -127,6 +131,22 @@ Type <i>xcode-select --install</i> and follow the dialogs that open. This instal
 * Install gfortran by downloading the installer at:  https://cran.r-project.org/bin/macosx/tools/gfortran-4.2.3.pkg
 The file will be an Apple style installer (.pkg) which you will need to open to install gfortran on your computer.
 It should install by default in /usr/local/bin/gfortran.
+
+*Some other helpful hints:*
+Apple is going through a transition from Intel to Apple Silicon chips which is a
+radical change in architecture.  In addition they are further locking down the
+Mac making it harder for R and RDS-A to simply work.  So this has made creating
+a version of RDS-A for the Mac challenging as it needs to work for the specific
+setup of each user's machine and these now vary a lot.  As we do not know what
+your particular set up is, we can not pretest it.  It works perfectly on our
+machines, of course.
+
+Here are some things to try if it does not start:
+
+* Open a terminal window by opening the Terminal application (Applications > Utilities > Terminal).
+Type <i>/bin/rm ~/.JGREditorprefsrc ~/.JGRprefsrc</i>
+* If the Mac version starts it should be perfectly ok. These issues are to do with libraries being available and not the software itself.
+* Getting the Mac version to work can be problematic. If it does not work for you I suggest trying the Windows version. 
 
 *Note for experienced users:*
 This creates a private version of R for <u>RDS Analyst</u> to use and ensures <u>RDS Analyst</u> has the right version of R available for its
