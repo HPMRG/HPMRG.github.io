@@ -175,7 +175,7 @@ want to install Java if it is not already there. Accept its invitation.-->
 
 ## Getting started - The Manual
 
-For the manual, go to the [RDS Analyst Manual](https://www.deducer.org/pmwiki/pmwiki.php?n=Main.RDSAnalyst)
+For the manual, go to the [RDS Analyst Manual](https://www.deducer.org/pmwiki.php?n=Main.RDSAnalyst)
 
 ## RDS Analyst citation information
 
