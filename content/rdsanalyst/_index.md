@@ -101,7 +101,7 @@ The installer is [here](https://drive.google.com/file/d/1wdl9wEiL3DxdyyZQuK6e8OB
 
 Download the installer and double-click on it to install the software. 
 
-Here are two other installer, made under different conditions. If the above does not work, feel fre to try these to see if one does:
+Here are two other installer, made under different conditions. If the above does not work, feel free to try these to see if one does:
 
 * [installer variant 1](https://drive.google.com/file/d/1we4c9ws8SZa9APECEdtsDNMw8lc-HXMO/view?usp=share_link)
 * [installer variant 2](https://drive.google.com/file/d/1-2rf7TMOvY8_uZ4NzWPbhUEipKSVqYE7/view?usp=share_link)
@@ -175,7 +175,11 @@ want to install Java if it is not already there. Accept its invitation.-->
 
 ## Getting started - The Manual
 
-For the manual, go to the [RDS Analyst Manual](https://www.deducer.org/pmwiki.php?n=Main.RDSAnalyst)
+The World Health Organization (Regional Office for the Eastern Mediterranean) has published 
+in its "Introduction to HIV/AIDS and sexually transmitted infection surveillance: Module 4" a 
+supplement entitled "A Guide to using RDS Analyst and NetDraw". This document is available [here](EMRPUB_2014_EN_1686.pdf).
+
+There is also information in the original manual, including videos: [RDS Analyst Manual](https://www.deducer.org/pmwiki.php?n=Main.RDSAnalyst)
 
 ## RDS Analyst citation information
 

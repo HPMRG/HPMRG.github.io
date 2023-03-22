@@ -159,7 +159,11 @@ want to install Java if it is not already there. Accept its invitation.-->
 
 ## Getting started - The Manual
 
-For the manual, go to the [RDS Analyst Manual](https://www.deducer.org/pmwiki.php?n=Main.RDSAnalyst)
+The World Health Organization (Regional Office for the Eastern Mediterranean) has published 
+in its "Introduction to HIV/AIDS and sexually transmitted infection surveillance: Module 4" a 
+supplement entitled "A Guide to using RDS Analyst and NetDraw". This document is available [here](EMRPUB_2014_EN_1686.pdf).
+
+There is also information in the original manual, including videos: [RDS Analyst Manual](https://www.deducer.org/pmwiki.php?n=Main.RDSAnalyst)
 
 ## RDS Analyst citation information
 
