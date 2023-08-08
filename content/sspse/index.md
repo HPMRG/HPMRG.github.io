@@ -151,12 +151,12 @@ summary(fit2, HPD.level = 0.9)
     ## Summary of Population Size Estimation
     ##           Mean Median Mode 25%  75%  90%  5%  95%
     ## Prior     1247   1000  680 748 1480 2240 583 2852
-    ## Posterior 1275   1061  839 823 1486 2156 609 2732
+    ## Posterior 1254   1100  913 858 1482 2016 621 2425
 
 # Resources
 
 Please use the GitHub repository to report bugs or request features:
-[https://https://github.com/HPMRG/sspse](https://https://github.com/HPMRG/sspse)
+[https://github.com/HPMRG/sspse](https://https://github.com/HPMRG/sspse)
 
 <!-- A more detailed vignette with information on measurement error and diagnostics can be found here: [[link to katie's page]] -->
 
@@ -164,12 +164,14 @@ See the following papers for more information and examples:
 
 #### Statistical Methodology
 
-* Handcock, Mark S., Gile, Krista J. and Mar, Corinne M. (2014) [Estimating Hidden Population Size using Respondent-Driven Sampling
+* Handcock, Mark S.; Gile, Krista J. and Mar, Corinne M. (2014) [Estimating Hidden Population Size using Respondent-Driven Sampling
   Data](https://doi.org/10.1214/14-ejs923), *Electronic Journal of Statistics*, 8(1):1491-1521.
-* Handcock, Mark S., Gile, Krista J. and Mar, Corinne M. (2015) [Estimating the Size of Populations at High Risk for HIV using Respondent-Driven
+* Handcock, Mark S.; Gile, Krista J. and Mar, Corinne M. (2015) [Estimating the Size of Populations at High Risk for HIV using Respondent-Driven
   Sampling Data](https://doi.org/10.1111/biom.12255), *Biometrics*, 71(1):258-266.
 * Kim, Brian J. and Handcock, Mark S. (2021) [Population Size Estimation Using Multiple Respondent-Driven Sampling
   Surveys](https://doi.org/10.1093/jssam/smz055), *Journal of Survey Statistics and Methodology*, 9(1):94–120.
+* McLaughlin, Katherine R.; Johnston, Lisa G.; Jakupi, Xhevat; Gexha-Bunjaku, Dafina; Deva, Edona and Handcock, Mark S.
+  (2023) [Modeling the Visibility Distribution for Respondent-Driven Sampling with Application to Population Size Estimation](https://doi.org/10.1214/23-AOAS1807), *Annals of Applied Statistics*.
 
 #### Applications
 
