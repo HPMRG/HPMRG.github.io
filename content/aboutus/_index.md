@@ -9,7 +9,7 @@ The Hard-to-Reach Population Methods Research Group is a collaborative interdisc
 <img src="/img/msh.jpg" align="left" width="250" height="250" style="padding:0px 15px 0px 0px;"/>
 <br>
 
-<span style="color:blue">***Dr. Mark S. Handcock*** </span> &nbsp;is Professor of Statistics in the Department of Statistics 
+<span style="color:blue">***Dr. Mark S. Handcock*** </span> &nbsp;is Distinguished Professor of Statistics in the Department of Statistics 
 at the University of California – Los Angeles. 
 His research involves methodological development, and is based largely on motivation from questions in the social and
 epidemiological sciences. He has published extensively on survey sampling, network inference, and network sampling methods. For details see
@@ -19,7 +19,7 @@ epidemiological sciences. He has published extensively on survey sampling, netwo
 <br> 
 <img src="/img/kmcl.jpg" align="left" width="270" height="270" style="padding:0px 15px 0px 0px;">
 <br>
-<span style="color:blue">***Dr. Katherine R. McLaughlin***</span> &nbsp;is Assistant Professor of Statistics in the Department of Statistics at the
+<span style="color:blue">***Dr. Katherine R. McLaughlin***</span> &nbsp;is Associate Professor of Statistics in the Department of Statistics at the
 Oregon State University. She works in many areas of statistics, often with application to social demography and global health.  She is an
 expert in social network analysis, network sampling, survey sampling and social statistics. Her dissertation work focuses on modeling
 preferential recruitment for RDS and Peer-Driven Interventions. For details see [her web page](https://krmclaughlin.github.io/).
