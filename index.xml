@@ -461,24 +461,27 @@ interval for $N$.&lt;/p>
 &lt;pre>&lt;code>## Summary of Population Size Estimation
 ## Mean Median Mode 25% 75% 90% 5% 95%
 ## Prior 1247 1000 680 748 1480 2240 583 2852
-## Posterior 1275 1061 839 823 1486 2156 609 2732
+## Posterior 1254 1100 913 858 1482 2016 621 2425
 &lt;/code>&lt;/pre>
 &lt;h1 id="resources">Resources&lt;/h1>
 &lt;p>Please use the GitHub repository to report bugs or request features:
-&lt;a href="https://https://github.com/HPMRG/sspse" target="_blank" rel="noopener">https://https://github.com/HPMRG/sspse&lt;/a>&lt;/p>
+&lt;a href="https://https://github.com/HPMRG/sspse" target="_blank" rel="noopener">https://github.com/HPMRG/sspse&lt;/a>&lt;/p>
 &lt;!-- A more detailed vignette with information on measurement error and diagnostics can be found here: [[link to katie's page]] -->
 &lt;p>See the following papers for more information and examples:&lt;/p>
 &lt;h4 id="statistical-methodology">Statistical Methodology&lt;/h4>
 &lt;ul>
-&lt;li>Handcock, Mark S., Gile, Krista J. and Mar, Corinne M. (2014)
+&lt;li>Handcock, Mark S.; Gile, Krista J. and Mar, Corinne M. (2014)
 &lt;a href="https://doi.org/10.1214/14-ejs923" target="_blank" rel="noopener">Estimating Hidden Population Size using Respondent-Driven Sampling
 Data&lt;/a>, &lt;em>Electronic Journal of Statistics&lt;/em>, 8(1):1491-1521.&lt;/li>
-&lt;li>Handcock, Mark S., Gile, Krista J. and Mar, Corinne M. (2015)
+&lt;li>Handcock, Mark S.; Gile, Krista J. and Mar, Corinne M. (2015)
 &lt;a href="https://doi.org/10.1111/biom.12255" target="_blank" rel="noopener">Estimating the Size of Populations at High Risk for HIV using Respondent-Driven
 Sampling Data&lt;/a>, &lt;em>Biometrics&lt;/em>, 71(1):258-266.&lt;/li>
 &lt;li>Kim, Brian J. and Handcock, Mark S. (2021)
 &lt;a href="https://doi.org/10.1093/jssam/smz055" target="_blank" rel="noopener">Population Size Estimation Using Multiple Respondent-Driven Sampling
 Surveys&lt;/a>, &lt;em>Journal of Survey Statistics and Methodology&lt;/em>, 9(1):94–120.&lt;/li>
+&lt;li>McLaughlin, Katherine R.; Johnston, Lisa G.; Jakupi, Xhevat; Gexha-Bunjaku, Dafina; Deva, Edona and Handcock, Mark S.
+(2023)
+&lt;a href="https://doi.org/10.1214/23-AOAS1807" target="_blank" rel="noopener">Modeling the Visibility Distribution for Respondent-Driven Sampling with Application to Population Size Estimation&lt;/a>, &lt;em>Annals of Applied Statistics&lt;/em>.&lt;/li>
 &lt;/ul>
 &lt;h4 id="applications">Applications&lt;/h4>
 &lt;ul>
