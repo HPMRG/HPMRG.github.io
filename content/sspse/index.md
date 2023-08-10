@@ -171,7 +171,7 @@ See the following papers for more information and examples:
 * Kim, Brian J. and Handcock, Mark S. (2021) [Population Size Estimation Using Multiple Respondent-Driven Sampling
   Surveys](https://doi.org/10.1093/jssam/smz055), *Journal of Survey Statistics and Methodology*, 9(1):94–120.
 * McLaughlin, Katherine R.; Johnston, Lisa G.; Jakupi, Xhevat; Gexha-Bunjaku, Dafina; Deva, Edona and Handcock, Mark S.
-  (2023) [Modeling the Visibility Distribution for Respondent-Driven Sampling with Application to Population Size Estimation](https://doi.org/10.1214/23-AOAS1807), *Annals of Applied Statistics*.
+  (2023) [Modeling the Visibility Distribution for Respondent-Driven Sampling with Application to Population Size Estimation](https://www.e-publications.org/ims/submission/AOAS/user/submissionFile/53943?confirm=5e420195), *Annals of Applied Statistics*.
 
 #### Applications
 
