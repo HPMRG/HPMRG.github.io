@@ -16,7 +16,7 @@ Heckathorn's RDS-I and RDS-II estimators as well as Gile's Sequential Sampling e
 The package is part of the "RDS Analyst" suite of
 packages for the analysis of respondent-driven sampling data.
 
-The package was developed by the [Hard-to-Reach Population Methods Research Group (HPMRG)](https://HPMRG.github.io).
+The package was developed by the [Hard-to-Reach Population Methods Research Group (HPMRG)](https://hpmrg.org).
 
 See Gile and Handcock (2010) <doi:10.1111/j.1467-9531.2010.01223.x> and Gile and
 Handcock (2015) <doi:10.1111/rssa.12091>.

@@ -15,7 +15,7 @@ This is an R package to implement successive sampling population size estimation
 SS-PSE is used to estimate the size of hidden populations using respondent-driven sampling (RDS) data. The package can implement SS-PSE,
 visibility SS-PSE, and capture-recapture SS-PSE. 
 
-The package was developed by the [Hard-to-Reach Population Methods Research Group (HPMRG)](https://HPMRG.github.io).
+The package was developed by the [Hard-to-Reach Population Methods Research Group (HPMRG)](https://hpmrg.org).
 
 <img src="/img/fauxmadrona_recplot.jpeg" width = 900 alt="sspse banner"/>
 
