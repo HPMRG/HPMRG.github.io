@@ -260,7 +260,7 @@ Heckathorn&amp;rsquo;s RDS-I and RDS-II estimators as well as Gile&amp;rsquo;s S
 &lt;p>The package is part of the &amp;ldquo;RDS Analyst&amp;rdquo; suite of
 packages for the analysis of respondent-driven sampling data.&lt;/p>
 &lt;p>The package was developed by the
-&lt;a href="https://HPMRG.github.io" target="_blank" rel="noopener">Hard-to-Reach Population Methods Research Group (HPMRG)&lt;/a>.&lt;/p>
+&lt;a href="https://hpmrg.org" target="_blank" rel="noopener">Hard-to-Reach Population Methods Research Group (HPMRG)&lt;/a>.&lt;/p>
 &lt;p>See Gile and Handcock (2010)
 &lt;a href="doi:10.1111/j.1467-9531.2010.01223.x">doi:10.1111/j.1467-9531.2010.01223.x&lt;/a> and Gile and
 Handcock (2015)
@@ -373,7 +373,7 @@ Toolbox&lt;/a>, Harvard Dataverse, V1.&lt;/p>
 &lt;p>SS-PSE is used to estimate the size of hidden populations using respondent-driven sampling (RDS) data. The package can implement SS-PSE,
 visibility SS-PSE, and capture-recapture SS-PSE.&lt;/p>
 &lt;p>The package was developed by the
-&lt;a href="https://HPMRG.github.io" target="_blank" rel="noopener">Hard-to-Reach Population Methods Research Group (HPMRG)&lt;/a>.&lt;/p>
+&lt;a href="https://hpmrg.org" target="_blank" rel="noopener">Hard-to-Reach Population Methods Research Group (HPMRG)&lt;/a>.&lt;/p>
 &lt;img src="https://HPMRG.github.io/img/fauxmadrona_recplot.jpeg" width = 900 alt="sspse banner"/>
 &lt;h1 id="installation">Installation&lt;/h1>
 &lt;p>The package is available on CRAN and can be installed using&lt;/p>
@@ -580,7 +580,7 @@ Then click on the published link.&lt;/p></description></item><item><title>CCPR</
 &lt;a href="https://www.ccpr.ucla.edu/" target="_blank" rel="noopener">California Center for Population Research&lt;/a> at UCLA.&lt;/p></description></item><item><title>COVID-19</title><link>https://HPMRG.github.io/project/covid-19/</link><pubDate>Fri, 24 Jul 2020 00:00:00 +0000</pubDate><guid>https://HPMRG.github.io/project/covid-19/</guid><description/></item><item><title/><link>https://HPMRG.github.io/featured/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://HPMRG.github.io/featured/</guid><description/></item><item><title>Software</title><link>https://HPMRG.github.io/software/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://HPMRG.github.io/software/</guid><description>&lt;ul>
 &lt;li>
 &lt;p>
-&lt;a href="https://HPMRG.github.io/rdsanalyst" target="_blank" rel="noopener">RDS Analyst&lt;/a> is a software
+&lt;a href="https://hpmrg.org/rdsanalyst" target="_blank" rel="noopener">RDS Analyst&lt;/a> is a software
 package for the analysis of Respondent-driven sampling (RDS) data that
 implements recent advances in statistical methods. RDS Analyst has an
 easy-to-use graphical user interface to the powerful and sophisticated
@@ -590,28 +590,28 @@ population estimations, testing, confidence intervals and sensitivity
 analysis.
 &lt;br>
 For more information, click
-&lt;a href="https://HPMRG.github.io/rdsanalyst" target="_blank" rel="noopener">here&lt;/a>.&lt;/p>
+&lt;a href="https://hpmrg.org/rdsanalyst" target="_blank" rel="noopener">here&lt;/a>.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>
-&lt;a href="https://HPMRG.github.io/sspse" target="_blank" rel="noopener">sspse&lt;/a>: an
+&lt;a href="https://hpmrg.org/sspse" target="_blank" rel="noopener">sspse&lt;/a>: an
 &lt;a href="https://www.r-project.org/" target="_blank" rel="noopener">R&lt;/a> software package
 for estimating the population size of a hidden population based on Respondent Driven Sampling data.
 The CRAN
 &lt;a href="https://cran.r-project.org/web/packages/sspse" target="_blank" rel="noopener">manual&lt;/a> is very detailed.
 &lt;br>
 For more information, click
-&lt;a href="https://HPMRG.github.io/sspse" target="_blank" rel="noopener">here&lt;/a>.&lt;/p>
+&lt;a href="https://hpmrg.org/sspse" target="_blank" rel="noopener">here&lt;/a>.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>
-&lt;a href="https://HPMRG.github.io/rds" target="_blank" rel="noopener">RDS&lt;/a>: an
+&lt;a href="https://hpmrg.org/rds" target="_blank" rel="noopener">RDS&lt;/a>: an
 &lt;a href="https://www.r-project.org/" target="_blank" rel="noopener">R&lt;/a> software package
 for carrying out estimation with data collected using
 Respondent-Driven Sampling. The CRAN
 &lt;a href="https://cran.r-project.org/web/packages/RDS" target="_blank" rel="noopener">manual&lt;/a> is very detailed.
 &lt;br>
 For more information, click
-&lt;a href="https://HPMRG.github.io/rds" target="_blank" rel="noopener">here&lt;/a>.&lt;/p>
+&lt;a href="https://hpmrg.org/rds" target="_blank" rel="noopener">here&lt;/a>.&lt;/p>
 &lt;/li>
 &lt;/ul></description></item></channel></rss>
