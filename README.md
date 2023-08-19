@@ -1,6 +1,8 @@
-# Academic style organizational website
+# Webpage for the HPMRG 
 
-This template for the [HPMRG] website](https://HPMRG.github.io) is based on the [Hugo Academic theme](https://github.com/wowchemy/starter-hugo-academic). It is based on the work of of [Qingyuan Zhao](https://www.statslab.cam.ac.uk/~qz280) who deserved the credit for both creating the template and also publishing it so that others can benefit from it. Thank you, Qingyuan Zhao! See [his post](https://www.statslab.cam.ac.uk/~qz280/post/migrating/) for a guide.
+This is the core website code for the Hard-to-Reach Population Methods Research Group ([HPMRG])](https://HPMRG.github.io).
+
+It based on an Academic style organizational template using the [Hugo Academic theme](https://github.com/wowchemy/starter-hugo-academic). It is based on the work of of [Qingyuan Zhao](https://www.statslab.cam.ac.uk/~qz280) who deserved the credit for both creating the template and also publishing it so that others can benefit from it. Thank you, Qingyuan Zhao! See [his post](https://www.statslab.cam.ac.uk/~qz280/post/migrating/) for a guide.
 
 ## The Hugo framework with the Academic theme
 
