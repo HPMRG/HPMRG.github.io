@@ -44,7 +44,7 @@ capabilities of the [R](https://r-project.org) statistical language.
 
 ## Installation on an Windows PC
 
-The installer is [here](https://drive.google.com/file/d/1Zu6YOe7J7IN5s-o7IVRPJAMpZFC-0C3G/view?usp=sharing).
+The installer is [here](https://drive.google.com/file/d/15-br6-WmKsRM0JQ-ZqqKmonRkNFOhBZ6/view?usp=sharing).
 
 <!--https://neolab.stat.ucla.edu/cranstats/RdsAnalystSetup.0.42.exe -->
 <!--https://hpmrg.org/software/RDSAnalystSetup.0.7.exe-->
