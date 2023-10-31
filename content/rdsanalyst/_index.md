@@ -85,7 +85,7 @@ or an earlier version number you do not have Java correctly installed. In this c
 Analyst</u>. -->
 
 Finally, for some computers the above installer does not work.
-Here is a [alternative installer A](https://drive.google.com/file/d/1Zu6YOe7J7IN5s-o7IVRPJAMpZFC-0C3G/view?usp=sharing) and
+Here is an [alternative installer A](https://drive.google.com/file/d/1Zu6YOe7J7IN5s-o7IVRPJAMpZFC-0C3G/view?usp=sharing) and an
           [alternative installer B](https://drive.google.com/file/d/1kPd1kjJvW-fksXBkVALLHEb_dn3W8l3G/view?usp=sharing).
 
 
