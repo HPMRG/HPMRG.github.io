@@ -71,7 +71,7 @@ typically be a few Mb in size. -->
 https://javatester.org/version.html -->
 <!--- If you get the message <i>A JRE has been found. Do you want to install another one anyway?</i>, it means that Java is already installed.
 In this case, click <i>No</i> so as to not reinstall it.-->
-This is a new portable version that does not need  the Java Runtime Environment to use.
+This is a new portable version that does not need the Java Runtime Environment to use.
 <!--- You need the Java Runtime Environment to use  <u>RDS Analyst</u>. You can check to see if you have the right java installed through the
 Windows Start menu:-->
 <!--- # Launch the <b>Windows Start</b> menu-->
@@ -83,6 +83,10 @@ or an earlier version number you do not have Java correctly installed. In this c
 
 <!--  If you do not have Administrator privileges and the Java Runtime Environment is not installed then you will not be able to run  <u>RDS
 Analyst</u>. -->
+
+Finally, for some computers the above installer does not work.
+Here is a [alternative installer A](https://drive.google.com/file/d/1Zu6YOe7J7IN5s-o7IVRPJAMpZFC-0C3G/view?usp=sharing) and
+          [alternative installer B](https://drive.google.com/file/d/1kPd1kjJvW-fksXBkVALLHEb_dn3W8l3G/view?usp=sharing).
 
 
 *Note for experienced users:*
