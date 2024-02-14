@@ -118,7 +118,7 @@ See the following papers for more information and examples:
    Data](https://doi.org/10.1111/rssa.12091), Journal of the Royal Statistical Society, A. 
 
 * McLaughlin, Katherine R.; Johnston, Lisa G.; Jakupi, Xhevat; Gexha-Bunjaku, Dafina; Deva, Edona and Handcock, Mark S. 2024
-[Modeling the Visibility Distribution for Respondent-Driven Sampling with Application to Population Size Estimation](https://doi.org/10.1214/23-AOAS1807), The Annals of Applied Statistics, 18(1): 683-703 (March 2024).
+[Modeling the Visibility Distribution for Respondent-Driven Sampling with Application to Population Size Estimation](https://doi.org/10.1214/23-AOAS1807), The *Annals of Applied Statistics*, 18(1): 683-703 (March 2024).
 
 *  Salganik, M., Heckathorn, D. D., 2004. "Sampling and estimation in hidden populations using respondent-driven sampling.
 Sociological Methodology 34, 193-239.

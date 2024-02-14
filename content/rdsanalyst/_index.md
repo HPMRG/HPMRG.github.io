@@ -203,7 +203,6 @@ You can use the forum to:
 * post questions, comments and ideas to other users
 * be informed about RDS Analyst updates
 * learn about bugs (and bug fixes) 
-
 * If you find bugs, please report them and use "Bug:" in the subject line. 
 * For software feature requests, use "Feature Request:" in the subject line.
 
