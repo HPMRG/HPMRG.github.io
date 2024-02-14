@@ -109,13 +109,16 @@ See the following papers for more information and examples:
 
 #### Statistical Methodology
 
-* Gile, Krista J. 2011 [Improved Inference for Respondent-Driven Sampling Data with Application to HIV Prevalence Estimation](https://doi.org/10.1198/jasa.2011.ap09475), Journal of the American Statistical Association, 106, 135-146.
-
 *  Gile, Krista J., Handcock, Mark S., 2010 [Respondent-driven Sampling: An Assessment of Current
    Methodology](https://doi.org/10.1111/j.1467-9531.2010.01223.x), Sociological Methodology, 40, 285-327.
 
+* Gile, Krista J. 2011 [Improved Inference for Respondent-Driven Sampling Data with Application to HIV Prevalence Estimation](https://doi.org/10.1198/jasa.2011.ap09475), Journal of the American Statistical Association, 106, 135-146.
+
 *  Gile, Krista J., Handcock, Mark S., 2011 [Network Model-Assisted Inference from Respondent-Driven Sampling
    Data](https://doi.org/10.1111/rssa.12091), Journal of the Royal Statistical Society, A. 
+
+* McLaughlin, Katherine R.; Johnston, Lisa G.; Jakupi, Xhevat; Gexha-Bunjaku, Dafina; Deva, Edona and Handcock, Mark S. 2024
+[Modeling the Visibility Distribution for Respondent-Driven Sampling with Application to Population Size Estimation](https://doi.org/10.1214/23-AOAS1807), The Annals of Applied Statistics, 18(1): 683-703 (March 2024).
 
 *  Salganik, M., Heckathorn, D. D., 2004. "Sampling and estimation in hidden populations using respondent-driven sampling.
 Sociological Methodology 34, 193-239.
