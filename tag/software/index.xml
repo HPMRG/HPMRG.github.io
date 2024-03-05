@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom"><channel><title>software | Mark S. Handcock</title><link>https://HPMRG.github.io/tag/software/</link><atom:link href="https://HPMRG.github.io/tag/software/index.xml" rel="self" type="application/rss+xml"/><description>software</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2022</copyright><lastBuildDate>Wed, 24 Aug 2022 00:00:00 +0000</lastBuildDate><image><url>https://HPMRG.github.io/images/logo_hu7ac5a2aa8fa12518fd9ab7ceccb2a15e_77341_300x300_fit_lanczos_3.png</url><title>software</title><link>https://HPMRG.github.io/tag/software/</link></image><item><title/><link>https://HPMRG.github.io/rds/</link><pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate><guid>https://HPMRG.github.io/rds/</guid><description>&lt;img src="https://HPMRG.github.io/img/RDS_hl.png" align="left" width="250" height="250" style="padding:30px;" alt="RDS network"/>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom"><channel><title>Software | Mark S. Handcock</title><link>https://HPMRG.github.io/tag/software/</link><atom:link href="https://HPMRG.github.io/tag/software/index.xml" rel="self" type="application/rss+xml"/><description>Software</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2022</copyright><lastBuildDate>Wed, 24 Aug 2022 00:00:00 +0000</lastBuildDate><image><url>https://HPMRG.github.io/images/logo_hu7ac5a2aa8fa12518fd9ab7ceccb2a15e_77341_300x300_fit_lanczos_3.png</url><title>Software</title><link>https://HPMRG.github.io/tag/software/</link></image><item><title/><link>https://HPMRG.github.io/rds/</link><pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate><guid>https://HPMRG.github.io/rds/</guid><description>&lt;img src="https://HPMRG.github.io/img/RDS_hl.png" align="left" width="250" height="250" style="padding:30px;" alt="RDS network"/>
 &lt;h1 id="the-rds-package">The &lt;code>RDS&lt;/code> package&lt;/h1>
 &lt;p>This is an R package for carrying out estimation with data collected using Respondent-Driven Sampling. This includes
 Heckathorn&amp;rsquo;s RDS-I and RDS-II estimators as well as Gile&amp;rsquo;s Sequential Sampling estimator.&lt;/p>
@@ -39,7 +39,7 @@ vertex.size=&amp;quot;degree&amp;quot;,
 show.legend=FALSE,
 vertex.color=&amp;quot;seed&amp;quot;)
 &lt;/code>&lt;/pre>
-&lt;p>&lt;img src="reingold.tilford.png" alt="">&lt;/p>
+&lt;p>&lt;img src="https://HPMRG.github.io/rds/reingold.tilford.png">&lt;/p>
 &lt;h2 id="the-rdsssestimates-function">The &lt;code>RDS.SS.estimates&lt;/code> function&lt;/h2>
 &lt;p>This function computes the sequential sampling (SS) prevalence estimates for a categorical variable or numeric
 variable.
@@ -150,7 +150,7 @@ vertex.size=&amp;quot;degree&amp;quot;,
 show.legend=FALSE,
 vertex.color=&amp;quot;seed&amp;quot;)
 &lt;/code>&lt;/pre>
-&lt;p>&lt;img src="reingold.tilford.png" alt="">&lt;/p>
+&lt;p>&lt;img src="https://HPMRG.github.io/sspse/reingold.tilford.png">&lt;/p>
 &lt;h2 id="the-posteriorsize-function">The &lt;code>posteriorsize()&lt;/code> function&lt;/h2>
 &lt;p>The function that will perform both the original and visibility variants of SS-PSE is called &lt;code>posteriorsize()&lt;/code>. It requires some prior knowledge
 about the population size, $N$, which is usually expressed using the &lt;code>median.prior.size=&lt;/code> argument.&lt;/p>
@@ -174,7 +174,7 @@ visibility=FALSE)
 &lt;p>Plot the posterior distribution for $N$.&lt;/p>
 &lt;pre>&lt;code>plot(fit1, type=&amp;quot;N&amp;quot;)
 &lt;/code>&lt;/pre>
-&lt;p>&lt;img src="fit.nme.png" alt="">&lt;/p>
+&lt;p>&lt;img src="https://HPMRG.github.io/sspse/fit.nme.png">&lt;/p>
 &lt;p>Create a table summary for the prior and posterior distributions for population size, specifying that we are interested in a 90% credible
 interval for $N$.&lt;/p>
 &lt;pre>&lt;code>summary(fit1, HPD.level = 0.9)
@@ -202,7 +202,7 @@ visibility=TRUE)
 &lt;p>Plot the posterior distribution for $N$.&lt;/p>
 &lt;pre>&lt;code>plot(fit2, type=&amp;quot;N&amp;quot;)
 &lt;/code>&lt;/pre>
-&lt;p>&lt;img src="fit.me.png" alt="">&lt;/p>
+&lt;p>&lt;img src="https://HPMRG.github.io/sspse/fit.me.png">&lt;/p>
 &lt;p>Create a table summary for the prior and posterior distributions for population size, specifying that we are interested in a 90% credible
 interval for $N$.&lt;/p>
 &lt;pre>&lt;code>summary(fit2, HPD.level = 0.9)
