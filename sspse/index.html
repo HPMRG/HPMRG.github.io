@@ -3,20 +3,15 @@ SS-PSE is used to estimate the size of hidden populations using respondent-drive
 SS-PSE is used to estimate the size of hidden populations using respondent-driven sampling (RDS) data."><meta property="og:image" content="https://HPMRG.github.io/images/logo_hu7ac5a2aa8fa12518fd9ab7ceccb2a15e_77341_300x300_fit_lanczos_3.png"><meta property="twitter:image" content="https://HPMRG.github.io/images/logo_hu7ac5a2aa8fa12518fd9ab7ceccb2a15e_77341_300x300_fit_lanczos_3.png"><meta property="og:locale" content="en-us"><meta property="article:published_time" content="2022-08-24T00:00:00+00:00"><meta property="article:modified_time" content="2022-08-24T00:00:00+00:00"><title>| Mark S. Handcock</title></head><body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents><aside class=search-results id=search><div class=container><section class=search-header><div class="row no-gutters justify-content-between mb-3"><div class=col-6><h1>Search</h1></div><div class="col-6 col-search-close"><a class=js-search href=#><i class="fas fa-times-circle text-muted" aria-hidden=true></i></a></div></div><div id=search-box><input name=q id=search-query placeholder=Search... autocapitalize=off autocomplete=off autocorrect=off spellcheck=false type=search></div></section><section class=section-search-results><div id=search-hits></div></section></div></aside><nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id=navbar-main><div class=container><div class="d-none d-lg-inline-flex"><a class=navbar-brand href=/><img src=/images/logo_hu7ac5a2aa8fa12518fd9ab7ceccb2a15e_77341_0x70_resize_lanczos_3.png alt="Mark S. Handcock"></a></div><button type=button class=navbar-toggler data-toggle=collapse data-target=#navbar-content aria-controls=navbar aria-expanded=false aria-label="Toggle navigation">
 <span><i class="fas fa-bars"></i></span></button><div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none"><a class=navbar-brand href=/><img src=/images/logo_hu7ac5a2aa8fa12518fd9ab7ceccb2a15e_77341_0x70_resize_lanczos_3.png alt="Mark S. Handcock"></a></div><div class="navbar-collapse main-menu-item collapse justify-content-start" id=navbar-content><ul class="navbar-nav d-md-inline-flex"><li class=nav-item><a class=nav-link href=/aboutus/><span>About us</span></a></li><li class=nav-item><a class=nav-link href=/rdsanalyst/><span>RDS Analyst software</span></a></li><li class=nav-item><a class=nav-link href=/software/><span>Other software</span></a></li><li class=nav-item><a class=nav-link href=/citation/><span>How to Cite us</span></a></li></ul></div><ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2"><li class=nav-item><a class="nav-link js-search" href=# aria-label=Search><i class="fas fa-search" aria-hidden=true></i></a></li><li class="nav-item dropdown theme-dropdown"><a href=# class="nav-link js-theme-selector" data-toggle=dropdown aria-haspopup=true><i class="fas fa-palette" aria-hidden=true></i></a><div class=dropdown-menu><a href=# class="dropdown-item js-set-theme-light"><span>Light</span>
 </a><a href=# class="dropdown-item js-set-theme-dark"><span>Dark</span>
-</a><a href=# class="dropdown-item js-set-theme-auto"><span>Automatic</span></a></div></li></ul></div></nav><article class=article><div class="article-container pt-3"><h1></h1><div class=article-metadata></div></div><div class=article-container><div class=article-style><img src=/img/sspse_hl.png align=left width=250 height=250 style=padding:30px alt="RDS network"><h1 id=the-sspse-package>The <code>sspse</code> package</h1><p>This is an R package to implement successive sampling population size estimation (SS-PSE).</p><p>SS-PSE is used to estimate the size of hidden populations using respondent-driven sampling (RDS) data. The package can implement SS-PSE,
-visibility SS-PSE, and capture-recapture SS-PSE.</p><p>The package was developed by the
+</a><a href=# class="dropdown-item js-set-theme-auto"><span>Automatic</span></a></div></li></ul></div></nav><article class=article><div class="article-container pt-3"><h1></h1><div class=article-metadata></div></div><div class=article-container><div class=article-style><img src=/img/sspse_hl.png align=left width=250 height=250 style=padding:30px alt="RDS network"><h1 id=the-sspse-package>The <code>sspse</code> package</h1><p>This is an R package to implement successive sampling population size estimation (SS-PSE).</p><p>SS-PSE is used to estimate the size of hidden populations using respondent-driven sampling (RDS) data. The package can implement SS-PSE, visibility SS-PSE, and capture-recapture SS-PSE.</p><p>The package was developed by the
 <a href=https://hpmrg.org target=_blank rel=noopener>Hard-to-Reach Population Methods Research Group (HPMRG)</a>.</p><img src=/img/fauxmadrona_recplot.jpeg width=900 alt="sspse banner"><h1 id=installation>Installation</h1><p>The package is available on CRAN and can be installed using</p><pre><code class=language-{r}>install.packages(&quot;sspse&quot;)
-</code></pre><p>To install the latest development version from github, the best way it to use git to create a local copy and install it as usual from there. If
-you just want to install it, you can also use:</p><pre><code class=language-{r}># If devtools is not installed:
+</code></pre><p>To install the latest development version from github, the best way it to use git to create a local copy and install it as usual from there. If you just want to install it, you can also use:</p><pre><code class=language-{r}># If devtools is not installed:
 # install.packages(&quot;devtools&quot;)
 
 devtools::install_github(&quot;HPMRG/sspse&quot;)
 </code></pre><h1 id=implementation>Implementation</h1><p>Load package and example data</p><pre><code>library(sspse)
 data(fauxmadrona)
-</code></pre><p><code>fauxmadrona</code> is a simulated RDS data set with no seed dependency, which is used to demonstrate RDS estimators. It has the format of an
-<code>rds.data.frame</code> and is a sample of size 500 with 10 seeds and 2 coupons from a population of size 1000. For the purpose of this example, we
-will assume the population size is unknown and our goal is to estimate it.</p><p>We can make a quick visualization of the recruitment chains, where the size of the node is proportional to the reported degree and the color
-represents separate chains.</p><pre><code class=language-{r}>reingold.tilford.plot(fauxmadrona, 
+</code></pre><p><code>fauxmadrona</code> is a simulated RDS data set with no seed dependency, which is used to demonstrate RDS estimators. It has the format of an <code>rds.data.frame</code> and is a sample of size 500 with 10 seeds and 2 coupons from a population of size 1000. For the purpose of this example, we will assume the population size is unknown and our goal is to estimate it.</p><p>We can make a quick visualization of the recruitment chains, where the size of the node is proportional to the reported degree and the color represents separate chains.</p><pre><code class=language-{r}>reingold.tilford.plot(fauxmadrona, 
                       vertex.label=NA, 
                       vertex.size=&quot;degree&quot;,
                       show.legend=FALSE,
@@ -41,6 +36,28 @@ interval for $N$.</p><pre><code>summary(fit1, HPD.level = 0.9)
 ##           Mean Median Mode 25%  75%  90%  5%  95%
 ## Prior     1247   1000  680 748 1480 2240 583 2852
 ## Posterior  974    936  874 808 1100 1275 656 1400
+</code></pre><h2 id=example-of-population-size-estimation-using-multiple-respondent-driven-sampling-surveys>Example of Population Size Estimation Using Multiple Respondent-Driven Sampling Surveys</h2><p>Suppose we have two respondent-driven sampling survey of the same population and taken successively in time. Then due to ideas in Kim and Handcock (2021) we can use the overlap between the respondents sampled in both surveys as additional information in estimating the population size. We mean additional information in the sense that it is in addition to the information in the two surveys ignoring the information in the overlap.
+In this example, two samples are drawn from the <code>fauxmadrona</code> network. For the first survey, the sample size is 200.
+For the second sample the sample size is 250. The second survey has an additional variable <code>recapture</code>
+indicating if the respondent was also surveyed in the first survey.</p><p>First, let&rsquo;s load the data:</p><pre><code>data(&quot;fauxmadrona2&quot;)
+</code></pre><p>The <code>posteriorsize</code> function can be used with both samples specified.
+We estimate the posterior distribution for $N$ using a burnin of 1000 and an interval of
+10. We set <code>visibility=FALSE</code>. This may take a few seconds to run.</p><pre><code>crssfauxmadrona &lt;- posteriorsize(fauxmadrona2[[1]], s2=fauxmadrona2[[2]], previous=&quot;recapture&quot;,
+  visibility=FALSE,  median.prior.size=1250)
+</code></pre><pre><code>## Adjusting for the gross differences in the reported network sizes between the two samples. 
+## Using Capture-recapture non-measurement error model with K = 14.
+## Taken 1 samples...
+## Taken 2 samples...
+## Taken 4 samples...
+...
+## Taken 500 samples...
+## Taken 1000 samples...
+</code></pre><p>Plot the posterior distribution for $N$.</p><pre><code>plot(crssfauxmadrona, type=&quot;N&quot;)
+</code></pre><img src=man/Figures/crssfauxmadrona.png align=center><p>Create a table summary for the prior and posterior distributions for population size.</p><pre><code>summary(crssfauxmadrona)
+</code></pre><pre><code>## Summary of Population Size Estimation
+##           Mean Median Mode  25%  75%  90% 2.5% 97.5%
+## Prior     1596   1250  826  918 1900 2953  662  4594
+## Posterior 1055   1050 1039 1012 1094 1137  952  1170
 </code></pre><h2 id=visibility-ss-pse-example>Visibility SS-PSE example</h2><p>Set <code>visibility=TRUE</code>. Because of the measurement error model, this model will take a little longer to fit - perhaps a minute or so.</p><pre><code>fit2 &lt;- posteriorsize(fauxmadrona, 
               median.prior.size=1000,
               visibility=TRUE)
@@ -58,7 +75,7 @@ interval for $N$.</p><pre><code>summary(fit2, HPD.level = 0.9)
 </code></pre><pre><code>## Summary of Population Size Estimation
 ##           Mean Median Mode 25%  75%  90%  5%  95%
 ## Prior     1247   1000  680 748 1480 2240 583 2852
-## Posterior 1254   1100  913 858 1482 2016 621 2425
+## Posterior 1275   1061  839 823 1486 2156 609 2732
 </code></pre><h1 id=resources>Resources</h1><p>Please use the GitHub repository to report bugs or request features:
 <a href=https://https://github.com/HPMRG/sspse target=_blank rel=noopener>https://github.com/HPMRG/sspse</a></p><p>See the following papers for more information and examples:</p><h4 id=statistical-methodology>Statistical Methodology</h4><ul><li>Handcock, Mark S.; Gile, Krista J. and Mar, Corinne M. (2014)
 <a href=https://doi.org/10.1214/14-ejs923 target=_blank rel=noopener>Estimating Hidden Population Size using Respondent-Driven Sampling
@@ -89,7 +106,7 @@ MSM are living with HIV?</a>, <em>European Journal of Public Health</em>, 31(6):
         </div>
       </div>
       </div>
-    </script><script src=https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin=anonymous></script><script id=dsq-count-scr src=https://HPMRG.disqus.com/count.js async></script><script src=/js/academic.min.5cbe51271615d69caead0155ce0cb8ce.js></script><div class=container><footer class=site-footer><p class=powered-by>2022</p><p class=powered-by>Powered by the
+    </script><script src=https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin=anonymous></script><script id=dsq-count-scr src=https://HPMRG.disqus.com/count.js async></script><script src=/js/academic.min.cd45a9c0bbdd3dfb1c126917c601c9f2.js></script><div class=container><footer class=site-footer><p class=powered-by>2022</p><p class=powered-by>Powered by the
 <a href=https://sourcethemes.com/academic/ target=_blank rel=noopener>Academic theme</a> for
 <a href=https://gohugo.io target=_blank rel=noopener>Hugo</a>.
 <span class=float-right aria-hidden=true><a href=# class=back-to-top><span class=button_icon><i class="fas fa-chevron-up fa-2x"></i></span></a></span></p></footer></div><div id=modal class="modal fade" role=dialog><div class=modal-dialog><div class=modal-content><div class=modal-header><h5 class=modal-title>Cite</h5><button type=button class=close data-dismiss=modal aria-label=Close>

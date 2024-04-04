@@ -119,8 +119,7 @@ Toolbox&lt;/a>, Harvard Dataverse, V1.&lt;/p>
 &lt;/ul></description></item><item><title/><link>https://HPMRG.github.io/sspse/</link><pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate><guid>https://HPMRG.github.io/sspse/</guid><description>&lt;img src="https://HPMRG.github.io/img/sspse_hl.png" align="left" width="250" height="250" style="padding:30px;" alt="RDS network"/>
 &lt;h1 id="the-sspse-package">The &lt;code>sspse&lt;/code> package&lt;/h1>
 &lt;p>This is an R package to implement successive sampling population size estimation (SS-PSE).&lt;/p>
-&lt;p>SS-PSE is used to estimate the size of hidden populations using respondent-driven sampling (RDS) data. The package can implement SS-PSE,
-visibility SS-PSE, and capture-recapture SS-PSE.&lt;/p>
+&lt;p>SS-PSE is used to estimate the size of hidden populations using respondent-driven sampling (RDS) data. The package can implement SS-PSE, visibility SS-PSE, and capture-recapture SS-PSE.&lt;/p>
 &lt;p>The package was developed by the
 &lt;a href="https://hpmrg.org" target="_blank" rel="noopener">Hard-to-Reach Population Methods Research Group (HPMRG)&lt;/a>.&lt;/p>
 &lt;img src="https://HPMRG.github.io/img/fauxmadrona_recplot.jpeg" width = 900 alt="sspse banner"/>
@@ -128,8 +127,7 @@ visibility SS-PSE, and capture-recapture SS-PSE.&lt;/p>
 &lt;p>The package is available on CRAN and can be installed using&lt;/p>
 &lt;pre>&lt;code class="language-{r}">install.packages(&amp;quot;sspse&amp;quot;)
 &lt;/code>&lt;/pre>
-&lt;p>To install the latest development version from github, the best way it to use git to create a local copy and install it as usual from there. If
-you just want to install it, you can also use:&lt;/p>
+&lt;p>To install the latest development version from github, the best way it to use git to create a local copy and install it as usual from there. If you just want to install it, you can also use:&lt;/p>
 &lt;pre>&lt;code class="language-{r}"># If devtools is not installed:
 # install.packages(&amp;quot;devtools&amp;quot;)
 devtools::install_github(&amp;quot;HPMRG/sspse&amp;quot;)
@@ -139,11 +137,8 @@ devtools::install_github(&amp;quot;HPMRG/sspse&amp;quot;)
 &lt;pre>&lt;code>library(sspse)
 data(fauxmadrona)
 &lt;/code>&lt;/pre>
-&lt;p>&lt;code>fauxmadrona&lt;/code> is a simulated RDS data set with no seed dependency, which is used to demonstrate RDS estimators. It has the format of an
-&lt;code>rds.data.frame&lt;/code> and is a sample of size 500 with 10 seeds and 2 coupons from a population of size 1000. For the purpose of this example, we
-will assume the population size is unknown and our goal is to estimate it.&lt;/p>
-&lt;p>We can make a quick visualization of the recruitment chains, where the size of the node is proportional to the reported degree and the color
-represents separate chains.&lt;/p>
+&lt;p>&lt;code>fauxmadrona&lt;/code> is a simulated RDS data set with no seed dependency, which is used to demonstrate RDS estimators. It has the format of an &lt;code>rds.data.frame&lt;/code> and is a sample of size 500 with 10 seeds and 2 coupons from a population of size 1000. For the purpose of this example, we will assume the population size is unknown and our goal is to estimate it.&lt;/p>
+&lt;p>We can make a quick visualization of the recruitment chains, where the size of the node is proportional to the reported degree and the color represents separate chains.&lt;/p>
 &lt;pre>&lt;code class="language-{r}">reingold.tilford.plot(fauxmadrona,
 vertex.label=NA,
 vertex.size=&amp;quot;degree&amp;quot;,
@@ -184,6 +179,41 @@ interval for $N$.&lt;/p>
 ## Prior 1247 1000 680 748 1480 2240 583 2852
 ## Posterior 974 936 874 808 1100 1275 656 1400
 &lt;/code>&lt;/pre>
+&lt;h2 id="example-of-population-size-estimation-using-multiple-respondent-driven-sampling-surveys">Example of Population Size Estimation Using Multiple Respondent-Driven Sampling Surveys&lt;/h2>
+&lt;p>Suppose we have two respondent-driven sampling survey of the same population and taken successively in time. Then due to ideas in Kim and Handcock (2021) we can use the overlap between the respondents sampled in both surveys as additional information in estimating the population size. We mean additional information in the sense that it is in addition to the information in the two surveys ignoring the information in the overlap.
+In this example, two samples are drawn from the &lt;code>fauxmadrona&lt;/code> network. For the first survey, the sample size is 200.
+For the second sample the sample size is 250. The second survey has an additional variable &lt;code>recapture&lt;/code>
+indicating if the respondent was also surveyed in the first survey.&lt;/p>
+&lt;p>First, let&amp;rsquo;s load the data:&lt;/p>
+&lt;pre>&lt;code>data(&amp;quot;fauxmadrona2&amp;quot;)
+&lt;/code>&lt;/pre>
+&lt;p>The &lt;code>posteriorsize&lt;/code> function can be used with both samples specified.
+We estimate the posterior distribution for $N$ using a burnin of 1000 and an interval of
+10. We set &lt;code>visibility=FALSE&lt;/code>. This may take a few seconds to run.&lt;/p>
+&lt;pre>&lt;code>crssfauxmadrona &amp;lt;- posteriorsize(fauxmadrona2[[1]], s2=fauxmadrona2[[2]], previous=&amp;quot;recapture&amp;quot;,
+visibility=FALSE, median.prior.size=1250)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## Adjusting for the gross differences in the reported network sizes between the two samples.
+## Using Capture-recapture non-measurement error model with K = 14.
+## Taken 1 samples...
+## Taken 2 samples...
+## Taken 4 samples...
+...
+## Taken 500 samples...
+## Taken 1000 samples...
+&lt;/code>&lt;/pre>
+&lt;p>Plot the posterior distribution for $N$.&lt;/p>
+&lt;pre>&lt;code>plot(crssfauxmadrona, type=&amp;quot;N&amp;quot;)
+&lt;/code>&lt;/pre>
+&lt;img src="man/Figures/crssfauxmadrona.png" align="center"/>
+&lt;p>Create a table summary for the prior and posterior distributions for population size.&lt;/p>
+&lt;pre>&lt;code>summary(crssfauxmadrona)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## Summary of Population Size Estimation
+## Mean Median Mode 25% 75% 90% 2.5% 97.5%
+## Prior 1596 1250 826 918 1900 2953 662 4594
+## Posterior 1055 1050 1039 1012 1094 1137 952 1170
+&lt;/code>&lt;/pre>
 &lt;h2 id="visibility-ss-pse-example">Visibility SS-PSE example&lt;/h2>
 &lt;p>Set &lt;code>visibility=TRUE&lt;/code>. Because of the measurement error model, this model will take a little longer to fit - perhaps a minute or so.&lt;/p>
 &lt;pre>&lt;code>fit2 &amp;lt;- posteriorsize(fauxmadrona,
@@ -210,7 +240,7 @@ interval for $N$.&lt;/p>
 &lt;pre>&lt;code>## Summary of Population Size Estimation
 ## Mean Median Mode 25% 75% 90% 5% 95%
 ## Prior 1247 1000 680 748 1480 2240 583 2852
-## Posterior 1254 1100 913 858 1482 2016 621 2425
+## Posterior 1275 1061 839 823 1486 2156 609 2732
 &lt;/code>&lt;/pre>
 &lt;h1 id="resources">Resources&lt;/h1>
 &lt;p>Please use the GitHub repository to report bugs or request features:
