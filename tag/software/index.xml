@@ -205,7 +205,7 @@ visibility=FALSE, median.prior.size=1250)
 &lt;p>Plot the posterior distribution for $N$.&lt;/p>
 &lt;pre>&lt;code>plot(crssfauxmadrona, type=&amp;quot;N&amp;quot;)
 &lt;/code>&lt;/pre>
-&lt;img src="man/Figures/crssfauxmadrona.png" align="center"/>
+&lt;p>&lt;img src="https://HPMRG.github.io/sspse/crssfauxmadrona.png">&lt;/p>
 &lt;p>Create a table summary for the prior and posterior distributions for population size.&lt;/p>
 &lt;pre>&lt;code>summary(crssfauxmadrona)
 &lt;/code>&lt;/pre>
