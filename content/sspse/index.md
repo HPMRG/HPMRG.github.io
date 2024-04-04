@@ -12,8 +12,7 @@ tags = ["software"]
 
 This is an R package to implement successive sampling population size estimation (SS-PSE).
 
-SS-PSE is used to estimate the size of hidden populations using respondent-driven sampling (RDS) data. The package can implement SS-PSE,
-visibility SS-PSE, and capture-recapture SS-PSE. 
+SS-PSE is used to estimate the size of hidden populations using respondent-driven sampling (RDS) data. The package can implement SS-PSE, visibility SS-PSE, and capture-recapture SS-PSE. 
 
 The package was developed by the [Hard-to-Reach Population Methods Research Group (HPMRG)](https://hpmrg.org).
 
@@ -27,8 +26,7 @@ The package is available on CRAN and can be installed using
 install.packages("sspse")
 ```
 
-To install the latest development version from github, the best way it to use git to create a local copy and install it as usual from there. If
-you just want to install it, you can also use:
+To install the latest development version from github, the best way it to use git to create a local copy and install it as usual from there. If you just want to install it, you can also use:
 
 ```{r}
 # If devtools is not installed:
@@ -46,12 +44,9 @@ library(sspse)
 data(fauxmadrona)
 ```
 
-`fauxmadrona` is a simulated RDS data set with no seed dependency, which is used to demonstrate RDS estimators. It has the format of an
-`rds.data.frame` and is a sample of size 500 with 10 seeds and 2 coupons from a population of size 1000. For the purpose of this example, we
-will assume the population size is unknown and our goal is to estimate it.
+`fauxmadrona` is a simulated RDS data set with no seed dependency, which is used to demonstrate RDS estimators. It has the format of an `rds.data.frame` and is a sample of size 500 with 10 seeds and 2 coupons from a population of size 1000. For the purpose of this example, we will assume the population size is unknown and our goal is to estimate it.
 
-We can make a quick visualization of the recruitment chains, where the size of the node is proportional to the reported degree and the color
-represents separate chains.
+We can make a quick visualization of the recruitment chains, where the size of the node is proportional to the reported degree and the color represents separate chains.
 
 ```{r}
 reingold.tilford.plot(fauxmadrona, 
@@ -111,6 +106,55 @@ summary(fit1, HPD.level = 0.9)
     ## Prior     1247   1000  680 748 1480 2240 583 2852
     ## Posterior  974    936  874 808 1100 1275 656 1400
 
+## Example of Population Size Estimation Using Multiple Respondent-Driven Sampling Surveys
+
+Suppose we have two respondent-driven sampling survey of the same population and taken successively in time. Then due to ideas in Kim and Handcock (2021) we can use the overlap between the respondents sampled in both surveys as additional information in estimating the population size. We mean additional information in the sense that it is in addition to the information in the two surveys ignoring the information in the overlap. 
+In this example, two samples are drawn from the `fauxmadrona` network. For the first survey, the sample size is 200.
+For the second sample the sample size is 250. The second survey has an additional variable `recapture`
+indicating if the respondent was also surveyed in the first survey.
+
+First, let's load the data:
+
+```
+data("fauxmadrona2")
+```
+
+The `posteriorsize` function can be used with both samples specified. 
+We estimate the posterior distribution for $N$ using a burnin of 1000 and an interval of
+10. We set `visibility=FALSE`. This may take a few seconds to run.
+
+```
+crssfauxmadrona <- posteriorsize(fauxmadrona2[[1]], s2=fauxmadrona2[[2]], previous="recapture",
+  visibility=FALSE,  median.prior.size=1250)
+```
+
+    ## Adjusting for the gross differences in the reported network sizes between the two samples. 
+    ## Using Capture-recapture non-measurement error model with K = 14.
+    ## Taken 1 samples...
+    ## Taken 2 samples...
+    ## Taken 4 samples...
+    ...
+    ## Taken 500 samples...
+    ## Taken 1000 samples...
+
+Plot the posterior distribution for $N$.
+
+```
+plot(crssfauxmadrona, type="N")
+```
+
+<img src="man/Figures/crssfauxmadrona.png" align="center"/>
+
+Create a table summary for the prior and posterior distributions for population size.
+
+```
+summary(crssfauxmadrona)
+```
+
+    ## Summary of Population Size Estimation
+    ##           Mean Median Mode  25%  75%  90% 2.5% 97.5%
+    ## Prior     1596   1250  826  918 1900 2953  662  4594
+    ## Posterior 1055   1050 1039 1012 1094 1137  952  1170
 ## Visibility SS-PSE example
 
 Set `visibility=TRUE`. Because of the measurement error model, this model will take a little longer to fit - perhaps a minute or so.
@@ -151,7 +195,7 @@ summary(fit2, HPD.level = 0.9)
     ## Summary of Population Size Estimation
     ##           Mean Median Mode 25%  75%  90%  5%  95%
     ## Prior     1247   1000  680 748 1480 2240 583 2852
-    ## Posterior 1254   1100  913 858 1482 2016 621 2425
+    ## Posterior 1275   1061  839 823 1486 2156 609 2732
 
 # Resources
 
