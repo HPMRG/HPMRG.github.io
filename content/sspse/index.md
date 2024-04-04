@@ -143,7 +143,7 @@ Plot the posterior distribution for $N$.
 plot(crssfauxmadrona, type="N")
 ```
 
-<img src="man/Figures/crssfauxmadrona.png" align="center"/>
+![](crssfauxmadrona.png)
 
 Create a table summary for the prior and posterior distributions for population size.
 
